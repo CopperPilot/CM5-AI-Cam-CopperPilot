@@ -1,0 +1,18 @@
+{
+  "reference_id": "cm5-nano-c",
+  "name": "Waveshare Nano Base Board (C) Architecture",
+  "source": "Waveshare Nano Base Board (C) Reference Documentation & Schematics",
+  "dimensions_mm": [55.0, 40.0],
+  "confidence": "high",
+  "reusable_blocks": [
+    "Sony IMX219 camera module multi-rail power architecture (2.8V, 1.8V, 1.2V LDOs)",
+    "24MHz active crystal oscillator camera clock generation with 22R damping",
+    "I2C bidirectional level shifting (DMG1012T dual N-MOSFETs)",
+    "MIPI CSI-2 common-mode chokes (MCF1210BF2-900T01 / ACM1210)",
+    "FSUSB42UMX USB 2.0 multiplexer routing between USB-C flashing and USB-A host",
+    "STMPS2171STR USB 5V distribution power switch with overcurrent flag",
+    "DIO7003HCST5 load switches for HDMI 5V and Micro SD card 3.3V",
+    "MP1658GTF-Z 5V to 3.3V synchronous buck regulator with 4.7uH inductor",
+    "Standard 40-pin GPIO pinout and routing"
+  ]
+}

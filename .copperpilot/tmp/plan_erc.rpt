@@ -1,0 +1,1900 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-22T21:05:20",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2e9a708d-4fd8-41dd-b861-14ed594af7cc",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Module1 Pin 84 [+3.3v_(Output), Power output, Line]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.8796
+                            },
+                            "uuid": "1cdabb9f-d9ae-4162-acd9-c5c88b572617"
+                        },
+                        {
+                            "description": "Symbol Module1 Pin 86 [+3.3v_(Output), Power output, Line]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.905
+                            },
+                            "uuid": "579f30fd-7b4d-4509-b37c-844c5bc5935b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.9304
+                            },
+                            "uuid": "15a03d0c-9781-4fcd-a54a-1ca925d82fc5"
+                        },
+                        {
+                            "description": "Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.9558
+                            },
+                            "uuid": "53d22d21-31cf-4b2c-958b-4aea1cb3946d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG03 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 2.1082,
+                                "y": 0.3556
+                            },
+                            "uuid": "349cf80f-1d0e-464b-b814-93b9a6a7fa05"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 1 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 3.6068,
+                                "y": 0.6731
+                            },
+                            "uuid": "7d1e9dbb-4080-4b36-9b9c-02d31d5b2349"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG04 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 2.4638,
+                                "y": 0.3556
+                            },
+                            "uuid": "e30b0508-4140-4a54-bde1-3a1ff39da75a"
+                        },
+                        {
+                            "description": "Symbol U7 Pin 1 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 4.1021,
+                                "y": 0.6731
+                            },
+                            "uuid": "4b7d63d4-7851-4a3b-b079-eb8a3bf303c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol J2 Pin 1 [VBUS, Power output, Line]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.7653
+                            },
+                            "uuid": "7205a583-baf4-46d6-a494-4ee56962c57e"
+                        },
+                        {
+                            "description": "Symbol U8 Pin 1 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 4.6101,
+                                "y": 0.6731
+                            },
+                            "uuid": "c18e9ce9-0c70-4c50-9ea2-1e2874d0eb2d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG05 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 2.8194,
+                                "y": 0.3556
+                            },
+                            "uuid": "9d67e731-06dd-45a4-9725-4a0b16a2f839"
+                        },
+                        {
+                            "description": "Symbol J2 Pin 1 [VBUS, Power output, Line]",
+                            "pos": {
+                                "x": 2.6162,
+                                "y": 1.7653
+                            },
+                            "uuid": "7205a583-baf4-46d6-a494-4ee56962c57e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG06 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 0.3556
+                            },
+                            "uuid": "07dc1f80-da54-48a4-9eec-70ffb66f7ab3"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 5 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 2.3241
+                            },
+                            "uuid": "4f5b34db-8000-448a-9747-3eef2b5b5b47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG07 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.5306,
+                                "y": 0.3556
+                            },
+                            "uuid": "1db0b749-1ec2-4cf1-a27d-b2e59524bb72"
+                        },
+                        {
+                            "description": "Symbol U2 Pin 5 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 3.9497,
+                                "y": 2.3241
+                            },
+                            "uuid": "893190d9-7ee6-4ac3-af2d-365e9788e1e7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG08 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 3.8862,
+                                "y": 0.3556
+                            },
+                            "uuid": "8c6336b1-3965-4521-96f0-ea5ec7e53014"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 5 [VOUT, Power output, Line]",
+                            "pos": {
+                                "x": 4.4577,
+                                "y": 2.3241
+                            },
+                            "uuid": "00659993-f15c-43a6-a2b0-63b282f8f905"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Module1 [ComputeModule5-CM5]",
+                            "pos": {
+                                "x": -0.5969,
+                                "y": 3.1115
+                            },
+                            "uuid": "11c4e1f6-ccf7-4cd0-9a85-8ae8d350eef4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Module1 [ComputeModule5-CM5]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.397
+                            },
+                            "uuid": "c0babd4d-3da2-4e93-b197-ddf6a456f209"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C4 [C]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 0.8001
+                            },
+                            "uuid": "430e1afc-dd5f-490b-b50e-c4524cfd9eee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [R]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.0033
+                            },
+                            "uuid": "31a3abd7-86e3-4b81-8d23-9033efeb5287"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C11 [C]",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.7112
+                            },
+                            "uuid": "9dd94e88-a13c-4075-81ef-2670bcb88f9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R2 [R]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 0.6477
+                            },
+                            "uuid": "b7976415-d948-491f-810e-4b89321b4c40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R3 [R]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.6477
+                            },
+                            "uuid": "584d0f43-fa0c-4141-8510-024c5e589a4c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R24 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.7272
+                            },
+                            "uuid": "e3453d3f-cc8f-4b27-864f-d54353f61891"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R22 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.8796
+                            },
+                            "uuid": "0a0b335c-4c6b-4ada-901a-0d04d93ea01c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R28 [R]",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 2.032
+                            },
+                            "uuid": "d1a0ddcb-5389-4a57-8f1d-2bbb9ee1ad57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Type_C1 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 1.905,
+                                "y": 0.6985
+                            },
+                            "uuid": "134d00dd-d9e4-4348-9699-d752db2e996e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol HDMI1 [HDMI_Mini_C]",
+                            "pos": {
+                                "x": 2.0955,
+                                "y": 3.0988
+                            },
+                            "uuid": "afc6450c-0785-412c-840e-119fd873a6ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C28 [C]",
+                            "pos": {
+                                "x": 2.1971,
+                                "y": 1.6256
+                            },
+                            "uuid": "660c97ea-26fb-4b09-9bb7-b506ae6470b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [FSUSB42MX]",
+                            "pos": {
+                                "x": 2.1971,
+                                "y": 1.8034
+                            },
+                            "uuid": "ea80d767-c004-48d3-b1ae-1ea7caa06b6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol H4 [Conn_01x03]",
+                            "pos": {
+                                "x": 2.1971,
+                                "y": 2.3114
+                            },
+                            "uuid": "9205e400-0c0c-44e3-a8a7-6efd866a6fdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C22 [C]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.5715
+                            },
+                            "uuid": "aa23deb1-ce04-445f-9332-45d5b00384e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C23 [C]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.7112
+                            },
+                            "uuid": "f34cb513-26e6-42b8-9c19-dcbc4db0f5ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R19 [R]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.8636
+                            },
+                            "uuid": "fc280bf0-7af2-4fca-9a0c-4979b3e665e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [MP1658GTF-Z]",
+                            "pos": {
+                                "x": 2.5019,
+                                "y": 0.6985
+                            },
+                            "uuid": "eed408ca-c4b9-4eab-8169-836cbdf23c1e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C24 [C]",
+                            "pos": {
+                                "x": 2.6543,
+                                "y": 0.5461
+                            },
+                            "uuid": "c14cb13e-86e7-42b6-bb81-a439d5d91f73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol J2 [USB_A_Vertical]",
+                            "pos": {
+                                "x": 2.7051,
+                                "y": 1.8034
+                            },
+                            "uuid": "83f52954-7b47-4f17-8b26-bcb64b403ec4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L7 [L]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 0.6985
+                            },
+                            "uuid": "600bf3ef-d58b-4168-9627-13bc65d401bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R20 [R]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 0.8636
+                            },
+                            "uuid": "ab0da50c-5fe2-4046-ac56-c8cdaca7bcaf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R21 [R]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.016
+                            },
+                            "uuid": "1541dd6f-a137-4467-a0ce-cb20560f2b95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R16 [R]",
+                            "pos": {
+                                "x": 2.7686,
+                                "y": 0.5461
+                            },
+                            "uuid": "b3a2c3d0-7305-4b32-a8b6-3bc825703498"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol DSI1 [DSI_15P]",
+                            "pos": {
+                                "x": 2.794,
+                                "y": 3.0988
+                            },
+                            "uuid": "74912987-87c5-489f-ac03-e6b668ee46bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C19 [C]",
+                            "pos": {
+                                "x": 2.794,
+                                "y": 3.3528
+                            },
+                            "uuid": "cd8dff0f-5245-4acd-9045-dbb0e047d999"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C21 [C]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 0.5461
+                            },
+                            "uuid": "b42e8a5c-6267-49a6-b4f8-7eb983637f8e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R35 [R]",
+                            "pos": {
+                                "x": 2.9464,
+                                "y": 2.8956
+                            },
+                            "uuid": "3fb8af0d-a685-42af-9db5-bbd6f60c661e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C25 [C]",
+                            "pos": {
+                                "x": 2.9591,
+                                "y": 0.6985
+                            },
+                            "uuid": "8a102e73-1841-4a76-abae-d60aee1a8a00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R36 [R]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 2.8956
+                            },
+                            "uuid": "77eb59ca-95c4-431a-b882-2e39e78a44c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C26 [C]",
+                            "pos": {
+                                "x": 3.0607,
+                                "y": 0.6985
+                            },
+                            "uuid": "50cb53bc-60fa-4082-8c64-22348dc34966"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol FB1 [L]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 2.3114
+                            },
+                            "uuid": "cd89ed55-5fab-4e3b-8a64-6442d95295dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C27 [C]",
+                            "pos": {
+                                "x": 3.1623,
+                                "y": 0.6985
+                            },
+                            "uuid": "ff07e159-044c-4447-88be-bd29ce6cb8ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C1 [C]",
+                            "pos": {
+                                "x": 3.2004,
+                                "y": 2.4638
+                            },
+                            "uuid": "a2f9a656-7427-4ce2-846b-02a3d10432af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C3 [C]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 2.6035
+                            },
+                            "uuid": "831fb69a-ed49-4664-a75d-ff9108bdb805"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [RT9193]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 2.3495
+                            },
+                            "uuid": "1b3ffca5-41d4-4c77-8937-ef1cc31b362b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C17 [C]",
+                            "pos": {
+                                "x": 3.3909,
+                                "y": 0.8509
+                            },
+                            "uuid": "98ca56c4-0535-49dc-a922-6e62bd56ba7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C2 [C]",
+                            "pos": {
+                                "x": 3.4798,
+                                "y": 2.4638
+                            },
+                            "uuid": "0ba4a3a5-29b3-48bf-aefe-e368770c22cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol TF1 [Micro_SD_Card_Det]",
+                            "pos": {
+                                "x": 3.4925,
+                                "y": 3.0988
+                            },
+                            "uuid": "46888db2-6bbb-424d-8c5a-7ec94eb1be7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [DIO7003HCST5]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 0.6985
+                            },
+                            "uuid": "73070b42-6488-4174-9ca1-437f2fe0f8e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R14 [R]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 0.9906
+                            },
+                            "uuid": "ac5ed68a-6b38-40d5-b8a1-608a4f527adf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [MCF1210BF2-900T01]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.5494
+                            },
+                            "uuid": "ebf4a3e8-01a0-41a8-bea8-a1667a03d301"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [MCF1210BF2-900T01]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.7018
+                            },
+                            "uuid": "f997cccf-d0d2-406e-aa9a-cb67b656d21e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L3 [MCF1210BF2-900T01]",
+                            "pos": {
+                                "x": 3.5052,
+                                "y": 1.8542
+                            },
+                            "uuid": "095a8326-5b57-41c8-adbc-343cdd1bbd29"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R17 [R]",
+                            "pos": {
+                                "x": 3.6068,
+                                "y": 2.0574
+                            },
+                            "uuid": "50b0d913-842e-44aa-ba8a-b4f43fd3997b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C18 [C]",
+                            "pos": {
+                                "x": 3.6195,
+                                "y": 0.8509
+                            },
+                            "uuid": "e07e004d-382a-47ba-ab03-807679ddd96b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C5 [C]",
+                            "pos": {
+                                "x": 3.6957,
+                                "y": 2.4638
+                            },
+                            "uuid": "afbd47ea-20d9-4303-b937-581837b93ff8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C10 [C]",
+                            "pos": {
+                                "x": 3.7465,
+                                "y": 2.6035
+                            },
+                            "uuid": "4adcfc02-9e47-436d-b8a1-b2dc5d1299c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R15 [R]",
+                            "pos": {
+                                "x": 3.7592,
+                                "y": 2.0574
+                            },
+                            "uuid": "b495aa8f-b580-4b8d-9308-269a31764fd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [RT9193]",
+                            "pos": {
+                                "x": 3.8481,
+                                "y": 2.3495
+                            },
+                            "uuid": "8d94378b-eb2c-4973-b772-7ae11d099a88"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C31 [C]",
+                            "pos": {
+                                "x": 3.8862,
+                                "y": 0.8509
+                            },
+                            "uuid": "a9eff77e-3c86-4a76-b234-7ff9f4bda564"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C9 [C]",
+                            "pos": {
+                                "x": 3.9751,
+                                "y": 2.4638
+                            },
+                            "uuid": "1295fea9-c245-4497-b17c-46a37fe577c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U7 [DIO7003HCST5]",
+                            "pos": {
+                                "x": 4.0005,
+                                "y": 0.6985
+                            },
+                            "uuid": "feb188aa-3de2-4092-9bdc-82f1c4a81520"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R30 [R]",
+                            "pos": {
+                                "x": 4.0005,
+                                "y": 0.9906
+                            },
+                            "uuid": "2caa76b5-a2b7-4704-bb47-3e7ddc90795f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [IMX219_30P]",
+                            "pos": {
+                                "x": 4.1021,
+                                "y": 1.7018
+                            },
+                            "uuid": "691ee854-cff2-4ff9-8afe-0d3ea46f57a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'IMX219_30P' doesn't match copy in library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [IMX219_30P]",
+                            "pos": {
+                                "x": 4.1021,
+                                "y": 1.7018
+                            },
+                            "uuid": "691ee854-cff2-4ff9-8afe-0d3ea46f57a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C32 [C]",
+                            "pos": {
+                                "x": 4.1148,
+                                "y": 0.8509
+                            },
+                            "uuid": "c4a77089-2842-4394-b8ac-f024ef22a1b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 1 [Pin_1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.1783,
+                                "y": 2.5908
+                            },
+                            "uuid": "7c05dd22-45e7-424e-b6de-7518c707b0c2"
+                        },
+                        {
+                            "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.3556
+                            },
+                            "uuid": "0fbd2c61-2141-436f-bc9f-20753a80ff21"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 9 [Pin_9, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.1783,
+                                "y": 2.6924
+                            },
+                            "uuid": "2ab0fbb3-ddef-4e81-8f06-38f8f004e7ee"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 17 [Pin_17, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.1783,
+                                "y": 2.794
+                            },
+                            "uuid": "4c5a058c-4622-49dc-9877-361b5ca46881"
+                        },
+                        {
+                            "description": "Symbol #FLG02 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 0.3556
+                            },
+                            "uuid": "0fbd2c61-2141-436f-bc9f-20753a80ff21"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 25 [Pin_25, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.1783,
+                                "y": 2.8956
+                            },
+                            "uuid": "c8730fab-2c8f-431e-b2a0-1d9ebbbb1573"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 39 [Pin_39, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.1783,
+                                "y": 3.0734
+                            },
+                            "uuid": "062c42fa-67c5-4cb1-a675-efcbb66a8d4a"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C12 [C]",
+                            "pos": {
+                                "x": 4.2037,
+                                "y": 2.4638
+                            },
+                            "uuid": "1d59e660-5785-4f7d-8529-9fb151e91b17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C14 [C]",
+                            "pos": {
+                                "x": 4.2545,
+                                "y": 2.6035
+                            },
+                            "uuid": "1dc1f8e8-48ee-40b6-8295-fe9bc1e983ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 [Raspberry_Pi_40Pin_GPIO]",
+                            "pos": {
+                                "x": 4.3053,
+                                "y": 3.0988
+                            },
+                            "uuid": "180cd2b7-b6d6-44d9-9d2c-59409d9c0f5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [RT9013-12]",
+                            "pos": {
+                                "x": 4.3561,
+                                "y": 2.3495
+                            },
+                            "uuid": "c4c74856-b672-4cb5-b68d-a961ac8b5f82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C30 [C]",
+                            "pos": {
+                                "x": 4.3942,
+                                "y": 0.8509
+                            },
+                            "uuid": "83f2d2ab-20e3-46f1-9525-094d400460a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C6 [C]",
+                            "pos": {
+                                "x": 4.4069,
+                                "y": 1.5494
+                            },
+                            "uuid": "643c63dc-ecba-4acd-b36e-e966bac4d057"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 2 [Pin_2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.5908
+                            },
+                            "uuid": "7ba3127f-ad6f-4a7b-a587-b5b9440992ee"
+                        },
+                        {
+                            "description": "Symbol #FLG01 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.3556
+                            },
+                            "uuid": "7cc28291-a602-466b-9270-508112eb67a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 4 [Pin_4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.6162
+                            },
+                            "uuid": "3961980b-4578-4536-a44a-49eb34df1b6f"
+                        },
+                        {
+                            "description": "Symbol #FLG01 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.3556
+                            },
+                            "uuid": "7cc28291-a602-466b-9270-508112eb67a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 6 [Pin_6, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.6416
+                            },
+                            "uuid": "942c9cc7-b3ec-4c26-b3d4-e8086ea7b1a6"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 14 [Pin_14, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.7432
+                            },
+                            "uuid": "656ee2fb-c92b-437e-8afc-7def4f1daea6"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 20 [Pin_20, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.8194
+                            },
+                            "uuid": "bdcc0d2d-e3f1-4b39-8593-2f615232aa60"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 30 [Pin_30, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.9464
+                            },
+                            "uuid": "d7585e2d-d583-4a75-96f8-79dc0f510858"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol PI1 Pin 34 [Pin_34, Bidirectional, Line]",
+                            "pos": {
+                                "x": 4.4323,
+                                "y": 2.9972
+                            },
+                            "uuid": "e8a2f166-de46-4b01-a4ff-1a0959dcd1c4"
+                        },
+                        {
+                            "description": "Symbol #FLG011 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.4445
+                            },
+                            "uuid": "e3b72257-3297-4af2-b674-68b4ddb2b3fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C15 [C]",
+                            "pos": {
+                                "x": 4.4831,
+                                "y": 2.4638
+                            },
+                            "uuid": "a686daf2-a4f2-4548-aee2-6173899dc2d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol U8 [STMPS2171STR]",
+                            "pos": {
+                                "x": 4.5085,
+                                "y": 0.6985
+                            },
+                            "uuid": "99f3c394-496e-4a02-8662-ad751946fe7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R34 [R]",
+                            "pos": {
+                                "x": 4.5085,
+                                "y": 0.9906
+                            },
+                            "uuid": "14e66af8-afc7-4ec3-b1b3-cdb04c473739"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C7 [C]",
+                            "pos": {
+                                "x": 4.5085,
+                                "y": 1.5494
+                            },
+                            "uuid": "9406056b-9dc0-406d-8857-6d2e4e304212"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C8 [C]",
+                            "pos": {
+                                "x": 4.6101,
+                                "y": 1.5494
+                            },
+                            "uuid": "c374b2cb-eddc-4ac8-b70d-01d5ad7b2716"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C29 [C]",
+                            "pos": {
+                                "x": 4.6228,
+                                "y": 0.8509
+                            },
+                            "uuid": "55360c32-77ab-4ba3-b00c-8034acc0e701"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C16 [C]",
+                            "pos": {
+                                "x": 4.6482,
+                                "y": 2.4511
+                            },
+                            "uuid": "6a79606d-5236-449d-93c2-7b4f99aa37c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R4 [R]",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 1.8542
+                            },
+                            "uuid": "a2a5a547-4c9c-4446-b09b-856823fa0ca9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R5 [R]",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.1082
+                            },
+                            "uuid": "30a0271a-c5c9-4bc5-b26e-f80dfc93067e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R29 [R]",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 2.794
+                            },
+                            "uuid": "816e6d20-7e70-4ad0-a12c-4e34930b46ea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [DMG1012T]",
+                            "pos": {
+                                "x": 4.8006,
+                                "y": 1.7018
+                            },
+                            "uuid": "9ad771fb-d2b0-4a28-b8c0-1ffafc07e936"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol X1 [OSC_24MHz]",
+                            "pos": {
+                                "x": 4.8006,
+                                "y": 2.3495
+                            },
+                            "uuid": "3a8b1896-ce23-4193-8cec-a38e2b5a6897"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R31 [R]",
+                            "pos": {
+                                "x": 4.826,
+                                "y": 2.794
+                            },
+                            "uuid": "a75e1111-0200-439e-b5f0-532961386efe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R10 [R]",
+                            "pos": {
+                                "x": 4.953,
+                                "y": 2.3495
+                            },
+                            "uuid": "d017afa5-e5d8-4808-a65c-76b2c2f70aea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R32 [R]",
+                            "pos": {
+                                "x": 4.953,
+                                "y": 2.794
+                            },
+                            "uuid": "a2090458-d1ac-494f-a486-c44c43cd7324"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R7 [R]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 1.8542
+                            },
+                            "uuid": "abdfcfac-5fb4-4c52-9a36-68feea556f3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [R]",
+                            "pos": {
+                                "x": 5.0038,
+                                "y": 2.1082
+                            },
+                            "uuid": "419bf885-b302-40ad-9e7c-f981ac289dee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol C20 [C]",
+                            "pos": {
+                                "x": 5.08,
+                                "y": 2.3495
+                            },
+                            "uuid": "3524d23f-0b60-4bae-9d09-a085f737bedc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R33 [R]",
+                            "pos": {
+                                "x": 5.08,
+                                "y": 2.794
+                            },
+                            "uuid": "2efa7a75-4856-4d9b-bff8-60205b643a10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Q2 [DMG1012T]",
+                            "pos": {
+                                "x": 5.1054,
+                                "y": 1.7018
+                            },
+                            "uuid": "cfaa6162-763d-46fa-804b-12efec418c43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol H5 [Conn_01x03]",
+                            "pos": {
+                                "x": 5.334,
+                                "y": 1.8034
+                            },
+                            "uuid": "30c6d29f-2076-466a-bf5e-a2c75d496b87"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol H3 [Conn_01x03]",
+                            "pos": {
+                                "x": 5.334,
+                                "y": 2.2098
+                            },
+                            "uuid": "104030d0-6931-4ddb-b3b8-d7af814d0671"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol Key1 [SW_Push_SPST]",
+                            "pos": {
+                                "x": 5.334,
+                                "y": 2.6035
+                            },
+                            "uuid": "8f02ae27-6070-464b-905a-f00f121fa31c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L5 [LED]",
+                            "pos": {
+                                "x": 5.334,
+                                "y": 2.9972
+                            },
+                            "uuid": "5ab64a14-457d-48f5-882a-aae0a2235769"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol L6 [LED]",
+                            "pos": {
+                                "x": 5.334,
+                                "y": 3.302
+                            },
+                            "uuid": "d506249f-21ce-49a5-801f-9bd04c456fb7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R11 [R]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 2.6035
+                            },
+                            "uuid": "2938ded5-db86-4242-8935-04491fd77cfc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R12 [R]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 2.9972
+                            },
+                            "uuid": "34504f96-6aec-4955-a3f0-7093d1d0505e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'CM5'",
+                    "items": [
+                        {
+                            "description": "Symbol R13 [R]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 3.302
+                            },
+                            "uuid": "9091cc76-a3f8-4e6f-b17e-5b524d553c6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        }
+    ],
+    "source": "CM5-AI-Cam-CopperPilot.kicad_sch"
+}

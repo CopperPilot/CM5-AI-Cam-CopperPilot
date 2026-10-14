@@ -1,0 +1,3951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/adityang/Projects/CM5-AI-Cam-CopperPilot/CM5-AI-Cam-CopperPilot.kicad_sch</source>
+    <date>2026-10-14T20:42:29</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>CM5 AI Camera Carrier Board</title>
+        <company>Open Source Hardware</company>
+        <rev>V1.0</rev>
+        <date>2026-09-08</date>
+        <source>CM5-AI-Cam-CopperPilot.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f9a656-7427-4ce2-846b-02a3d10432af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ba4a3a5-29b3-48bf-aefe-e368770c22cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>831fb69a-ed49-4664-a75d-ff9108bdb805</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>CM5:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>430e1afc-dd5f-490b-b50e-c4524cfd9eee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afbd47ea-20d9-4303-b937-581837b93ff8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>643c63dc-ecba-4acd-b36e-e966bac4d057</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9406056b-9dc0-406d-8857-6d2e4e304212</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c374b2cb-eddc-4ac8-b70d-01d5ad7b2716</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1295fea9-c245-4497-b17c-46a37fe577c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4adcfc02-9e47-436d-b8a1-b2dc5d1299c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>CM5:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd94e88-a13c-4075-81ef-2670bcb88f9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>2.2uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d59e660-5785-4f7d-8529-9fb151e91b17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dc1f8e8-48ee-40b6-8295-fe9bc1e983ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a686daf2-a4f2-4548-aee2-6173899dc2d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a79606d-5236-449d-93c2-7b4f99aa37c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ca56c4-0535-49dc-a922-6e62bd56ba7f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e07e004d-382a-47ba-ab03-807679ddd96b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd8dff0f-5245-4acd-9045-dbb0e047d999</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>10pF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3524d23f-0b60-4bae-9d09-a085f737bedc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b42e8a5c-6267-49a6-b4f8-7eb983637f8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>10uF</value>
+      <footprint>CM5:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa23deb1-ce04-445f-9332-45d5b00384e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f34cb513-26e6-42b8-9c19-dcbc4db0f5ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c14cb13e-86e7-42b6-bb81-a439d5d91f73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>22uF</value>
+      <footprint>CM5:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a102e73-1841-4a76-abae-d60aee1a8a00</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>22uF</value>
+      <footprint>CM5:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50cb53bc-60fa-4082-8c64-22348dc34966</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff07e159-044c-4447-88be-bd29ce6cb8ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>660c97ea-26fb-4b09-9bb7-b506ae6470b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>55360c32-77ab-4ba3-b00c-8034acc0e701</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f2d2ab-20e3-46f1-9525-094d400460a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9eff77e-3c86-4a76-b234-7ff9f4bda564</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>CM5:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4a77089-2842-4394-b8ac-f024ef22a1b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="DSI1">
+      <value>DSI_15P</value>
+      <footprint>CM5:Molex_200528-0150_1x15-1MP_P1.00mm_Horizontal</footprint>
+      <description>15-Pin 1.0mm FPC DSI Display Connector</description>
+      <fields>
+        <field name="Footprint">CM5:Molex_200528-0150_1x15-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">15-Pin 1.0mm FPC DSI Display Connector</field>
+      </fields>
+      <libsource lib="CM5" part="DSI_15P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74912987-87c5-489f-ac03-e6b668ee46bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FB1">
+      <value>120R</value>
+      <footprint>CM5:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd89ed55-5fab-4e3b-8a64-6442d95295dd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>Conn_01x03</value>
+      <footprint>CM5:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Run / Global Enable Header</description>
+      <fields>
+        <field name="Footprint">CM5:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Run / Global Enable Header</field>
+      </fields>
+      <libsource lib="CM5" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>104030d0-6931-4ddb-b3b8-d7af814d0671</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>Conn_01x03</value>
+      <footprint>CM5:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>USB / Boot Mode Selector Header</description>
+      <fields>
+        <field name="Footprint">CM5:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">USB / Boot Mode Selector Header</field>
+      </fields>
+      <libsource lib="CM5" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9205e400-0c0c-44e3-a8a7-6efd866a6fdf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H5">
+      <value>Conn_01x03</value>
+      <footprint>CM5:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>GPIO IO Voltage Reference Selector</description>
+      <fields>
+        <field name="Footprint">CM5:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">GPIO IO Voltage Reference Selector</field>
+      </fields>
+      <libsource lib="CM5" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30c6d29f-2076-466a-bf5e-a2c75d496b87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="HDMI1">
+      <value>HDMI_Mini_C</value>
+      <footprint>CM5:HDMI_Mini-C_Molex_47151-0001</footprint>
+      <description>Mini-HDMI Type-C Receptacle</description>
+      <fields>
+        <field name="Footprint">CM5:HDMI_Mini-C_Molex_47151-0001</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mini-HDMI Type-C Receptacle</field>
+      </fields>
+      <libsource lib="CM5" part="HDMI_Mini_C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afc6450c-0785-412c-840e-119fd873a6ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>IMX219_30P</value>
+      <footprint>CM5:Camera_Module_IMX219-D160</footprint>
+      <description>Onboard 8MP IMX219 Sensor Socket</description>
+      <fields>
+        <field name="Footprint">CM5:Camera_Module_IMX219-D160</field>
+        <field name="Datasheet"/>
+        <field name="Description">Onboard 8MP IMX219 Sensor Socket</field>
+      </fields>
+      <libsource lib="CM5" part="IMX219_30P" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>691ee854-cff2-4ff9-8afe-0d3ea46f57a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="SH"/>
+            <pin num="30"/>
+            <pin num="29"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>USB_A_Vertical</value>
+      <footprint>CM5:MOLEX_USB_67298-4090</footprint>
+      <description>Vertical USB 2.0 Type-A Host Port</description>
+      <fields>
+        <field name="Footprint">CM5:MOLEX_USB_67298-4090</field>
+        <field name="Datasheet"/>
+        <field name="Description">Vertical USB 2.0 Type-A Host Port</field>
+      </fields>
+      <libsource lib="CM5" part="USB_A_Vertical" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f52954-7b47-4f17-8b26-bcb64b403ec4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="SH"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Key1">
+      <value>SW_Push_SPST</value>
+      <footprint>CM5:SW_SPST_PTS645Sx43SMTR92</footprint>
+      <description>User Tactile Pushbutton (GPIO21)</description>
+      <fields>
+        <field name="Footprint">CM5:SW_SPST_PTS645Sx43SMTR92</field>
+        <field name="Datasheet"/>
+        <field name="Description">User Tactile Pushbutton (GPIO21)</field>
+      </fields>
+      <libsource lib="CM5" part="SW_Push_SPST" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f02ae27-6070-464b-905a-f00f121fa31c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>MCF1210BF2-900T01</value>
+      <footprint>CM5:L_CommonModeChoke_Coilank_ACM1210</footprint>
+      <fields>
+        <field name="Footprint">CM5:L_CommonModeChoke_Coilank_ACM1210</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="MCF1210BF2-900T01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebf4a3e8-01a0-41a8-bea8-a1667a03d301</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>MCF1210BF2-900T01</value>
+      <footprint>CM5:L_CommonModeChoke_Coilank_ACM1210</footprint>
+      <fields>
+        <field name="Footprint">CM5:L_CommonModeChoke_Coilank_ACM1210</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="MCF1210BF2-900T01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f997cccf-d0d2-406e-aa9a-cb67b656d21e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>MCF1210BF2-900T01</value>
+      <footprint>CM5:L_CommonModeChoke_Coilank_ACM1210</footprint>
+      <fields>
+        <field name="Footprint">CM5:L_CommonModeChoke_Coilank_ACM1210</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="MCF1210BF2-900T01" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>095a8326-5b57-41c8-adbc-343cdd1bbd29</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L5">
+      <value>LED Red</value>
+      <footprint>CM5:LED_0603_1608Metric</footprint>
+      <description>Power Indicator LED (Red)</description>
+      <fields>
+        <field name="Footprint">CM5:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Power Indicator LED (Red)</field>
+      </fields>
+      <libsource lib="CM5" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ab64a14-457d-48f5-882a-aae0a2235769</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L6">
+      <value>LED Green</value>
+      <footprint>CM5:LED_0603_1608Metric</footprint>
+      <description>Activity Indicator LED (Green)</description>
+      <fields>
+        <field name="Footprint">CM5:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Activity Indicator LED (Green)</field>
+      </fields>
+      <libsource lib="CM5" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d506249f-21ce-49a5-801f-9bd04c456fb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L7">
+      <value>4.7uH</value>
+      <footprint>CM5:L_Bourns_SRP5030CC</footprint>
+      <fields>
+        <field name="Footprint">CM5:L_Bourns_SRP5030CC</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>600bf3ef-d58b-4168-9627-13bc65d401bb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Module1">
+      <value>ComputeModule5-CM5</value>
+      <footprint>CM5:Raspberry-Pi-5-Compute-Module</footprint>
+      <description>Raspberry Pi CM5 Mezzanine Unit 1 (GPIO, Power, SD)</description>
+      <fields>
+        <field name="Footprint">CM5:Raspberry-Pi-5-Compute-Module</field>
+        <field name="Datasheet"/>
+        <field name="Description">Raspberry Pi CM5 Mezzanine Unit 1 (GPIO, Power, SD)</field>
+      </fields>
+      <libsource lib="CM5" part="ComputeModule5-CM5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0babd4d-3da2-4e93-b197-ddf6a456f209 11c4e1f6-ccf7-4cd0-9a85-8ae8d350eef4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+            <pin num="52"/>
+            <pin num="54"/>
+            <pin num="56"/>
+            <pin num="58"/>
+            <pin num="60"/>
+            <pin num="62"/>
+            <pin num="64"/>
+            <pin num="66"/>
+            <pin num="68"/>
+            <pin num="70"/>
+            <pin num="72"/>
+            <pin num="74"/>
+            <pin num="76"/>
+            <pin num="78"/>
+            <pin num="80"/>
+            <pin num="82"/>
+            <pin num="84"/>
+            <pin num="86"/>
+            <pin num="88"/>
+            <pin num="90"/>
+            <pin num="92"/>
+            <pin num="94"/>
+            <pin num="96"/>
+            <pin num="98"/>
+            <pin num="100"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="51"/>
+            <pin num="53"/>
+            <pin num="55"/>
+            <pin num="57"/>
+            <pin num="59"/>
+            <pin num="61"/>
+            <pin num="63"/>
+            <pin num="65"/>
+            <pin num="67"/>
+            <pin num="69"/>
+            <pin num="71"/>
+            <pin num="73"/>
+            <pin num="75"/>
+            <pin num="77"/>
+            <pin num="79"/>
+            <pin num="81"/>
+            <pin num="83"/>
+            <pin num="85"/>
+            <pin num="87"/>
+            <pin num="89"/>
+            <pin num="91"/>
+            <pin num="93"/>
+            <pin num="95"/>
+            <pin num="97"/>
+            <pin num="99"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="102"/>
+            <pin num="104"/>
+            <pin num="106"/>
+            <pin num="108"/>
+            <pin num="110"/>
+            <pin num="112"/>
+            <pin num="114"/>
+            <pin num="116"/>
+            <pin num="118"/>
+            <pin num="120"/>
+            <pin num="122"/>
+            <pin num="124"/>
+            <pin num="126"/>
+            <pin num="128"/>
+            <pin num="130"/>
+            <pin num="132"/>
+            <pin num="134"/>
+            <pin num="136"/>
+            <pin num="138"/>
+            <pin num="140"/>
+            <pin num="142"/>
+            <pin num="144"/>
+            <pin num="146"/>
+            <pin num="148"/>
+            <pin num="150"/>
+            <pin num="152"/>
+            <pin num="154"/>
+            <pin num="156"/>
+            <pin num="158"/>
+            <pin num="160"/>
+            <pin num="162"/>
+            <pin num="164"/>
+            <pin num="166"/>
+            <pin num="168"/>
+            <pin num="170"/>
+            <pin num="172"/>
+            <pin num="174"/>
+            <pin num="176"/>
+            <pin num="178"/>
+            <pin num="180"/>
+            <pin num="182"/>
+            <pin num="184"/>
+            <pin num="186"/>
+            <pin num="188"/>
+            <pin num="190"/>
+            <pin num="192"/>
+            <pin num="194"/>
+            <pin num="196"/>
+            <pin num="198"/>
+            <pin num="200"/>
+            <pin num="101"/>
+            <pin num="103"/>
+            <pin num="105"/>
+            <pin num="107"/>
+            <pin num="109"/>
+            <pin num="111"/>
+            <pin num="113"/>
+            <pin num="115"/>
+            <pin num="117"/>
+            <pin num="119"/>
+            <pin num="121"/>
+            <pin num="123"/>
+            <pin num="125"/>
+            <pin num="127"/>
+            <pin num="129"/>
+            <pin num="131"/>
+            <pin num="133"/>
+            <pin num="135"/>
+            <pin num="137"/>
+            <pin num="139"/>
+            <pin num="141"/>
+            <pin num="143"/>
+            <pin num="145"/>
+            <pin num="147"/>
+            <pin num="149"/>
+            <pin num="151"/>
+            <pin num="153"/>
+            <pin num="155"/>
+            <pin num="157"/>
+            <pin num="159"/>
+            <pin num="161"/>
+            <pin num="163"/>
+            <pin num="165"/>
+            <pin num="167"/>
+            <pin num="169"/>
+            <pin num="171"/>
+            <pin num="173"/>
+            <pin num="175"/>
+            <pin num="177"/>
+            <pin num="179"/>
+            <pin num="181"/>
+            <pin num="183"/>
+            <pin num="185"/>
+            <pin num="187"/>
+            <pin num="189"/>
+            <pin num="191"/>
+            <pin num="193"/>
+            <pin num="195"/>
+            <pin num="197"/>
+            <pin num="199"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="PI1">
+      <value>Raspberry_Pi_40Pin_GPIO</value>
+      <footprint>CM5:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <description>Standard 40-Pin Raspberry Pi Expansion Header</description>
+      <fields>
+        <field name="Footprint">CM5:PinHeader_2x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Standard 40-Pin Raspberry Pi Expansion Header</field>
+      </fields>
+      <libsource lib="CM5" part="Raspberry_Pi_40Pin_GPIO" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>180cd2b7-b6d6-44d9-9d2c-59409d9c0f5f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG1012T</value>
+      <footprint>CM5:Texas_DRT-3</footprint>
+      <description>N-Channel MOSFET I2C Level Shifter (SCL)</description>
+      <fields>
+        <field name="Footprint">CM5:Texas_DRT-3</field>
+        <field name="Datasheet"/>
+        <field name="Description">N-Channel MOSFET I2C Level Shifter (SCL)</field>
+      </fields>
+      <libsource lib="CM5" part="DMG1012T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ad771fb-d2b0-4a28-b8c0-1ffafc07e936</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>DMG1012T</value>
+      <footprint>CM5:Texas_DRT-3</footprint>
+      <description>N-Channel MOSFET I2C Level Shifter (SDA)</description>
+      <fields>
+        <field name="Footprint">CM5:Texas_DRT-3</field>
+        <field name="Datasheet"/>
+        <field name="Description">N-Channel MOSFET I2C Level Shifter (SDA)</field>
+      </fields>
+      <libsource lib="CM5" part="DMG1012T" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfaa6162-763d-46fa-804b-12efec418c43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31a3abd7-86e3-4b81-8d23-9033efeb5287</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7976415-d948-491f-810e-4b89321b4c40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>584d0f43-fa0c-4141-8510-024c5e589a4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2a5a547-4c9c-4446-b09b-856823fa0ca9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a0271a-c5c9-4bc5-b26e-f80dfc93067e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abdfcfac-5fb4-4c52-9a36-68feea556f3e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>419bf885-b302-40ad-9e7c-f981ac289dee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>22R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d017afa5-e5d8-4808-a65c-76b2c2f70aea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2938ded5-db86-4242-8935-04491fd77cfc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34504f96-6aec-4955-a3f0-7093d1d0505e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9091cc76-a3f8-4e6f-b17e-5b524d553c6d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac5ed68a-6b38-40d5-b8a1-608a4f527adf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b495aa8f-b580-4b8d-9308-269a31764fd1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>10R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3a2c3d0-7305-4b32-a8b6-3bc825703498</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50b0d913-842e-44aa-ba8a-b4f43fd3997b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc280bf0-7af2-4fca-9a0c-4979b3e665e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>100k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab0da50c-5fe2-4046-ac56-c8cdaca7bcaf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>20k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1541dd6f-a137-4467-a0ce-cb20560f2b95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a0b335c-4c6b-4ada-901a-0d04d93ea01c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3453d3f-cc8f-4b27-864f-d54353f61891</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R28">
+      <value>47k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1a0ddcb-5389-4a57-8f1d-2bbb9ee1ad57</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R29">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>816e6d20-7e70-4ad0-a12c-4e34930b46ea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2caa76b5-a2b7-4704-bb47-3e7ddc90795f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R31">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a75e1111-0200-439e-b5f0-532961386efe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R32">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2090458-d1ac-494f-a486-c44c43cd7324</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2efa7a75-4856-4d9b-bff8-60205b643a10</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14e66af8-afc7-4ec3-b1b3-cdb04c473739</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R35">
+      <value>4.7k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fb8af0d-a685-42af-9db5-bbd6f60c661e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R36">
+      <value>4.7k</value>
+      <footprint>CM5:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Footprint">CM5:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CM5" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77eb59ca-95c4-431a-b882-2e39e78a44c4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TF1">
+      <value>Micro_SD_Card_Det</value>
+      <footprint>CM5:SDCARD_MOLEX_503398-1892</footprint>
+      <description>Micro SD Card Socket</description>
+      <fields>
+        <field name="Footprint">CM5:SDCARD_MOLEX_503398-1892</field>
+        <field name="Datasheet"/>
+        <field name="Description">Micro SD Card Socket</field>
+      </fields>
+      <libsource lib="CM5" part="Micro_SD_Card_Det" description="Micro SD Card Socket with card detection pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="connector SD microsd"/>
+      <property name="ki_fp_filters" value="microSD*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46888db2-6bbb-424d-8c5a-7ec94eb1be7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Type_C1">
+      <value>USB_C_Receptacle_USB2.0_16P</value>
+      <footprint>CM5:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</footprint>
+      <description>USB Type-C Receptacle (Power &amp; Programming)</description>
+      <fields>
+        <field name="Footprint">CM5:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">USB Type-C Receptacle (Power &amp; Programming)</field>
+      </fields>
+      <libsource lib="CM5" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>134d00dd-d9e4-4348-9699-d752db2e996e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="S1"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A4"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>RT9193-28GB</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>2.8V Analog LDO for Camera</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">2.8V Analog LDO for Camera</field>
+      </fields>
+      <libsource lib="CM5" part="RT9193" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b3ffca5-41d4-4c77-8937-ef1cc31b362b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>RT9193-18GB</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>1.8V IO LDO for Camera &amp; Oscillator</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">1.8V IO LDO for Camera &amp; Oscillator</field>
+      </fields>
+      <libsource lib="CM5" part="RT9193" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d94378b-eb2c-4973-b772-7ae11d099a88</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>RT9013-12</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>1.2V Core LDO for Camera</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">1.2V Core LDO for Camera</field>
+      </fields>
+      <libsource lib="CM5" part="RT9013-12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4c74856-b672-4cb5-b68d-a961ac8b5f82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>DIO7003HCST5</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>HDMI 5V Load Switch</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">HDMI 5V Load Switch</field>
+      </fields>
+      <libsource lib="CM5" part="DIO7003HCST5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73070b42-6488-4174-9ca1-437f2fe0f8e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>MP1658GTF-Z</value>
+      <footprint>CM5:TSOT-23-6</footprint>
+      <description>3.3V/3A Synchronous Buck Regulator</description>
+      <fields>
+        <field name="Footprint">CM5:TSOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3V/3A Synchronous Buck Regulator</field>
+      </fields>
+      <libsource lib="CM5" part="MP1658GTF-Z" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eed408ca-c4b9-4eab-8169-836cbdf23c1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>FSUSB42MX</value>
+      <footprint>CM5:UQFN-10_1.4x1.8mm_P0.4mm</footprint>
+      <description>High-Speed USB 2.0 2:1 Multiplexer</description>
+      <fields>
+        <field name="Footprint">CM5:UQFN-10_1.4x1.8mm_P0.4mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">High-Speed USB 2.0 2:1 Multiplexer</field>
+      </fields>
+      <libsource lib="CM5" part="FSUSB42MX" description="Low-Power, Two-Port, Hi-Speed, USB2.0 (480Mbps) Switch, UMLP-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea80d767-c004-48d3-b1ae-1ea7caa06b6f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="10"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>DIO7003HCST5</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>Micro SD 3.3V Load Switch</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">Micro SD 3.3V Load Switch</field>
+      </fields>
+      <libsource lib="CM5" part="DIO7003HCST5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb188aa-3de2-4092-9bdc-82f1c4a81520</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>STMPS2171STR</value>
+      <footprint>CM5:SOT-23-5</footprint>
+      <description>USB Host 5V Power Switch</description>
+      <fields>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">USB Host 5V Power Switch</field>
+      </fields>
+      <libsource lib="CM5" part="STMPS2171STR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99f3c394-496e-4a02-8662-ad751946fe7d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>OSC_24MHz</value>
+      <footprint>CM5:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <description>24MHz Active Crystal Oscillator</description>
+      <fields>
+        <field name="Footprint">CM5:Crystal_SMD_3225-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">24MHz Active Crystal Oscillator</field>
+      </fields>
+      <libsource lib="CM5" part="OSC_24MHz" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CM5-AI-Cam-CopperPilot.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a8b1896-ce23-4193-8cec-a38e2b5a6897</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CM5" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="ComputeModule5-CM5">
+      <fields>
+        <field name="Reference">Module</field>
+        <field name="Value">ComputeModule5-CM5</field>
+        <field name="Footprint">CM5:Raspberry-Pi-5-Compute-Module</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="Manufacturer">Hirose</field>
+        <field name="MPN">2x DF40C-100DS-0.4V</field>
+        <field name="MPN (Alt)">2x DF40HC(3.0)-100DS-0.4V</field>
+        <field name="Digi-Key_PN">2x H11615CT-ND</field>
+        <field name="Digi-Key_PN (Alt)">2x H124602CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Ethernet_Pair3_P" type="passive"/>
+        <pin num="4" name="Ethernet_Pair1_P" type="passive"/>
+        <pin num="5" name="Ethernet_Pair3_N" type="passive"/>
+        <pin num="6" name="Ethernet_Pair1_N" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Ethernet_Pair2_N" type="passive"/>
+        <pin num="10" name="Ethernet_Pair0_N" type="passive"/>
+        <pin num="11" name="Ethernet_Pair2_P" type="passive"/>
+        <pin num="12" name="Ethernet_Pair0_P" type="passive"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="Ethernet_nLED3(3.3v)" type="output"/>
+        <pin num="16" name="Ethernet_SYNC_IN(1.8v)" type="input"/>
+        <pin num="17" name="Ethernet_nLED2(3.3v)" type="output"/>
+        <pin num="18" name="Ethernet_SYNC_OUT(1.8v)" type="input"/>
+        <pin num="19" name="Ethernet_nLED1(3.3v)" type="output"/>
+        <pin num="20" name="EEPROM_nWP" type="passive"/>
+        <pin num="21" name="PI_nLED_Activity" type="open_collector"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO26" type="passive"/>
+        <pin num="25" name="GPIO21" type="passive"/>
+        <pin num="26" name="GPIO19" type="passive"/>
+        <pin num="27" name="GPIO20" type="passive"/>
+        <pin num="28" name="GPIO13" type="passive"/>
+        <pin num="29" name="GPIO16" type="passive"/>
+        <pin num="30" name="GPIO6" type="passive"/>
+        <pin num="31" name="GPIO12" type="passive"/>
+        <pin num="32" name="GND" type="power_in"/>
+        <pin num="33" name="GND" type="power_in"/>
+        <pin num="34" name="GPIO5" type="passive"/>
+        <pin num="35" name="ID_SC" type="passive"/>
+        <pin num="36" name="ID_SD" type="passive"/>
+        <pin num="37" name="GPIO7" type="passive"/>
+        <pin num="38" name="GPIO11" type="passive"/>
+        <pin num="39" name="GPIO8" type="passive"/>
+        <pin num="40" name="GPIO9" type="passive"/>
+        <pin num="41" name="GPIO25" type="passive"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GPIO10" type="passive"/>
+        <pin num="45" name="GPIO24" type="passive"/>
+        <pin num="46" name="GPIO22" type="passive"/>
+        <pin num="47" name="GPIO23" type="passive"/>
+        <pin num="48" name="GPIO27" type="passive"/>
+        <pin num="49" name="GPIO18" type="passive"/>
+        <pin num="50" name="GPIO17" type="passive"/>
+        <pin num="51" name="GPIO15" type="passive"/>
+        <pin num="52" name="GND" type="power_in"/>
+        <pin num="53" name="GND" type="power_in"/>
+        <pin num="54" name="GPIO4" type="passive"/>
+        <pin num="55" name="GPIO14" type="passive"/>
+        <pin num="56" name="GPIO3" type="passive"/>
+        <pin num="57" name="SD_CLK" type="passive"/>
+        <pin num="58" name="GPIO2" type="passive"/>
+        <pin num="59" name="GND" type="power_in"/>
+        <pin num="60" name="GND" type="power_in"/>
+        <pin num="61" name="SD_DAT3" type="passive"/>
+        <pin num="62" name="SD_CMD" type="passive"/>
+        <pin num="63" name="SD_DAT0" type="passive"/>
+        <pin num="64" name="SD_DAT5" type="passive"/>
+        <pin num="65" name="GND" type="power_in"/>
+        <pin num="66" name="GND" type="power_in"/>
+        <pin num="67" name="SD_DAT1" type="passive"/>
+        <pin num="68" name="SD_DAT4" type="passive"/>
+        <pin num="69" name="SD_DAT2" type="passive"/>
+        <pin num="70" name="SD_DAT7" type="passive"/>
+        <pin num="71" name="GND" type="power_in"/>
+        <pin num="72" name="SD_DAT6" type="passive"/>
+        <pin num="73" name="SD_VDD_Override" type="input"/>
+        <pin num="74" name="GND" type="power_in"/>
+        <pin num="75" name="SD_PWR_ON" type="output"/>
+        <pin num="76" name="Reserved" type="passive"/>
+        <pin num="77" name="+5v_(Input)" type="power_in"/>
+        <pin num="78" name="GPIO_VREF(1.8v/3.3v_Input)" type="power_in"/>
+        <pin num="79" name="+5v_(Input)" type="power_in"/>
+        <pin num="80" name="SCL0" type="passive"/>
+        <pin num="81" name="+5v_(Input)" type="power_in"/>
+        <pin num="82" name="SDA0" type="passive"/>
+        <pin num="83" name="+5v_(Input)" type="power_in"/>
+        <pin num="84" name="+3.3v_(Output)" type="power_out"/>
+        <pin num="85" name="+5v_(Input)" type="power_in"/>
+        <pin num="86" name="+3.3v_(Output)" type="power_out"/>
+        <pin num="87" name="+5v_(Input)" type="power_in"/>
+        <pin num="88" name="+1.8v_(Output)" type="power_out"/>
+        <pin num="89" name="WiFi_nDisable" type="input"/>
+        <pin num="90" name="+1.8v_(Output)" type="power_out"/>
+        <pin num="91" name="BT_nDisable" type="input"/>
+        <pin num="92" name="RUN_PG" type="passive"/>
+        <pin num="93" name="nRPIBOOT" type="input"/>
+        <pin num="94" name="AnalogIP0" type="passive"/>
+        <pin num="95" name="nPI_LED_PWR" type="output"/>
+        <pin num="96" name="AnalogIP1" type="passive"/>
+        <pin num="97" name="Camera_GPIO" type="passive"/>
+        <pin num="98" name="GND" type="power_in"/>
+        <pin num="99" name="Global_EN" type="input"/>
+        <pin num="100" name="nEXTRST" type="output"/>
+        <pin num="101" name="USB_OTG_ID" type="input"/>
+        <pin num="102" name="PCIe_CLK_nREQ" type="input"/>
+        <pin num="103" name="USB2_N" type="passive"/>
+        <pin num="104" name="Reserved" type="passive"/>
+        <pin num="105" name="USB2_P" type="passive"/>
+        <pin num="106" name="Reserved" type="passive"/>
+        <pin num="107" name="GND" type="power_in"/>
+        <pin num="108" name="GND" type="power_in"/>
+        <pin num="109" name="PCIe_nRST" type="bidirectional"/>
+        <pin num="110" name="PCIe_CLK_P" type="output"/>
+        <pin num="111" name="VDAC_COMP" type="passive"/>
+        <pin num="112" name="PCIe_CLK_N" type="output"/>
+        <pin num="113" name="GND" type="power_in"/>
+        <pin num="114" name="GND" type="power_in"/>
+        <pin num="115" name="CAM1_D0_N" type="input"/>
+        <pin num="116" name="PCIe_RX_P" type="input"/>
+        <pin num="117" name="CAM1_D0_P" type="input"/>
+        <pin num="118" name="PCIe_RX_N" type="input"/>
+        <pin num="119" name="GND" type="power_in"/>
+        <pin num="120" name="GND" type="power_in"/>
+        <pin num="121" name="CAM1_D1_N" type="input"/>
+        <pin num="122" name="PCIe_TX_P" type="output"/>
+        <pin num="123" name="CAM1_D1_P" type="input"/>
+        <pin num="124" name="PCIe_TX_N" type="output"/>
+        <pin num="125" name="GND" type="power_in"/>
+        <pin num="126" name="GND" type="power_in"/>
+        <pin num="127" name="CAM1_C_N" type="input"/>
+        <pin num="128" name="CAM0_D0_N" type="input"/>
+        <pin num="129" name="CAM1_C_P" type="input"/>
+        <pin num="130" name="CAM0_D0_P" type="input"/>
+        <pin num="131" name="GND" type="power_in"/>
+        <pin num="132" name="GND" type="power_in"/>
+        <pin num="133" name="CAM1_D2_N" type="input"/>
+        <pin num="134" name="CAM0_D1_N" type="input"/>
+        <pin num="135" name="CAM1_D2_P" type="input"/>
+        <pin num="136" name="CAM0_D1_P" type="input"/>
+        <pin num="137" name="GND" type="power_in"/>
+        <pin num="138" name="GND" type="power_in"/>
+        <pin num="139" name="CAM1_D3_N" type="input"/>
+        <pin num="140" name="CAM0_C_N" type="input"/>
+        <pin num="141" name="CAM1_D3_P" type="input"/>
+        <pin num="142" name="CAM0_C_P" type="input"/>
+        <pin num="143" name="HDMI1_HOTPLUG" type="input"/>
+        <pin num="144" name="GND" type="power_in"/>
+        <pin num="145" name="HDMI1_SDA" type="bidirectional"/>
+        <pin num="146" name="HDMI1_TX2_P" type="output"/>
+        <pin num="147" name="HDMI1_SCL" type="open_collector"/>
+        <pin num="148" name="HDMI1_TX2_N" type="output"/>
+        <pin num="149" name="HDMI1_CEC" type="open_collector"/>
+        <pin num="150" name="GND" type="power_in"/>
+        <pin num="151" name="HDMI0_CEC" type="open_collector"/>
+        <pin num="152" name="HDMI1_TX1_P" type="output"/>
+        <pin num="153" name="HDMI0_HOTPLUG" type="input"/>
+        <pin num="154" name="HDMI1_TX1_N" type="output"/>
+        <pin num="155" name="GND" type="power_in"/>
+        <pin num="156" name="GND" type="power_in"/>
+        <pin num="157" name="DSI0_D0_N" type="output"/>
+        <pin num="158" name="HDMI1_TX0_P" type="output"/>
+        <pin num="159" name="DSI0_D0_P" type="output"/>
+        <pin num="160" name="HDMI1_TX0_N" type="output"/>
+        <pin num="161" name="GND" type="power_in"/>
+        <pin num="162" name="GND" type="power_in"/>
+        <pin num="163" name="DSI0_D1_N" type="output"/>
+        <pin num="164" name="HDMI1_CLK_P" type="output"/>
+        <pin num="165" name="DSI0_D1_P" type="output"/>
+        <pin num="166" name="HDMI1_CLK_N" type="output"/>
+        <pin num="167" name="GND" type="power_in"/>
+        <pin num="168" name="GND" type="power_in"/>
+        <pin num="169" name="DSI0_C_N" type="output"/>
+        <pin num="170" name="HDMI0_TX2_P" type="output"/>
+        <pin num="171" name="DSI0_C_P" type="output"/>
+        <pin num="172" name="HDMI0_TX2_N" type="output"/>
+        <pin num="173" name="GND" type="power_in"/>
+        <pin num="174" name="GND" type="power_in"/>
+        <pin num="175" name="DSI1_D0_N" type="output"/>
+        <pin num="176" name="HDMI0_TX1_P" type="output"/>
+        <pin num="177" name="DSI1_D0_P" type="output"/>
+        <pin num="178" name="HDMI0_TX1_N" type="output"/>
+        <pin num="179" name="GND" type="power_in"/>
+        <pin num="180" name="GND" type="power_in"/>
+        <pin num="181" name="DSI1_D1_N" type="output"/>
+        <pin num="182" name="HDMI0_TX0_P" type="output"/>
+        <pin num="183" name="DSI1_D1_P" type="output"/>
+        <pin num="184" name="HDMI0_TX0_N" type="output"/>
+        <pin num="185" name="GND" type="power_in"/>
+        <pin num="186" name="GND" type="power_in"/>
+        <pin num="187" name="DSI1_C_N" type="output"/>
+        <pin num="188" name="HDMI0_CLK_P" type="output"/>
+        <pin num="189" name="DSI1_C_P" type="output"/>
+        <pin num="190" name="HDMI0_CLK_N" type="output"/>
+        <pin num="191" name="GND" type="power_in"/>
+        <pin num="192" name="GND" type="power_in"/>
+        <pin num="193" name="DSI1_D2_N" type="output"/>
+        <pin num="194" name="DSI1_D3_N" type="output"/>
+        <pin num="195" name="DSI1_D2_P" type="output"/>
+        <pin num="196" name="DSI1_D3_P" type="output"/>
+        <pin num="197" name="GND" type="power_in"/>
+        <pin num="198" name="GND" type="power_in"/>
+        <pin num="199" name="HDMI0_SDA" type="bidirectional"/>
+        <pin num="200" name="HDMI0_SCL" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="DIO7003HCST5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DIO7003HCST5</field>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FAULT" type="open_collector"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="DMG1012T">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG1012T</field>
+        <field name="Footprint">CM5:SOT-353_SC-70-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="DSI_15P">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DSI_15P</field>
+        <field name="Footprint">CM5:Molex_200528-0150_1x15-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="D1_N" type="input"/>
+        <pin num="3" name="D1_P" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="CLK_N" type="input"/>
+        <pin num="6" name="CLK_P" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="D0_N" type="input"/>
+        <pin num="9" name="D0_P" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="SCL" type="bidirectional"/>
+        <pin num="12" name="SDA" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VDD1" type="power_in"/>
+        <pin num="15" name="VDD2" type="power_in"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="FSUSB42MX">
+      <description>Low-Power, Two-Port, Hi-Speed, USB2.0 (480Mbps) Switch, UMLP-10</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/fsusb42-d.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FSUSB42MX</field>
+        <field name="Footprint">CM5:UQFN-10_1.4x1.8mm_P0.4mm</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/fsusb42-d.pdf</field>
+        <field name="Description">Low-Power, Two-Port, Hi-Speed, USB2.0 (480Mbps) Switch, UMLP-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+" type="bidirectional"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="HSD1-" type="bidirectional"/>
+        <pin num="5" name="HSD1+" type="bidirectional"/>
+        <pin num="6" name="HSD2-" type="bidirectional"/>
+        <pin num="7" name="HSD2+" type="bidirectional"/>
+        <pin num="8" name="/OE" type="input"/>
+        <pin num="9" name="VCC" type="power_in"/>
+        <pin num="10" name="SEL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="HDMI_Mini_C">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HDMI_Mini_C</field>
+        <field name="Footprint">CM5:HDMI_Mini-C_Molex_47151-0001</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND1" type="power_in"/>
+        <pin num="2" name="D2+" type="input"/>
+        <pin num="3" name="D2-" type="input"/>
+        <pin num="4" name="GND2" type="power_in"/>
+        <pin num="5" name="D1+" type="input"/>
+        <pin num="6" name="D1-" type="input"/>
+        <pin num="7" name="GND3" type="power_in"/>
+        <pin num="8" name="D0+" type="input"/>
+        <pin num="9" name="D0-" type="input"/>
+        <pin num="10" name="GND4" type="power_in"/>
+        <pin num="11" name="CK+" type="input"/>
+        <pin num="12" name="CK-" type="input"/>
+        <pin num="13" name="GND5" type="power_in"/>
+        <pin num="14" name="CEC" type="bidirectional"/>
+        <pin num="15" name="SCL" type="bidirectional"/>
+        <pin num="16" name="SDA" type="bidirectional"/>
+        <pin num="17" name="UTILITY" type="passive"/>
+        <pin num="18" name="+5V" type="power_in"/>
+        <pin num="19" name="HPD" type="output"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="IMX219_30P">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">IMX219_30P</field>
+        <field name="Footprint">CM5:Camera_Module_IMX219-D160</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="NC4" type="passive"/>
+        <pin num="3" name="VO1V8" type="power_in"/>
+        <pin num="4" name="VD1V2" type="power_in"/>
+        <pin num="5" name="/PWDN" type="input"/>
+        <pin num="6" name="DGND4" type="power_in"/>
+        <pin num="7" name="MCLK" type="input"/>
+        <pin num="8" name="DGND3" type="power_in"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="VA2V8" type="power_in"/>
+        <pin num="11" name="NC3" type="passive"/>
+        <pin num="12" name="DGND2" type="power_in"/>
+        <pin num="13" name="NC2" type="passive"/>
+        <pin num="14" name="NC1" type="passive"/>
+        <pin num="15" name="DGND1" type="power_in"/>
+        <pin num="16" name="DGND5" type="power_in"/>
+        <pin num="17" name="NC6" type="passive"/>
+        <pin num="18" name="NC7" type="passive"/>
+        <pin num="19" name="DGND6" type="power_in"/>
+        <pin num="20" name="MD1N" type="output"/>
+        <pin num="21" name="MD1P" type="output"/>
+        <pin num="22" name="DGND7" type="power_in"/>
+        <pin num="23" name="MD0N" type="output"/>
+        <pin num="24" name="MD0P" type="output"/>
+        <pin num="25" name="DGND8" type="power_in"/>
+        <pin num="26" name="MCKN" type="output"/>
+        <pin num="27" name="MCKP" type="output"/>
+        <pin num="28" name="DGND9" type="power_in"/>
+        <pin num="29" name="SCL" type="bidirectional"/>
+        <pin num="30" name="SDA" type="bidirectional"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="MCF1210BF2-900T01">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">MCF1210BF2-900T01</field>
+        <field name="Footprint">CM5:L_CommonModeChoke_Coilank_ACM1210</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="MP1658GTF-Z">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP1658GTF-Z</field>
+        <field name="Footprint">CM5:TSOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="SW" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="BST" type="passive"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="Micro_SD_Card_Det">
+      <description>Micro SD Card Socket with card detection pins</description>
+      <docs>https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_SD_Card_Det</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&amp;item_id=195&amp;is_series=1</field>
+        <field name="Description">Micro SD Card Socket with card detection pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="bidirectional"/>
+        <pin num="2" name="DAT3/CD" type="bidirectional"/>
+        <pin num="3" name="CMD" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="CLK" type="input"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="DAT0" type="bidirectional"/>
+        <pin num="8" name="DAT1" type="bidirectional"/>
+        <pin num="9" name="DET_B" type="passive"/>
+        <pin num="10" name="DET_A" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="OSC_24MHz">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">OSC_24MHz</field>
+        <field name="Footprint">CM5:Crystal_SMD_3225-4Pin_3.2x2.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="RT9013-12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT9013-12</field>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="RT9193">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RT9193</field>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="Raspberry_Pi_40Pin_GPIO">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_40Pin_GPIO</field>
+        <field name="Footprint">CM5:PinHeader_2x20_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="bidirectional"/>
+        <pin num="2" name="Pin_2" type="bidirectional"/>
+        <pin num="3" name="Pin_3" type="bidirectional"/>
+        <pin num="4" name="Pin_4" type="bidirectional"/>
+        <pin num="5" name="Pin_5" type="bidirectional"/>
+        <pin num="6" name="Pin_6" type="bidirectional"/>
+        <pin num="7" name="Pin_7" type="bidirectional"/>
+        <pin num="8" name="Pin_8" type="bidirectional"/>
+        <pin num="9" name="Pin_9" type="bidirectional"/>
+        <pin num="10" name="Pin_10" type="bidirectional"/>
+        <pin num="11" name="Pin_11" type="bidirectional"/>
+        <pin num="12" name="Pin_12" type="bidirectional"/>
+        <pin num="13" name="Pin_13" type="bidirectional"/>
+        <pin num="14" name="Pin_14" type="bidirectional"/>
+        <pin num="15" name="Pin_15" type="bidirectional"/>
+        <pin num="16" name="Pin_16" type="bidirectional"/>
+        <pin num="17" name="Pin_17" type="bidirectional"/>
+        <pin num="18" name="Pin_18" type="bidirectional"/>
+        <pin num="19" name="Pin_19" type="bidirectional"/>
+        <pin num="20" name="Pin_20" type="bidirectional"/>
+        <pin num="21" name="Pin_21" type="bidirectional"/>
+        <pin num="22" name="Pin_22" type="bidirectional"/>
+        <pin num="23" name="Pin_23" type="bidirectional"/>
+        <pin num="24" name="Pin_24" type="bidirectional"/>
+        <pin num="25" name="Pin_25" type="bidirectional"/>
+        <pin num="26" name="Pin_26" type="bidirectional"/>
+        <pin num="27" name="Pin_27" type="bidirectional"/>
+        <pin num="28" name="Pin_28" type="bidirectional"/>
+        <pin num="29" name="Pin_29" type="bidirectional"/>
+        <pin num="30" name="Pin_30" type="bidirectional"/>
+        <pin num="31" name="Pin_31" type="bidirectional"/>
+        <pin num="32" name="Pin_32" type="bidirectional"/>
+        <pin num="33" name="Pin_33" type="bidirectional"/>
+        <pin num="34" name="Pin_34" type="bidirectional"/>
+        <pin num="35" name="Pin_35" type="bidirectional"/>
+        <pin num="36" name="Pin_36" type="bidirectional"/>
+        <pin num="37" name="Pin_37" type="bidirectional"/>
+        <pin num="38" name="Pin_38" type="bidirectional"/>
+        <pin num="39" name="Pin_39" type="bidirectional"/>
+        <pin num="40" name="Pin_40" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="STMPS2171STR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STMPS2171STR</field>
+        <field name="Footprint">CM5:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FAULT" type="open_collector"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="SW_Push_SPST">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_SPST</field>
+        <field name="Footprint">CM5:SW_SPST_PTS645Sx43SMTR92</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="USB_A_Vertical">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A_Vertical</field>
+        <field name="Footprint">CM5:MOLEX_USB_67298-4090</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="SH" name="SH" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CM5" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CM5">
+      <uri>${KIPRJMOD}/CM5.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/1V2" class="Default">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="VD1V2_4" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VOUT_5" pintype="power_out"/>
+    </net>
+    <net code="2" name="/1V8" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="VO1V8_3" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VOUT_5" pintype="power_out"/>
+      <node ref="X1" pin="1" pinfunction="OE_1" pintype="input"/>
+      <node ref="X1" pin="4" pinfunction="VDD_4" pintype="power_in"/>
+    </net>
+    <net code="3" name="/2V8" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="VA2V8_10" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="VOUT_5" pintype="power_out"/>
+    </net>
+    <net code="4" name="/BT_EN" class="Default">
+      <node ref="Module1" pin="91" pinfunction="BT_nDisable_91" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/CAM0_CLK_N" class="Default">
+      <node ref="L3" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="Module1" pin="140" pinfunction="CAM0_C_N_140" pintype="input"/>
+    </net>
+    <net code="6" name="/CAM0_CLK_P" class="Default">
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Module1" pin="142" pinfunction="CAM0_C_P_142" pintype="input"/>
+    </net>
+    <net code="7" name="/CAM0_D0_N" class="Default">
+      <node ref="L1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="Module1" pin="128" pinfunction="CAM0_D0_N_128" pintype="input"/>
+    </net>
+    <net code="8" name="/CAM0_D0_P" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Module1" pin="130" pinfunction="CAM0_D0_P_130" pintype="input"/>
+    </net>
+    <net code="9" name="/CAM0_D1_N" class="Default">
+      <node ref="L2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="Module1" pin="134" pinfunction="CAM0_D1_N_134" pintype="input"/>
+    </net>
+    <net code="10" name="/CAM0_D1_P" class="Default">
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Module1" pin="136" pinfunction="CAM0_D1_P_136" pintype="input"/>
+    </net>
+    <net code="11" name="/CAM_FB1_OUT" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="12" name="/CAM_GPIO" class="Default">
+      <node ref="Module1" pin="97" pinfunction="Camera_GPIO_97" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/CAM_GPIO'" class="Default">
+      <node ref="J1" pin="5" pinfunction="/PWDN_5" pintype="input"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="14" name="/CC1" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="Type_C1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/CC2" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="Type_C1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/CM5_1V8" class="Default">
+      <node ref="H5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Module1" pin="88" pinfunction="+1.8v_(Output)_88" pintype="power_out"/>
+      <node ref="Module1" pin="90" pinfunction="+1.8v_(Output)_90" pintype="power_out"/>
+    </net>
+    <net code="17" name="/CM5_3V3" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="H5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Module1" pin="84" pinfunction="+3.3v_(Output)_84" pintype="power_out"/>
+      <node ref="Module1" pin="86" pinfunction="+3.3v_(Output)_86" pintype="power_out"/>
+      <node ref="U6" pin="9" pinfunction="VCC_9" pintype="power_in"/>
+    </net>
+    <net code="18" name="/CM5_5V" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Module1" pin="77" pinfunction="+5v_(Input)_77" pintype="power_in"/>
+      <node ref="Module1" pin="79" pinfunction="+5v_(Input)_79" pintype="power_in"/>
+      <node ref="Module1" pin="81" pinfunction="+5v_(Input)_81" pintype="power_in"/>
+      <node ref="Module1" pin="83" pinfunction="+5v_(Input)_83" pintype="power_in"/>
+      <node ref="Module1" pin="85" pinfunction="+5v_(Input)_85" pintype="power_in"/>
+      <node ref="Module1" pin="87" pinfunction="+5v_(Input)_87" pintype="power_in"/>
+      <node ref="PI1" pin="2" pinfunction="Pin_2_2" pintype="bidirectional"/>
+      <node ref="PI1" pin="4" pinfunction="Pin_4_4" pintype="bidirectional"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="Type_C1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="Type_C1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="Type_C1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="Type_C1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="IN_5" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="EN_4" pintype="input"/>
+      <node ref="U8" pin="5" pinfunction="IN_5" pintype="power_in"/>
+    </net>
+    <net code="19" name="/CSI_CLK_N" class="Default">
+      <node ref="J1" pin="26" pinfunction="MCKN_26" pintype="output"/>
+      <node ref="L3" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="20" name="/CSI_CLK_P" class="Default">
+      <node ref="J1" pin="27" pinfunction="MCKP_27" pintype="output"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="21" name="/CSI_D0_N" class="Default">
+      <node ref="J1" pin="23" pinfunction="MD0N_23" pintype="output"/>
+      <node ref="L1" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="22" name="/CSI_D0_P" class="Default">
+      <node ref="J1" pin="24" pinfunction="MD0P_24" pintype="output"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/CSI_D1_N" class="Default">
+      <node ref="J1" pin="20" pinfunction="MD1N_20" pintype="output"/>
+      <node ref="L2" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="24" name="/CSI_D1_P" class="Default">
+      <node ref="J1" pin="21" pinfunction="MD1P_21" pintype="output"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/DSI1_CLK_N" class="Default">
+      <node ref="DSI1" pin="5" pinfunction="CLK_N_5" pintype="input"/>
+      <node ref="Module1" pin="187" pinfunction="DSI1_C_N_187" pintype="output"/>
+    </net>
+    <net code="26" name="/DSI1_CLK_P" class="Default">
+      <node ref="DSI1" pin="6" pinfunction="CLK_P_6" pintype="input"/>
+      <node ref="Module1" pin="189" pinfunction="DSI1_C_P_189" pintype="output"/>
+    </net>
+    <net code="27" name="/DSI1_D0_N" class="Default">
+      <node ref="DSI1" pin="8" pinfunction="D0_N_8" pintype="input"/>
+      <node ref="Module1" pin="175" pinfunction="DSI1_D0_N_175" pintype="output"/>
+    </net>
+    <net code="28" name="/DSI1_D0_P" class="Default">
+      <node ref="DSI1" pin="9" pinfunction="D0_P_9" pintype="input"/>
+      <node ref="Module1" pin="177" pinfunction="DSI1_D0_P_177" pintype="output"/>
+    </net>
+    <net code="29" name="/DSI1_D1_N" class="Default">
+      <node ref="DSI1" pin="2" pinfunction="D1_N_2" pintype="input"/>
+      <node ref="Module1" pin="181" pinfunction="DSI1_D1_N_181" pintype="output"/>
+    </net>
+    <net code="30" name="/DSI1_D1_P" class="Default">
+      <node ref="DSI1" pin="3" pinfunction="D1_P_3" pintype="input"/>
+      <node ref="Module1" pin="183" pinfunction="DSI1_D1_P_183" pintype="output"/>
+    </net>
+    <net code="31" name="/EEPROM_WP" class="Default">
+      <node ref="Module1" pin="20" pinfunction="EEPROM_nWP_20" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/GPIO2" class="Default">
+      <node ref="Module1" pin="58" pinfunction="GPIO2_58" pintype="passive"/>
+      <node ref="PI1" pin="3" pinfunction="Pin_3_3" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/GPIO3" class="Default">
+      <node ref="Module1" pin="56" pinfunction="GPIO3_56" pintype="passive"/>
+      <node ref="PI1" pin="5" pinfunction="Pin_5_5" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/GPIO4" class="Default">
+      <node ref="Module1" pin="54" pinfunction="GPIO4_54" pintype="passive"/>
+      <node ref="PI1" pin="7" pinfunction="Pin_7_7" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/GPIO5" class="Default">
+      <node ref="Module1" pin="34" pinfunction="GPIO5_34" pintype="passive"/>
+      <node ref="PI1" pin="29" pinfunction="Pin_29_29" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/GPIO6" class="Default">
+      <node ref="Module1" pin="30" pinfunction="GPIO6_30" pintype="passive"/>
+      <node ref="PI1" pin="31" pinfunction="Pin_31_31" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/GPIO7" class="Default">
+      <node ref="Module1" pin="37" pinfunction="GPIO7_37" pintype="passive"/>
+      <node ref="PI1" pin="26" pinfunction="Pin_26_26" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/GPIO8" class="Default">
+      <node ref="Module1" pin="39" pinfunction="GPIO8_39" pintype="passive"/>
+      <node ref="PI1" pin="24" pinfunction="Pin_24_24" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/GPIO9" class="Default">
+      <node ref="Module1" pin="40" pinfunction="GPIO9_40" pintype="passive"/>
+      <node ref="PI1" pin="21" pinfunction="Pin_21_21" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/GPIO10" class="Default">
+      <node ref="Module1" pin="44" pinfunction="GPIO10_44" pintype="passive"/>
+      <node ref="PI1" pin="19" pinfunction="Pin_19_19" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/GPIO11" class="Default">
+      <node ref="Module1" pin="38" pinfunction="GPIO11_38" pintype="passive"/>
+      <node ref="PI1" pin="23" pinfunction="Pin_23_23" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/GPIO12" class="Default">
+      <node ref="Module1" pin="31" pinfunction="GPIO12_31" pintype="passive"/>
+      <node ref="PI1" pin="32" pinfunction="Pin_32_32" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/GPIO13" class="Default">
+      <node ref="Module1" pin="28" pinfunction="GPIO13_28" pintype="passive"/>
+      <node ref="PI1" pin="33" pinfunction="Pin_33_33" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/GPIO14" class="Default">
+      <node ref="Module1" pin="55" pinfunction="GPIO14_55" pintype="passive"/>
+      <node ref="PI1" pin="8" pinfunction="Pin_8_8" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/GPIO15" class="Default">
+      <node ref="Module1" pin="51" pinfunction="GPIO15_51" pintype="passive"/>
+      <node ref="PI1" pin="10" pinfunction="Pin_10_10" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/GPIO16" class="Default">
+      <node ref="Module1" pin="29" pinfunction="GPIO16_29" pintype="passive"/>
+      <node ref="PI1" pin="36" pinfunction="Pin_36_36" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/GPIO17" class="Default">
+      <node ref="Module1" pin="50" pinfunction="GPIO17_50" pintype="passive"/>
+      <node ref="PI1" pin="11" pinfunction="Pin_11_11" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/GPIO18" class="Default">
+      <node ref="Module1" pin="49" pinfunction="GPIO18_49" pintype="passive"/>
+      <node ref="PI1" pin="12" pinfunction="Pin_12_12" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="/GPIO19" class="Default">
+      <node ref="Module1" pin="26" pinfunction="GPIO19_26" pintype="passive"/>
+      <node ref="PI1" pin="35" pinfunction="Pin_35_35" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="/GPIO20" class="Default">
+      <node ref="Module1" pin="27" pinfunction="GPIO20_27" pintype="passive"/>
+      <node ref="PI1" pin="38" pinfunction="Pin_38_38" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="/GPIO21" class="Default">
+      <node ref="Key1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="Module1" pin="25" pinfunction="GPIO21_25" pintype="passive"/>
+      <node ref="PI1" pin="40" pinfunction="Pin_40_40" pintype="bidirectional"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="/GPIO22" class="Default">
+      <node ref="Module1" pin="46" pinfunction="GPIO22_46" pintype="passive"/>
+      <node ref="PI1" pin="15" pinfunction="Pin_15_15" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="/GPIO23" class="Default">
+      <node ref="Module1" pin="47" pinfunction="GPIO23_47" pintype="passive"/>
+      <node ref="PI1" pin="16" pinfunction="Pin_16_16" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="/GPIO24" class="Default">
+      <node ref="Module1" pin="45" pinfunction="GPIO24_45" pintype="passive"/>
+      <node ref="PI1" pin="18" pinfunction="Pin_18_18" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="/GPIO25" class="Default">
+      <node ref="Module1" pin="41" pinfunction="GPIO25_41" pintype="passive"/>
+      <node ref="PI1" pin="22" pinfunction="Pin_22_22" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="/GPIO26" class="Default">
+      <node ref="Module1" pin="24" pinfunction="GPIO26_24" pintype="passive"/>
+      <node ref="PI1" pin="37" pinfunction="Pin_37_37" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="/GPIO27" class="Default">
+      <node ref="Module1" pin="48" pinfunction="GPIO27_48" pintype="passive"/>
+      <node ref="PI1" pin="13" pinfunction="Pin_13_13" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="/GPIO_VREF" class="Default">
+      <node ref="H5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Module1" pin="78" pinfunction="GPIO_VREF(1.8v/3.3v_Input)_78" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="/HDMI0_CEC" class="Default">
+      <node ref="HDMI1" pin="14" pinfunction="CEC_14" pintype="bidirectional"/>
+      <node ref="Module1" pin="151" pinfunction="HDMI0_CEC_151" pintype="open_collector"/>
+    </net>
+    <net code="60" name="/HDMI0_CLK_N" class="Default">
+      <node ref="HDMI1" pin="12" pinfunction="CK-_12" pintype="input"/>
+      <node ref="Module1" pin="190" pinfunction="HDMI0_CLK_N_190" pintype="output"/>
+    </net>
+    <net code="61" name="/HDMI0_CLK_P" class="Default">
+      <node ref="HDMI1" pin="11" pinfunction="CK+_11" pintype="input"/>
+      <node ref="Module1" pin="188" pinfunction="HDMI0_CLK_P_188" pintype="output"/>
+    </net>
+    <net code="62" name="/HDMI0_HOTPLUG" class="Default">
+      <node ref="HDMI1" pin="19" pinfunction="HPD_19" pintype="output"/>
+      <node ref="Module1" pin="153" pinfunction="HDMI0_HOTPLUG_153" pintype="input"/>
+    </net>
+    <net code="63" name="/HDMI0_SCL" class="Default">
+      <node ref="HDMI1" pin="15" pinfunction="SCL_15" pintype="bidirectional"/>
+      <node ref="Module1" pin="200" pinfunction="HDMI0_SCL_200" pintype="open_collector"/>
+    </net>
+    <net code="64" name="/HDMI0_SDA" class="Default">
+      <node ref="HDMI1" pin="16" pinfunction="SDA_16" pintype="bidirectional"/>
+      <node ref="Module1" pin="199" pinfunction="HDMI0_SDA_199" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="/HDMI0_TX0_N" class="Default">
+      <node ref="HDMI1" pin="9" pinfunction="D0-_9" pintype="input"/>
+      <node ref="Module1" pin="184" pinfunction="HDMI0_TX0_N_184" pintype="output"/>
+    </net>
+    <net code="66" name="/HDMI0_TX0_P" class="Default">
+      <node ref="HDMI1" pin="8" pinfunction="D0+_8" pintype="input"/>
+      <node ref="Module1" pin="182" pinfunction="HDMI0_TX0_P_182" pintype="output"/>
+    </net>
+    <net code="67" name="/HDMI0_TX1_N" class="Default">
+      <node ref="HDMI1" pin="6" pinfunction="D1-_6" pintype="input"/>
+      <node ref="Module1" pin="178" pinfunction="HDMI0_TX1_N_178" pintype="output"/>
+    </net>
+    <net code="68" name="/HDMI0_TX1_P" class="Default">
+      <node ref="HDMI1" pin="5" pinfunction="D1+_5" pintype="input"/>
+      <node ref="Module1" pin="176" pinfunction="HDMI0_TX1_P_176" pintype="output"/>
+    </net>
+    <net code="69" name="/HDMI0_TX2_N" class="Default">
+      <node ref="HDMI1" pin="3" pinfunction="D2-_3" pintype="input"/>
+      <node ref="Module1" pin="172" pinfunction="HDMI0_TX2_N_172" pintype="output"/>
+    </net>
+    <net code="70" name="/HDMI0_TX2_P" class="Default">
+      <node ref="HDMI1" pin="2" pinfunction="D2+_2" pintype="input"/>
+      <node ref="Module1" pin="170" pinfunction="HDMI0_TX2_P_170" pintype="output"/>
+    </net>
+    <net code="71" name="/HDMI_5V" class="Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="HDMI1" pin="18" pinfunction="+5V_18" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+    </net>
+    <net code="72" name="/HDMI_5V_EN" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="EN_4" pintype="input"/>
+    </net>
+    <net code="73" name="/ID_SC" class="Default">
+      <node ref="Module1" pin="35" pinfunction="ID_SC_35" pintype="passive"/>
+      <node ref="PI1" pin="28" pinfunction="Pin_28_28" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="/ID_SD" class="Default">
+      <node ref="Module1" pin="36" pinfunction="ID_SD_36" pintype="passive"/>
+      <node ref="PI1" pin="27" pinfunction="Pin_27_27" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="/L5_K" class="Default">
+      <node ref="L5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="/L6_K" class="Default">
+      <node ref="L6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="/LED_G" class="Default">
+      <node ref="Module1" pin="21" pinfunction="PI_nLED_Activity_21" pintype="open_collector"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="/MCLK" class="Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="MCLK_7" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="79" name="/MP1658_BST" class="Default">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="BST_4" pintype="passive"/>
+    </net>
+    <net code="80" name="/MP1658_BST_R" class="Default">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="/MP1658_EN" class="Default">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="EN_5" pintype="input"/>
+    </net>
+    <net code="82" name="/MP1658_FB" class="Default">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="FB_6" pintype="input"/>
+    </net>
+    <net code="83" name="/MP1658_SW" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="SW_2" pintype="power_out"/>
+    </net>
+    <net code="84" name="/PI_BOOT" class="Default">
+      <node ref="H4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Module1" pin="93" pinfunction="nRPIBOOT_93" pintype="input"/>
+    </net>
+    <net code="85" name="/PI_GLOBAL_EN" class="Default">
+      <node ref="H3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Module1" pin="99" pinfunction="Global_EN_99" pintype="input"/>
+    </net>
+    <net code="86" name="/PI_RUN" class="Default">
+      <node ref="H3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Module1" pin="92" pinfunction="RUN_PG_92" pintype="passive"/>
+    </net>
+    <net code="87" name="/PWR_3V3" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="DSI1" pin="14" pinfunction="VDD1_14" pintype="power_in"/>
+      <node ref="DSI1" pin="15" pinfunction="VDD2_15" pintype="power_in"/>
+      <node ref="FB1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="L7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="PI1" pin="1" pinfunction="Pin_1_1" pintype="bidirectional"/>
+      <node ref="PI1" pin="17" pinfunction="Pin_17_17" pintype="bidirectional"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="IN_5" pintype="power_in"/>
+    </net>
+    <net code="88" name="/SCL0" class="Default">
+      <node ref="DSI1" pin="11" pinfunction="SCL_11" pintype="bidirectional"/>
+      <node ref="Module1" pin="80" pinfunction="SCL0_80" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="/SCL_1V8" class="Default">
+      <node ref="J1" pin="29" pinfunction="SCL_29" pintype="bidirectional"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="90" name="/SDA0" class="Default">
+      <node ref="DSI1" pin="12" pinfunction="SDA_12" pintype="bidirectional"/>
+      <node ref="Module1" pin="82" pinfunction="SDA0_82" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="91" name="/SDA_1V8" class="Default">
+      <node ref="J1" pin="30" pinfunction="SDA_30" pintype="bidirectional"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="92" name="/SD_3.3V" class="Default">
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="TF1" pin="4" pinfunction="VDD_4" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+    </net>
+    <net code="93" name="/SD_CLK" class="Default">
+      <node ref="Module1" pin="57" pinfunction="SD_CLK_57" pintype="passive"/>
+      <node ref="TF1" pin="5" pinfunction="CLK_5" pintype="input"/>
+    </net>
+    <net code="94" name="/SD_CMD" class="Default">
+      <node ref="Module1" pin="62" pinfunction="SD_CMD_62" pintype="passive"/>
+      <node ref="TF1" pin="3" pinfunction="CMD_3" pintype="input"/>
+    </net>
+    <net code="95" name="/SD_DAT0" class="Default">
+      <node ref="Module1" pin="63" pinfunction="SD_DAT0_63" pintype="passive"/>
+      <node ref="TF1" pin="7" pinfunction="DAT0_7" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="/SD_DAT1" class="Default">
+      <node ref="Module1" pin="67" pinfunction="SD_DAT1_67" pintype="passive"/>
+      <node ref="TF1" pin="8" pinfunction="DAT1_8" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="/SD_DAT2" class="Default">
+      <node ref="Module1" pin="69" pinfunction="SD_DAT2_69" pintype="passive"/>
+      <node ref="TF1" pin="1" pinfunction="DAT2_1" pintype="bidirectional"/>
+    </net>
+    <net code="98" name="/SD_DAT3" class="Default">
+      <node ref="Module1" pin="61" pinfunction="SD_DAT3_61" pintype="passive"/>
+      <node ref="TF1" pin="2" pinfunction="DAT3/CD_2" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="/SD_PWREN" class="Default">
+      <node ref="Module1" pin="75" pinfunction="SD_PWR_ON_75" pintype="output"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="EN_4" pintype="input"/>
+    </net>
+    <net code="100" name="/SD_VDD_Override" class="Default">
+      <node ref="Module1" pin="73" pinfunction="SD_VDD_Override_73" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="101" name="/U1_BP" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="BP_4" pintype="passive"/>
+    </net>
+    <net code="102" name="/U2_BP" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="BP_4" pintype="passive"/>
+    </net>
+    <net code="103" name="/U3_BP" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="BP_4" pintype="passive"/>
+    </net>
+    <net code="104" name="/USB0_B_N" class="Default">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="D-_2" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="/USB0_B_P" class="Default">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="D+_1" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="/USB0_ID" class="Default">
+      <node ref="Module1" pin="101" pinfunction="USB_OTG_ID_101" pintype="input"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="107" name="/USB0_N" class="Default">
+      <node ref="Module1" pin="103" pinfunction="USB2_N_103" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="108" name="/USB0_P" class="Default">
+      <node ref="Module1" pin="105" pinfunction="USB2_P_105" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="109" name="/USBB_N" class="Default">
+      <node ref="Type_C1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="Type_C1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="HSD1-_4" pintype="bidirectional"/>
+    </net>
+    <net code="110" name="/USBB_P" class="Default">
+      <node ref="Type_C1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="Type_C1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+      <node ref="U6" pin="5" pinfunction="HSD1+_5" pintype="bidirectional"/>
+    </net>
+    <net code="111" name="/USBD0_N" class="Default">
+      <node ref="J2" pin="2" pinfunction="D-_2" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="HSD2-_6" pintype="bidirectional"/>
+    </net>
+    <net code="112" name="/USBD0_P" class="Default">
+      <node ref="J2" pin="3" pinfunction="D+_3" pintype="bidirectional"/>
+      <node ref="U6" pin="7" pinfunction="HSD2+_7" pintype="bidirectional"/>
+    </net>
+    <net code="113" name="/USB_5V" class="Default">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VBUS_1" pintype="power_out"/>
+      <node ref="U8" pin="1" pinfunction="OUT_1" pintype="power_out"/>
+    </net>
+    <net code="114" name="/USB_FAULT" class="Default">
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="FAULT_3" pintype="open_collector"/>
+    </net>
+    <net code="115" name="/USB_SEL" class="Default">
+      <node ref="H4" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U6" pin="10" pinfunction="SEL_10" pintype="input"/>
+    </net>
+    <net code="116" name="/WIFI_EN" class="Default">
+      <node ref="Module1" pin="89" pinfunction="WiFi_nDisable_89" pintype="input"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="117" name="/X1_OUT" class="Default">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="OUT_3" pintype="output"/>
+    </net>
+    <net code="118" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="DSI1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="DSI1" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="DSI1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="DSI1" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="DSI1" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="DSI1" pin="SH" pinfunction="SH_SH" pintype="passive"/>
+      <node ref="H3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="H4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="HDMI1" pin="1" pinfunction="GND1_1" pintype="power_in"/>
+      <node ref="HDMI1" pin="10" pinfunction="GND4_10" pintype="power_in"/>
+      <node ref="HDMI1" pin="13" pinfunction="GND5_13" pintype="power_in"/>
+      <node ref="HDMI1" pin="4" pinfunction="GND2_4" pintype="power_in"/>
+      <node ref="HDMI1" pin="7" pinfunction="GND3_7" pintype="power_in"/>
+      <node ref="HDMI1" pin="SH" pinfunction="SH_SH" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="DGND2_12" pintype="power_in"/>
+      <node ref="J1" pin="15" pinfunction="DGND1_15" pintype="power_in"/>
+      <node ref="J1" pin="16" pinfunction="DGND5_16" pintype="power_in"/>
+      <node ref="J1" pin="19" pinfunction="DGND6_19" pintype="power_in"/>
+      <node ref="J1" pin="22" pinfunction="DGND7_22" pintype="power_in"/>
+      <node ref="J1" pin="25" pinfunction="DGND8_25" pintype="power_in"/>
+      <node ref="J1" pin="28" pinfunction="DGND9_28" pintype="power_in"/>
+      <node ref="J1" pin="6" pinfunction="DGND4_6" pintype="power_in"/>
+      <node ref="J1" pin="8" pinfunction="DGND3_8" pintype="power_in"/>
+      <node ref="J1" pin="9" pinfunction="AGND_9" pintype="power_in"/>
+      <node ref="J1" pin="SH" pinfunction="SH_SH" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="J2" pin="SH" pinfunction="SH_SH" pintype="passive"/>
+      <node ref="Key1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Module1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="Module1" pin="107" pinfunction="GND_107" pintype="power_in"/>
+      <node ref="Module1" pin="108" pinfunction="GND_108" pintype="power_in"/>
+      <node ref="Module1" pin="113" pinfunction="GND_113" pintype="power_in"/>
+      <node ref="Module1" pin="114" pinfunction="GND_114" pintype="power_in"/>
+      <node ref="Module1" pin="119" pinfunction="GND_119" pintype="power_in"/>
+      <node ref="Module1" pin="120" pinfunction="GND_120" pintype="power_in"/>
+      <node ref="Module1" pin="125" pinfunction="GND_125" pintype="power_in"/>
+      <node ref="Module1" pin="126" pinfunction="GND_126" pintype="power_in"/>
+      <node ref="Module1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="Module1" pin="131" pinfunction="GND_131" pintype="power_in"/>
+      <node ref="Module1" pin="132" pinfunction="GND_132" pintype="power_in"/>
+      <node ref="Module1" pin="137" pinfunction="GND_137" pintype="power_in"/>
+      <node ref="Module1" pin="138" pinfunction="GND_138" pintype="power_in"/>
+      <node ref="Module1" pin="14" pinfunction="GND_14" pintype="power_in"/>
+      <node ref="Module1" pin="144" pinfunction="GND_144" pintype="power_in"/>
+      <node ref="Module1" pin="150" pinfunction="GND_150" pintype="power_in"/>
+      <node ref="Module1" pin="155" pinfunction="GND_155" pintype="power_in"/>
+      <node ref="Module1" pin="156" pinfunction="GND_156" pintype="power_in"/>
+      <node ref="Module1" pin="161" pinfunction="GND_161" pintype="power_in"/>
+      <node ref="Module1" pin="162" pinfunction="GND_162" pintype="power_in"/>
+      <node ref="Module1" pin="167" pinfunction="GND_167" pintype="power_in"/>
+      <node ref="Module1" pin="168" pinfunction="GND_168" pintype="power_in"/>
+      <node ref="Module1" pin="173" pinfunction="GND_173" pintype="power_in"/>
+      <node ref="Module1" pin="174" pinfunction="GND_174" pintype="power_in"/>
+      <node ref="Module1" pin="179" pinfunction="GND_179" pintype="power_in"/>
+      <node ref="Module1" pin="180" pinfunction="GND_180" pintype="power_in"/>
+      <node ref="Module1" pin="185" pinfunction="GND_185" pintype="power_in"/>
+      <node ref="Module1" pin="186" pinfunction="GND_186" pintype="power_in"/>
+      <node ref="Module1" pin="191" pinfunction="GND_191" pintype="power_in"/>
+      <node ref="Module1" pin="192" pinfunction="GND_192" pintype="power_in"/>
+      <node ref="Module1" pin="197" pinfunction="GND_197" pintype="power_in"/>
+      <node ref="Module1" pin="198" pinfunction="GND_198" pintype="power_in"/>
+      <node ref="Module1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="Module1" pin="22" pinfunction="GND_22" pintype="power_in"/>
+      <node ref="Module1" pin="23" pinfunction="GND_23" pintype="power_in"/>
+      <node ref="Module1" pin="32" pinfunction="GND_32" pintype="power_in"/>
+      <node ref="Module1" pin="33" pinfunction="GND_33" pintype="power_in"/>
+      <node ref="Module1" pin="42" pinfunction="GND_42" pintype="power_in"/>
+      <node ref="Module1" pin="43" pinfunction="GND_43" pintype="power_in"/>
+      <node ref="Module1" pin="52" pinfunction="GND_52" pintype="power_in"/>
+      <node ref="Module1" pin="53" pinfunction="GND_53" pintype="power_in"/>
+      <node ref="Module1" pin="59" pinfunction="GND_59" pintype="power_in"/>
+      <node ref="Module1" pin="60" pinfunction="GND_60" pintype="power_in"/>
+      <node ref="Module1" pin="65" pinfunction="GND_65" pintype="power_in"/>
+      <node ref="Module1" pin="66" pinfunction="GND_66" pintype="power_in"/>
+      <node ref="Module1" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="Module1" pin="71" pinfunction="GND_71" pintype="power_in"/>
+      <node ref="Module1" pin="74" pinfunction="GND_74" pintype="power_in"/>
+      <node ref="Module1" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="Module1" pin="98" pinfunction="GND_98" pintype="power_in"/>
+      <node ref="PI1" pin="14" pinfunction="Pin_14_14" pintype="bidirectional"/>
+      <node ref="PI1" pin="20" pinfunction="Pin_20_20" pintype="bidirectional"/>
+      <node ref="PI1" pin="25" pinfunction="Pin_25_25" pintype="bidirectional"/>
+      <node ref="PI1" pin="30" pinfunction="Pin_30_30" pintype="bidirectional"/>
+      <node ref="PI1" pin="34" pinfunction="Pin_34_34" pintype="bidirectional"/>
+      <node ref="PI1" pin="39" pinfunction="Pin_39_39" pintype="bidirectional"/>
+      <node ref="PI1" pin="6" pinfunction="Pin_6_6" pintype="bidirectional"/>
+      <node ref="PI1" pin="9" pinfunction="Pin_9_9" pintype="bidirectional"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="TF1" pin="11" pinfunction="SHIELD_11" pintype="passive"/>
+      <node ref="TF1" pin="6" pinfunction="VSS_6" pintype="power_in"/>
+      <node ref="TF1" pin="9" pinfunction="DET_B_9" pintype="passive"/>
+      <node ref="Type_C1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="Type_C1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="Type_C1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="Type_C1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="Type_C1" pin="S1" pinfunction="SHIELD_S1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="/OE_8" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

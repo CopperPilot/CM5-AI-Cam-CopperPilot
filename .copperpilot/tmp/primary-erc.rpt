@@ -1,0 +1,290 @@
+ERC report (2026-09-19T10:32:41, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(-59.69 mm, 311.15 mm): Symbol Module1 [ComputeModule5-CM5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(80.01 mm, 139.70 mm): Symbol Module1 [ComputeModule5-CM5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(120.65 mm, 80.01 mm): Symbol C4 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(120.65 mm, 100.33 mm): Symbol R1 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(160.02 mm, 71.12 mm): Symbol C11 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(170.18 mm, 64.77 mm): Symbol R2 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(180.34 mm, 64.77 mm): Symbol R3 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(185.42 mm, 172.72 mm): Symbol R24 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(185.42 mm, 187.96 mm): Symbol R22 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(185.42 mm, 203.20 mm): Symbol R28 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(190.50 mm, 69.85 mm): Symbol Type_C1 [USB_C_Receptacle_USB2.0_16P]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(209.55 mm, 309.88 mm): Symbol HDMI1 [HDMI_Mini_C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(219.71 mm, 162.56 mm): Symbol C28 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(219.71 mm, 180.34 mm): Symbol U6 [FSUSB42MX]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(219.71 mm, 231.14 mm): Symbol H4 [Conn_01x03]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(234.95 mm, 57.15 mm): Symbol C22 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(234.95 mm, 71.12 mm): Symbol C23 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(234.95 mm, 86.36 mm): Symbol R19 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(250.19 mm, 69.85 mm): Symbol U5 [MP1658GTF-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(265.43 mm, 54.61 mm): Symbol C24 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(270.51 mm, 180.34 mm): Symbol J2 [USB_A_Vertical]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(275.59 mm, 69.85 mm): Symbol L7 [L]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(275.59 mm, 86.36 mm): Symbol R20 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(275.59 mm, 101.60 mm): Symbol R21 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(276.86 mm, 54.61 mm): Symbol R16 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(279.40 mm, 309.88 mm): Symbol DSI1 [DSI_15P]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(279.40 mm, 335.28 mm): Symbol C19 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(288.29 mm, 54.61 mm): Symbol C21 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(294.64 mm, 289.56 mm): Symbol R35 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(295.91 mm, 69.85 mm): Symbol C25 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(304.80 mm, 289.56 mm): Symbol R36 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(306.07 mm, 69.85 mm): Symbol C26 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(314.96 mm, 231.14 mm): Symbol FB1 [L]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(316.23 mm, 69.85 mm): Symbol C27 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(320.04 mm, 246.38 mm): Symbol C1 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(325.12 mm, 260.35 mm): Symbol C3 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(335.28 mm, 234.95 mm): Symbol U1 [RT9193]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(339.09 mm, 85.09 mm): Symbol C17 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(347.98 mm, 246.38 mm): Symbol C2 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(349.25 mm, 309.88 mm): Symbol TF1 [Micro_SD_Card_Det]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(350.52 mm, 69.85 mm): Symbol U4 [DIO7003HCST5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(350.52 mm, 99.06 mm): Symbol R14 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(350.52 mm, 154.94 mm): Symbol L1 [MCF1210BF2-900T01]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(350.52 mm, 170.18 mm): Symbol L2 [MCF1210BF2-900T01]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(350.52 mm, 185.42 mm): Symbol L3 [MCF1210BF2-900T01]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(360.68 mm, 205.74 mm): Symbol R17 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(361.95 mm, 85.09 mm): Symbol C18 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(369.57 mm, 246.38 mm): Symbol C5 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(374.65 mm, 260.35 mm): Symbol C10 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(375.92 mm, 205.74 mm): Symbol R15 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(384.81 mm, 234.95 mm): Symbol U2 [RT9193]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(388.62 mm, 85.09 mm): Symbol C31 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(397.51 mm, 246.38 mm): Symbol C9 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(400.05 mm, 69.85 mm): Symbol U7 [DIO7003HCST5]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(400.05 mm, 99.06 mm): Symbol R30 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(410.21 mm, 170.18 mm): Symbol J1 [IMX219_30P]
+[lib_symbol_mismatch]: Symbol 'IMX219_30P' doesn't match copy in library 'CM5'
+    ; warning
+    @(410.21 mm, 170.18 mm): Symbol J1 [IMX219_30P]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(411.48 mm, 85.09 mm): Symbol C32 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(420.37 mm, 246.38 mm): Symbol C12 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(425.45 mm, 260.35 mm): Symbol C14 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(430.53 mm, 309.88 mm): Symbol PI1 [Raspberry_Pi_40Pin_GPIO]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(435.61 mm, 234.95 mm): Symbol U3 [RT9013-12]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(439.42 mm, 85.09 mm): Symbol C30 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(440.69 mm, 154.94 mm): Symbol C6 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(448.31 mm, 246.38 mm): Symbol C15 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(450.85 mm, 69.85 mm): Symbol U8 [STMPS2171STR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(450.85 mm, 99.06 mm): Symbol R34 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(450.85 mm, 154.94 mm): Symbol C7 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(461.01 mm, 154.94 mm): Symbol C8 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(462.28 mm, 85.09 mm): Symbol C29 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(464.82 mm, 245.11 mm): Symbol C16 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(469.90 mm, 185.42 mm): Symbol R4 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(469.90 mm, 210.82 mm): Symbol R5 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(469.90 mm, 279.40 mm): Symbol R29 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(480.06 mm, 170.18 mm): Symbol Q1 [DMG1012T]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(480.06 mm, 234.95 mm): Symbol X1 [OSC_24MHz]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(482.60 mm, 279.40 mm): Symbol R31 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(495.30 mm, 234.95 mm): Symbol R10 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(495.30 mm, 279.40 mm): Symbol R32 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(500.38 mm, 185.42 mm): Symbol R7 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(500.38 mm, 210.82 mm): Symbol R8 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(508.00 mm, 234.95 mm): Symbol C20 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(508.00 mm, 279.40 mm): Symbol R33 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(510.54 mm, 170.18 mm): Symbol Q2 [DMG1012T]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(533.40 mm, 180.34 mm): Symbol H5 [Conn_01x03]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(533.40 mm, 220.98 mm): Symbol H3 [Conn_01x03]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(533.40 mm, 260.35 mm): Symbol Key1 [SW_Push_SPST]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(533.40 mm, 299.72 mm): Symbol L5 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(533.40 mm, 330.20 mm): Symbol L6 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(546.10 mm, 260.35 mm): Symbol R11 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(546.10 mm, 299.72 mm): Symbol R12 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'CM5'
+    ; warning
+    @(546.10 mm, 330.20 mm): Symbol R13 [R]
+
+ ** ERC messages: 92  Errors 0  Warnings 92
+
+ ** Ignored checks:
+    - Label not connected
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - Conflict problem between pins
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
