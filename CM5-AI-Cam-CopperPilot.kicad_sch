@@ -10012,6 +10012,10 @@
 			(at 80.0100 139.7000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C597931"
+			(at 80.0100 135.8900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "Raspberry Pi CM5 Mezzanine Unit 1 (GPIO, Power, SD)"
 			(at 80.0100 139.7000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10136,6 +10140,10 @@
 		)
 		(property "Footprint" "CM5:Raspberry-Pi-5-Compute-Module"
 			(at -59.6900 311.1500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C597931"
+			(at 0 0 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Raspberry Pi CM5 Mezzanine Unit 2 (High Speed, HDMI, CSI, DSI)"
@@ -10264,6 +10272,10 @@
 			(at 120.6500 80.0100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C15850"
+			(at 120.6500 76.2000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 120.6500 80.0100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10292,6 +10304,10 @@
 			(at 120.6500 100.3300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C17168"
+			(at 120.6500 96.5200 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 120.6500 100.3300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10318,6 +10334,10 @@
 		)
 		(property "Footprint" "CM5:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 190.5000 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C3020560"
+			(at 190.5000 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "USB Type-C Receptacle (Power & Programming)"
@@ -10363,6 +10383,10 @@
 			(at 170.1800 64.7700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25905"
+			(at 170.1800 60.9600 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 170.1800 64.7700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10389,6 +10413,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 180.3400 64.7700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25905"
+			(at 180.3400 60.9600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10419,6 +10447,10 @@
 			(at 160.0200 71.1200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C15850"
+			(at 160.0200 67.3100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 160.0200 71.1200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10445,6 +10477,10 @@
 		)
 		(property "Footprint" "CM5:SOT-563"
 			(at 250.1900 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C9900009837"
+			(at 250.1900 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "3.3V/3A Synchronous Buck Regulator"
@@ -10479,6 +10515,10 @@
 			(at 234.9500 57.1500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C15850"
+			(at 234.9500 53.3400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 234.9500 57.1500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10505,6 +10545,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 234.9500 71.1200 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 234.9500 67.3100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10535,6 +10579,10 @@
 			(at 234.9500 86.3600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25741"
+			(at 234.9500 82.5500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 234.9500 86.3600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10561,6 +10609,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 265.4300 54.6100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 265.4300 50.8000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10591,6 +10643,10 @@
 			(at 276.8600 54.6100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25077"
+			(at 276.8600 50.8000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 276.8600 54.6100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10617,6 +10673,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 288.2900 54.6100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C52923"
+			(at 288.2900 50.8000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10647,6 +10707,10 @@
 			(at 275.5900 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C840574"
+			(at 275.5900 66.0400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 275.5900 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10673,6 +10737,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 275.5900 86.3600 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25916"
+			(at 275.5900 82.5500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10703,6 +10771,10 @@
 			(at 275.5900 101.6000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25765"
+			(at 275.5900 97.7900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 275.5900 101.6000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10729,6 +10801,10 @@
 		)
 		(property "Footprint" "CM5:C_0805_2012Metric"
 			(at 295.9100 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C45783"
+			(at 295.9100 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10759,6 +10835,10 @@
 			(at 306.0700 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C45783"
+			(at 306.0700 66.0400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 306.0700 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10787,6 +10867,10 @@
 			(at 316.2300 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 316.2300 66.0400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 316.2300 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10813,6 +10897,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 350.5200 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C157437"
+			(at 350.5200 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "HDMI 5V Load Switch"
@@ -10846,6 +10934,10 @@
 			(at 339.0900 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 339.0900 81.2800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 339.0900 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10872,6 +10964,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 361.9500 85.0900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 361.9500 81.2800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -10902,6 +10998,10 @@
 			(at 350.5200 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25744"
+			(at 350.5200 95.2500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 350.5200 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10928,6 +11028,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 400.0500 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C157437"
+			(at 400.0500 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Micro SD 3.3V Load Switch"
@@ -10961,6 +11065,10 @@
 			(at 388.6200 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 388.6200 81.2800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 388.6200 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -10987,6 +11095,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 411.4800 85.0900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C1525"
+			(at 411.4800 81.2800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11017,6 +11129,10 @@
 			(at 400.0500 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25744"
+			(at 400.0500 95.2500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 400.0500 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11043,6 +11159,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 450.8500 69.8500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C157437"
+			(at 450.8500 66.0400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "USB Host 5V Power Switch"
@@ -11076,6 +11196,10 @@
 			(at 439.4200 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C52923"
+			(at 439.4200 81.2800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 439.4200 85.0900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11102,6 +11226,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 462.2800 85.0900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C52923"
+			(at 462.2800 81.2800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11132,6 +11260,10 @@
 			(at 450.8500 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25744"
+			(at 450.8500 95.2500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 450.8500 99.0600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11158,6 +11290,10 @@
 		)
 		(property "Footprint" "CM5:UQFN-10_1.4x1.8mm_P0.4mm"
 			(at 219.7100 180.3400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C11145"
+			(at 219.7100 176.5300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "High-Speed USB 2.0 2:1 Multiplexer"
@@ -11196,6 +11332,10 @@
 			(at 185.4200 172.7200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C17168"
+			(at 185.4200 168.9100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 185.4200 172.7200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11222,6 +11362,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 185.4200 187.9600 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C17168"
+			(at 185.4200 184.1500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11252,6 +11396,10 @@
 			(at 185.4200 203.2000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25792"
+			(at 185.4200 199.3900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 185.4200 203.2000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11280,6 +11428,10 @@
 			(at 219.7100 162.5600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 219.7100 158.7500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 219.7100 162.5600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11306,6 +11458,10 @@
 		)
 		(property "Footprint" "CM5:MOLEX_USB_67298-4090"
 			(at 270.5100 180.3400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C720523"
+			(at 270.5100 176.5300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Vertical USB 2.0 Type-A Host Port"
@@ -11339,6 +11495,10 @@
 			(at 219.7100 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C49257"
+			(at 219.7100 227.3300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "USB / Boot Mode Selector Header"
 			(at 219.7100 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11366,6 +11526,10 @@
 		)
 		(property "Footprint" "CM5:Camera_Module_IMX219-D160"
 			(at 410.2100 170.1800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C6539772"
+			(at 410.2100 166.3700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Onboard 8MP IMX219 Sensor Socket"
@@ -11425,6 +11589,10 @@
 			(at 440.6900 154.9400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C52923"
+			(at 440.6900 151.1300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 440.6900 154.9400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11451,6 +11619,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 450.8500 154.9400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C52923"
+			(at 450.8500 151.1300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11481,6 +11653,10 @@
 			(at 461.0100 154.9400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C52923"
+			(at 461.0100 151.1300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 461.0100 154.9400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11507,6 +11683,10 @@
 		)
 		(property "Footprint" "CM5:L_CommonModeChoke_Coilank_ACM1210"
 			(at 350.5200 154.9400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C49073870"
+			(at 350.5200 151.1300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11539,6 +11719,10 @@
 			(at 350.5200 170.1800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C49073870"
+			(at 350.5200 166.3700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 350.5200 170.1800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11567,6 +11751,10 @@
 		)
 		(property "Footprint" "CM5:L_CommonModeChoke_Coilank_ACM1210"
 			(at 350.5200 185.4200 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C49073870"
+			(at 350.5200 181.6100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11599,6 +11787,10 @@
 			(at 360.6800 205.7400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C17168"
+			(at 360.6800 201.9300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 360.6800 205.7400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11625,6 +11817,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 375.9200 205.7400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25741"
+			(at 375.9200 201.9300 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11655,6 +11851,10 @@
 			(at 314.9600 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C50843"
+			(at 314.9600 227.3300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 314.9600 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11683,6 +11883,10 @@
 			(at 320.0400 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C23733"
+			(at 320.0400 242.5700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 320.0400 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11709,6 +11913,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 335.2800 234.9500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C114059"
+			(at 335.2800 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "2.8V Analog LDO for Camera"
@@ -11742,6 +11950,10 @@
 			(at 325.1200 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 325.1200 256.5400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 325.1200 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11768,6 +11980,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 347.9800 246.3800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C52923"
+			(at 347.9800 242.5700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11798,6 +12014,10 @@
 			(at 369.5700 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C23733"
+			(at 369.5700 242.5700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 369.5700 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11824,6 +12044,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 384.8100 234.9500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C27416"
+			(at 384.8100 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "1.8V IO LDO for Camera & Oscillator"
@@ -11857,6 +12081,10 @@
 			(at 374.6500 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 374.6500 256.5400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 374.6500 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11883,6 +12111,10 @@
 		)
 		(property "Footprint" "CM5:C_0402_1005Metric"
 			(at 397.5100 246.3800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C52923"
+			(at 397.5100 242.5700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -11913,6 +12145,10 @@
 			(at 420.3700 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C23733"
+			(at 420.3700 242.5700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 420.3700 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -11939,6 +12175,10 @@
 		)
 		(property "Footprint" "CM5:SOT-23-5"
 			(at 435.6100 234.9500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C7434207"
+			(at 435.6100 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "1.2V Core LDO for Camera"
@@ -11972,6 +12212,10 @@
 			(at 425.4500 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 425.4500 256.5400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 425.4500 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12000,6 +12244,10 @@
 			(at 448.3100 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C52923"
+			(at 448.3100 242.5700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 448.3100 246.3800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12026,6 +12274,10 @@
 		)
 		(property "Footprint" "CM5:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 480.0600 234.9500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C717686"
+			(at 480.0600 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "24MHz Active Crystal Oscillator"
@@ -12058,6 +12310,10 @@
 			(at 464.8200 245.1100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C52923"
+			(at 464.8200 241.3000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 464.8200 245.1100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12084,6 +12340,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 495.3000 234.9500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25092"
+			(at 495.3000 231.1400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12114,6 +12374,10 @@
 			(at 508.0000 234.9500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C32949"
+			(at 508.0000 231.1400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 508.0000 234.9500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12140,6 +12404,10 @@
 		)
 		(property "Footprint" "CM5:SOT-523"
 			(at 480.0600 170.1800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C20512"
+			(at 480.0600 166.3700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "N-Channel MOSFET I2C Level Shifter (SCL)"
@@ -12171,6 +12439,10 @@
 			(at 469.9000 185.4200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25900"
+			(at 469.9000 181.6100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 469.9000 185.4200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12199,6 +12471,10 @@
 			(at 469.9000 210.8200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25879"
+			(at 469.9000 207.0100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 469.9000 210.8200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12225,6 +12501,10 @@
 		)
 		(property "Footprint" "CM5:SOT-523"
 			(at 510.5400 170.1800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C20512"
+			(at 510.5400 166.3700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "N-Channel MOSFET I2C Level Shifter (SDA)"
@@ -12256,6 +12536,10 @@
 			(at 500.3800 185.4200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25900"
+			(at 500.3800 181.6100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 500.3800 185.4200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12284,6 +12568,10 @@
 			(at 500.3800 210.8200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25879"
+			(at 500.3800 207.0100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 500.3800 210.8200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12310,6 +12598,10 @@
 		)
 		(property "Footprint" "CM5:HDMI_Mini-C_Molex_47151-0001"
 			(at 209.5500 309.8800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C2013978"
+			(at 209.5500 306.0700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Mini-HDMI Type-C Receptacle"
@@ -12358,6 +12650,10 @@
 			(at 279.4000 309.8800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C2914074"
+			(at 279.4000 306.0700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "15-Pin 1.0mm FPC DSI Display Connector"
 			(at 279.4000 309.8800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12400,6 +12696,10 @@
 			(at 294.6400 289.5600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C25900"
+			(at 294.6400 285.7500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 294.6400 289.5600 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12426,6 +12726,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 304.8000 289.5600 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25900"
+			(at 304.8000 285.7500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12456,6 +12760,10 @@
 			(at 279.4000 335.2800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C1525"
+			(at 279.4000 331.4700 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 279.4000 335.2800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12482,6 +12790,10 @@
 		)
 		(property "Footprint" "CM5:SDCARD_MOLEX_503398-1892"
 			(at 349.2500 309.8800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C91145"
+			(at 349.2500 306.0700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Micro SD Card Socket"
@@ -12519,6 +12831,10 @@
 		)
 		(property "Footprint" "CM5:PinHeader_2x20_P2.54mm_Vertical"
 			(at 430.5300 309.8800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C50980"
+			(at 430.5300 306.0700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Standard 40-Pin Raspberry Pi Expansion Header"
@@ -12587,6 +12903,10 @@
 			(at 533.4000 180.3400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C49257"
+			(at 533.4000 176.5300 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "GPIO IO Voltage Reference Selector"
 			(at 533.4000 180.3400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12614,6 +12934,10 @@
 		)
 		(property "Footprint" "CM5:PinHeader_1x03_P2.54mm_Vertical"
 			(at 533.4000 220.9800 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C49257"
+			(at 533.4000 217.1700 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" "Run / Global Enable Header"
@@ -12645,6 +12969,10 @@
 			(at 533.4000 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C318884"
+			(at 533.4000 256.5400 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "User Tactile Pushbutton (GPIO21)"
 			(at 533.4000 260.3500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12671,6 +12999,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 546.1000 260.3500 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C25744"
+			(at 546.1000 256.5400 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12701,6 +13033,10 @@
 			(at 533.4000 299.7200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C2286"
+			(at 533.4000 295.9100 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "Power Indicator LED (Red)"
 			(at 533.4000 299.7200 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12727,6 +13063,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 546.1000 299.7200 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C11702"
+			(at 546.1000 295.9100 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12757,6 +13097,10 @@
 			(at 533.4000 330.2000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C72043"
+			(at 533.4000 326.3900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" "Activity Indicator LED (Green)"
 			(at 533.4000 330.2000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12783,6 +13127,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 546.1000 330.2000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C11702"
+			(at 546.1000 326.3900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12813,6 +13161,10 @@
 			(at 469.9000 279.4000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C17168"
+			(at 469.9000 275.5900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 469.9000 279.4000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12839,6 +13191,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 482.6000 279.4000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C17168"
+			(at 482.6000 275.5900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
@@ -12869,6 +13225,10 @@
 			(at 495.3000 279.4000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
+		(property "LCSC" "C17168"
+			(at 495.3000 275.5900 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
 		(property "Description" ""
 			(at 495.3000 279.4000 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
@@ -12895,6 +13255,10 @@
 		)
 		(property "Footprint" "CM5:R_0402_1005Metric"
 			(at 508.0000 279.4000 0)
+			(effects (font (size 1.27 1.27)) (hide yes))
+		)
+		(property "LCSC" "C17168"
+			(at 508.0000 275.5900 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
 		(property "Description" ""
