@@ -6115,7 +6115,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -48.26 0)
 				(length 2.54)
 				(name "+3.3v_(Output)"
@@ -6187,7 +6187,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -53.34 0)
 				(length 2.54)
 				(name "+1.8v_(Output)"
@@ -10384,7 +10384,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -48.26 0)
 				(length 2.54)
 				(name "+3.3v_(Output)"
@@ -10456,7 +10456,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at -33.02 -53.34 0)
 				(length 2.54)
 				(name "+1.8v_(Output)"
@@ -16054,7 +16054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "CM5:Camera_Module_IMX219-D160"
 			(at 0 -43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17399,14 +17399,14 @@
 			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "2"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17435,14 +17435,14 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "4"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -26122,7 +26122,7 @@
 			)
 		)
 		(symbol "Raspberry_Pi_40Pin_GPIO_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 50.8 0)
 				(length 2.54)
 				(name "Pin_1"
@@ -26140,7 +26140,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 50.8 180)
 				(length 2.54)
 				(name "Pin_2"
@@ -26158,7 +26158,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 48.26 0)
 				(length 2.54)
 				(name "Pin_3"
@@ -26176,7 +26176,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 48.26 180)
 				(length 2.54)
 				(name "Pin_4"
@@ -28104,7 +28104,7 @@
 			)
 		)
 		(symbol "USB_A_Vertical_1_1"
-			(pin power_out line
+			(pin passive line
 				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "VBUS"
