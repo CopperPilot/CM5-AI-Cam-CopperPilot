@@ -6738,14 +6738,14 @@
 					(pin passive line
 						(at 7.62 2.54 180)
 						(length 2.54)
-						(name "4"
+						(name "2"
 							(effects
 								(font
 									(size 1.27 1.27)
 								)
 							)
 						)
-						(number "4"
+						(number "2"
 							(effects
 								(font
 									(size 1.27 1.27)
@@ -6774,14 +6774,14 @@
 					(pin passive line
 						(at -7.62 -2.54 0)
 						(length 2.54)
-						(name "2"
+						(name "4"
 							(effects
 								(font
 									(size 1.27 1.27)
 								)
 							)
 						)
-						(number "2"
+						(number "4"
 							(effects
 								(font
 									(size 1.27 1.27)
@@ -10475,7 +10475,7 @@
 			(at 250.1900 73.6600 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "CM5:SOT-563"
+		(property "Footprint" "CM5:TSOT-23-6"
 			(at 250.1900 69.8500 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -12402,7 +12402,7 @@
 			(at 480.0600 173.9900 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "CM5:SOT-523"
+		(property "Footprint" "CM5:Texas_DRT-3"
 			(at 480.0600 170.1800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
@@ -12499,7 +12499,7 @@
 			(at 510.5400 173.9900 0)
 			(effects (font (size 1.27 1.27)))
 		)
-		(property "Footprint" "CM5:SOT-523"
+		(property "Footprint" "CM5:Texas_DRT-3"
 			(at 510.5400 170.1800 0)
 			(effects (font (size 1.27 1.27)) (hide yes))
 		)
