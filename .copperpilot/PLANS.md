@@ -2,4 +2,4 @@
 
 | Plan | Status | Description |
 |---|---|---|
-| [CM5 AI Camera Carrier Board - JLCPCB PCBA Manufacturing Preparation Plan](plans/cm5-ai-camera.plan.md) | open | Comprehensive engineering audit, fatal defect rectification, LCSC BOM assignment, JLCPCB 6-layer design rules enforcement, PCB footprint resynchronization, and zero-violation ERC/DRC preparation for JLCPCB manufacturing. |
+| [CM5 AI Camera Carrier Board - JLCPCB PCBA Manufacturing Remediation Plan](plans/cm5-ai-camera.plan.md) | open | Comprehensive engineering audit and remediation plan to eliminate schematic circuit defects, resolve 571 DRC warnings, restore 13 severed routing nets, correct 4 fatal component package mismatches, enforce JLCPCB 6-layer manufacturing rules, standardize 3D models, and achieve zero-defect JLCPCB PCBA manufacturing readiness. |
