@@ -3100,7 +3100,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 25.4 -10.16 180)
 				(length 2.54)
 				(name "DAS/~{DSS}/~{LED1}"
@@ -3856,7 +3856,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -25.4 40.64 0)
 				(length 2.54)
 				(name "~{CLKREQ}"
@@ -3892,7 +3892,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -25.4 38.1 0)
 				(length 2.54)
 				(name "~{PEWAKE}"
@@ -6689,7 +6689,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 31.75 60.96 180)
 				(length 5.08)
 				(name "PCIe_nRST"
@@ -7337,7 +7337,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 31.75 15.24 180)
 				(length 5.08)
 				(name "HDMI1_SDA"
@@ -8309,7 +8309,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 31.75 -53.34 180)
 				(length 5.08)
 				(name "HDMI0_SDA"
@@ -10855,7 +10855,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 170.18 50.8 180)
 				(length 5.08)
 				(name "PCIe_nRST"
@@ -11503,7 +11503,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 170.18 5.08 180)
 				(length 5.08)
 				(name "HDMI1_SDA"
@@ -12475,7 +12475,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 170.18 -63.5 180)
 				(length 5.08)
 				(name "HDMI0_SDA"
@@ -15300,7 +15300,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "SCL"
@@ -15318,7 +15318,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "SDA"
@@ -15484,7 +15484,7 @@
 			)
 		)
 		(symbol "FSUSB42MX_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "D+"
@@ -15494,7 +15494,7 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 2.54 0)
 				(length 2.54)
 				(name "D-"
@@ -15514,7 +15514,7 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "HSD1-"
@@ -15524,7 +15524,7 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "HSD1+"
@@ -15534,7 +15534,7 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "HSD2-"
@@ -15544,7 +15544,7 @@
 					(effects (font (size 1.27 1.27)))
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name "HSD2+"
@@ -15896,7 +15896,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 -10.16 0)
 				(length 2.54)
 				(name "CEC"
@@ -15914,7 +15914,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 -12.7 0)
 				(length 2.54)
 				(name "SCL"
@@ -15932,7 +15932,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 -15.24 0)
 				(length 2.54)
 				(name "SDA"
@@ -16605,7 +16605,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 34.29 180)
 				(length 2.54)
 				(name "SCL"
@@ -16623,7 +16623,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 36.83 180)
 				(length 2.54)
 				(name "SDA"
@@ -17399,14 +17399,14 @@
 			(pin passive line
 				(at 7.62 2.54 180)
 				(length 2.54)
-				(name "4"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17435,14 +17435,14 @@
 			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "2"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -19742,7 +19742,7 @@
 			)
 		)
 		(symbol "Micro_SD_Card_Det_1_1"
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 10.16 0)
 				(length 3.81)
 				(name "DAT2"
@@ -19760,7 +19760,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 7.62 0)
 				(length 3.81)
 				(name "DAT3/CD"
@@ -19850,7 +19850,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -5.08 0)
 				(length 3.81)
 				(name "DAT0"
@@ -19868,7 +19868,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -22.86 -7.62 0)
 				(length 3.81)
 				(name "DAT1"
@@ -26194,7 +26194,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 45.72 0)
 				(length 2.54)
 				(name "Pin_5"
@@ -26212,7 +26212,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 45.72 180)
 				(length 2.54)
 				(name "Pin_6"
@@ -26230,7 +26230,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -12.7 43.18 0)
 				(length 2.54)
 				(name "Pin_7"
@@ -26248,7 +26248,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 43.18 180)
 				(length 2.54)
 				(name "Pin_8"
@@ -26284,7 +26284,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 12.7 40.64 180)
 				(length 2.54)
 				(name "Pin_10"

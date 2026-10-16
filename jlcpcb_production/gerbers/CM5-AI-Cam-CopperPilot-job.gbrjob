@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.3"
+      "Version": "10.0.4-10.0.4~ubuntu22.04.1"
     },
-    "CreationDate": "2026-10-16T15:25:45+05:30"
+    "CreationDate": "2026-10-16T22:24:39+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -42,67 +42,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Cu.gtl",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In1_Cu.g1",
+      "Path": "CM5-AI-Cam-CopperPilot-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In2_Cu.g2",
+      "Path": "CM5-AI-Cam-CopperPilot-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In3_Cu.g3",
+      "Path": "CM5-AI-Cam-CopperPilot-In3_Cu.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In4_Cu.g4",
+      "Path": "CM5-AI-Cam-CopperPilot-In4_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Cu.gbl",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Cu.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Paste.gtp",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Paste.gbp",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Silkscreen.gto",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Silkscreen.gbo",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Mask.gts",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Mask.gbs",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-Edge_Cuts.gm1",
+      "Path": "CM5-AI-Cam-CopperPilot-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

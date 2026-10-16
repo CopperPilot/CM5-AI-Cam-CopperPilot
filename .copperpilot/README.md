@@ -31,6 +31,7 @@ High-density carrier board designed for the Raspberry Pi Compute Module 5 (CM5),
   - Sign-off Reports: `jlcpcb_production/reports/erc_signoff.rpt` & `drc_signoff.rpt`
 
 ## Engineering Notes & Survey Reports
+- Pre-Public Release & JLCPCB DFM Review: `.copperpilot/notes/cm5_ai_cam_survey.md`
 - Silkscreen & 3D Models: `.copperpilot/notes/silkscreen-and-3d-model-audit.md`
 - Routing & Net Continuity: `.copperpilot/notes/routing-defects-survey.md`
 - Clearances & Pick-and-Place: `.copperpilot/notes/component-placement-and-clearance-survey.md`

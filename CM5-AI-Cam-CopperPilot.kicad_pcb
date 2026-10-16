@@ -8,7 +8,7 @@
 	)
 	(paper "A5")
 	(title_block
-		(title "Waveshare CM5-AI-CAM Carrier Board")
+		(title "CM5 AI Camera Carrier Board")
 		(date "2026-09-08")
 		(rev "V1.0")
 		(company "Open Source Hardware")

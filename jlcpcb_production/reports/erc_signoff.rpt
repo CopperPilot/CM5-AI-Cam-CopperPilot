@@ -1,45 +1,9 @@
-ERC report (2026-10-16T15:25:14, Encoding UTF8)
-Report includes: Errors, Warnings
+ERC report (2026-10-16T22:23:52, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(417.83 mm, 269.24 mm): Symbol PI1 Pin 9 [Pin_9, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(417.83 mm, 279.40 mm): Symbol PI1 Pin 17 [Pin_17, Bidirectional, Line]
-    @(175.26 mm, 35.56 mm): Symbol #FLG02 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(417.83 mm, 289.56 mm): Symbol PI1 Pin 25 [Pin_25, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(417.83 mm, 307.34 mm): Symbol PI1 Pin 39 [Pin_39, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(443.23 mm, 264.16 mm): Symbol PI1 Pin 6 [Pin_6, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(443.23 mm, 274.32 mm): Symbol PI1 Pin 14 [Pin_14, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(443.23 mm, 281.94 mm): Symbol PI1 Pin 20 [Pin_20, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(443.23 mm, 294.64 mm): Symbol PI1 Pin 30 [Pin_30, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
-[pin_to_pin]: Pins of type Bidirectional and Power output are connected
-    ; warning
-    @(443.23 mm, 299.72 mm): Symbol PI1 Pin 34 [Pin_34, Bidirectional, Line]
-    @(139.70 mm, 44.45 mm): Symbol #FLG011 Pin 1 [Power output, Line]
 
- ** ERC messages: 9  Errors 0  Warnings 9
+ ** ERC messages: 0  Errors 0  Warnings 0
 
  ** Ignored checks:
     - Global label only appears once in the schematic
