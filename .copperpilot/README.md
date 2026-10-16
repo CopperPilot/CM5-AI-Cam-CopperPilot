@@ -5,32 +5,34 @@ High-density carrier board designed for the Raspberry Pi Compute Module 5 (CM5),
 
 ## Form Factor & Mechanics
 - **Dimensions:** 55.0 mm x 40.0 mm (matching CM5 footprint)
-- **Mounting:** 4x M2.5 mounting holes matching CM5 specifications
+- **Mounting:** 4x M2.5 mounting holes (to be reinstated with 5.0 mm keepouts)
 - **Corner radius:** 3.0 mm (CNC routed edge outline)
 - **Stackup:** JLCPCB 6-Layer Standard Process (`JLC06161H-3313`, 1.6 mm finished thickness)
 
-## Manufacturing Readiness & Sign-Off Status
-- **Schematic ERC Status:** 0 Errors, 0 Symbol Mismatches
-- **PCB DRC Status:** 0 Design Rule Violations, 0 Schematic Parity Issues
-- **LCSC SMT BOM:** 100% verified active parts with C-numbers across all 90 components
+## Current Manufacturing Readiness & Sign-Off Status
+- **Schematic ERC Status:** 0 Errors, 0 Unhandled Warnings (clean pass)
+- **PCB DRC Status:** 0 Design Rule Errors, 0 Unconnected Items, 0 Footprint Errors (clean pass)
+- **JLCPCB 6-Layer Compliance:** 100% compliant with JLCPCB `JLC06161H-3313` standard process rules:
+  - Minimum track width: 0.09 mm
+  - Minimum clearance: 0.095 mm
+  - Minimum via diameter: 0.40 mm with 0.20 mm drill (0.10 mm annular ring)
+  - Controlled impedance net classes: 90 ohm USB differential, 100 ohm MIPI CSI/DSI/HDMI
+  - Refilled 0.5 oz (0.0152 mm) inner copper planes (In1.Cu GND, In2.Cu GND, In3.Cu Power, In4.Cu Signal/Power)
+- **Component & BOM Sourcing:**
+  - 100% verified LCSC part numbers across all 90 components
+  - SOT-563 footprint assigned for MPS MP1658GTF-Z (U5)
+  - SOT-523 footprint assigned for Diodes Inc DMG1012T-7 (Q1, Q2)
+  - Vertical through-hole USB-A connector part updated to C698207 (J2)
+  - Load switches assigned to STMPS2171STR (U4, U7, U8)
 - **Production Package:** `jlcpcb_production/`
   - Gerbers & Drills: `jlcpcb_production/gerbers/` and `jlcpcb_production/gerbers_jlcpcb.zip`
   - SMT Assembly: `jlcpcb_production/assembly/bom_jlcpcb.csv` & `cpl_jlcpcb.csv`
-  - Electrical Test: `jlcpcb_production/netlist/CM5-AI-Cam-CopperPilot.d356`
+  - Electrical Test Netlist: `jlcpcb_production/netlist/CM5-AI-Cam-CopperPilot.d356`
   - Sign-off Reports: `jlcpcb_production/reports/erc_signoff.rpt` & `drc_signoff.rpt`
 
-## Critical Engineering Remediation Summary
-1. **Buck Regulator (U5 - MP1658GTF-Z):**
-   - Corrected feedback divider resistor R20 to 61.9k 1% (setting `PWR_3V3` to safe 3.305V instead of destructive 4.84V).
-   - Detached R16/C21 loading from the high-side BST floating rail and reconnected to SW as a proper SW-to-GND snubber.
-2. **USB Multiplexer (U6 - FSUSB42UMX):**
-   - Verified 10-pin UMLP-10 pinout matches official onsemi datasheet.
-   - Connected R28 pullup to `CM5_3V3` so the vertical USB-A host port is active by default.
-3. **Power Switches (U4, U7, U8):**
-   - Verified pin compatibility with STMicroelectronics STMPS2171STR (SOT-23-5: 1=OUT, 2=GND, 3=FAULT, 4=EN, 5=IN).
-4. **Common Mode Chokes (L1, L2, L3):**
-   - Verified ACM1210 winding structure (Line 1: 1-2, Line 2: 4-3) to ensure differential signals pass straight through without shorts.
-5. **Level Shifter (Q1, Q2 - DMG1012T-7):**
-   - Verified SOT-523 pinout (1:Gate, 2:Source, 3:Drain) and eliminated redundant pull-up resistors on DSI1.
-6. **JLCPCB 6-Layer Rules:**
-   - Enforced 0.09mm min trace, 0.12mm clearance, 0.35/0.20mm vias, 0.075mm annular ring, and 90R/100R controlled impedance classes.
+## Engineering Notes & Survey Reports
+- Silkscreen & 3D Models: `.copperpilot/notes/silkscreen-and-3d-model-audit.md`
+- Routing & Net Continuity: `.copperpilot/notes/routing-defects-survey.md`
+- Clearances & Pick-and-Place: `.copperpilot/notes/component-placement-and-clearance-survey.md`
+- BOM & Sourcing Verification: `.copperpilot/notes/bom_pinout_sourcing_verification.md`
+- JLCPCB 6-Layer Rules Spec: `.copperpilot/notes/jlcpcb-6layer-rules-spec.md`

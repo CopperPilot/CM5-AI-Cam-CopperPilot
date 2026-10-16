@@ -1,5 +1,5 @@
 Drill report for CM5-AI-Cam-CopperPilot.kicad_pcb
-Created on 2026-10-15T01:10:25
+Created on 2026-10-16T15:25:55
 
 Copper Layer Stackup:
     =============================================================
@@ -14,12 +14,13 @@ Copper Layer Stackup:
 Drill file 'CM5-AI-Cam-CopperPilot-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.200mm  0.0079"  (283 holes))
-    T2  0.250mm  0.0098"  (39 holes))
-    T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
-    T4  0.900mm  0.0354"  (4 holes))
-    T5  1.000mm  0.0394"  (53 holes)  (with 4 slots)
-    T6  1.300mm  0.0512"  (3 holes)  (with 3 slots)
+    T1  0.200mm  0.0079"  (286 holes))
+    T2  0.250mm  0.0098"  (35 holes))
+    T3  0.300mm  0.0118"  (1 hole)
+    T4  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T5  0.900mm  0.0354"  (4 holes))
+    T6  1.000mm  0.0394"  (53 holes)  (with 4 slots)
+    T7  1.300mm  0.0512"  (3 holes)  (with 3 slots)
 
     Total plated holes count 386
 

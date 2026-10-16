@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.3*%
-%TF.CreationDate,2026-10-15T01:10:25+05:30*%
+%TF.CreationDate,2026-10-16T15:25:45+05:30*%
 %TF.ProjectId,CM5-AI-Cam-CopperPilot,434d352d-4149-42d4-9361-6d2d436f7070,V1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-15 01:10:25*
+G04 Created by KiCad (PCBNEW 10.0.3) date 2026-10-16 15:25:45*
 %MOMM*%
 %LPD*%
 G01*
@@ -190,8 +190,8 @@ X65000000Y-34520000D03*
 %TD*%
 D10*
 %TO.C,R16*%
-X66000000Y-37960000D03*
 X66000000Y-36940000D03*
+X66000000Y-37960000D03*
 %TD*%
 %TO.C,R21*%
 X63000000Y-36510000D03*

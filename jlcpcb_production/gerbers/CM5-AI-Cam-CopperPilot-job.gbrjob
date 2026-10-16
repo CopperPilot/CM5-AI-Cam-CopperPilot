@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-10-15T01:10:25+05:30"
+    "CreationDate": "2026-10-16T15:25:45+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -25,19 +25,19 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.12,
-      "PadToTrack": 0.12,
-      "TrackToTrack": 0.12,
+      "PadToPad": 0.095,
+      "PadToTrack": 0.095,
+      "TrackToTrack": 0.095,
       "MinLineWidth": 0.15
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.12,
-      "PadToTrack": 0.12,
-      "TrackToTrack": 0.12,
+      "PadToPad": 0.095,
+      "PadToTrack": 0.095,
+      "TrackToTrack": 0.095,
       "MinLineWidth": 0.15,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
     }
   ],
   "FilesAttributes": [
@@ -140,7 +140,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In1.Cu"
     },
     {
@@ -155,7 +155,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In2.Cu"
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In3.Cu"
     },
     {
@@ -185,7 +185,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
+      "Thickness": 0.0152,
       "Name": "In4.Cu"
     },
     {

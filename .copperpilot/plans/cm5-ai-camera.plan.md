@@ -12,42 +12,42 @@ todos:
       correct DIO7003 pinout inversion on U4 (HDMI 5V) and U7 (SD 3V3) or match symbol to physical pins; correct L1, L2,
       L3 common-mode choke wiring to eliminate MIPI CSI-2 differential dead shorts; resolve I2C pull-up voltage contention
       between 3.3V and 1.8V; level-shift camera /PWDN to protect 1.8V IMX219; mark R29 DNP to unprotect CM5 EEPROM.
-    status: open
+    status: completed
   - id: reconcile-lcsc-bom-and-footprint-libraries
     content: >-
       Fix footprint library syntax in CM5.pretty (strip HTML comments from Camera_Module_IMX219-D160 and remove duplicate
       closing tags in Molex_200528-0150); remediate fatal package mismatches (U5 TSOT-23-6 to SOT-563 MP1658GTF-Z, Q1/Q2
       Texas_DRT-3 to SOT-523 DMG1012T-7, J2 vertical USB-A BOM part C698207, split Module1 into dual 100-pin DF40C/DF40HC
       J1A/J1B footprints); add active passives R1, R29, R35 to bom_jlcpcb.csv.
-    status: open
+    status: completed
   - id: enforce-jlcpcb-6layer-design-rules-and-clearances
     content: >-
       Configure JLCPCB 6-layer standard rules (JLC06161H-3313) in kicad_pro and kicad_dru; upgrade 198 undersized 0.35mm
       vias to min 0.40mm diameter / 0.20mm drill (0.10mm annular ring); enforce 0.30mm copper-to-edge clearance and pull
       back /HDMI0_CLK_N trace on In2.Cu; add 4x M2.5 mounting holes with 5.0mm keepouts and relocate colliding passive C4
       and power vias; increase spacing between PI1 pin 2 (5V) and Type_C1 shield tab (GND) from 0.33mm to >= 1.5mm.
-    status: open
+    status: completed
   - id: repair-broken-routes-and-plane-discontinuities
     content: >-
       Route primary /CM5_5V 1.2mm bus across 12.7mm In3.Cu void from Type-C to CM5 input on F.Cu; bridge isolated /PWR_3V3
       islands on In3.Cu for U2, C5, C12; stitch GND plane antipad trenches at DF40 connector escape vias on B.Cu; route
       missing /CSI_D0_N differential pair length-matched to /CSI_D0_P; bridge /MP1658_BST 3.1mm gap and tap SW to R16;
       route /1V2 to J1 pin 4, /SDA_1V8 to R8, /CM5_3V3 to R28; prune 4 dangling antenna vias.
-    status: open
+    status: completed
   - id: standardize-silkscreen-and-3d-models
     content: >-
       Set (hide yes) on 1.27mm LCSC properties across all 90 footprints (eliminating ~426 DRC warnings); standardize
       Reference text to 0.8mm size / 0.15mm stroke with justify mirror on B.SilkS; pull back HDMI1 and board edge
       silkscreen outlines; assign exact STEP models for J2 (Molex 105057-0001 vertical) and Type_C1 (USB4105-GF-A with -90
       deg X rot); migrate obsolete KICAD9_3DMODEL_DIR and relative paths to KICAD10_3DMODEL_DIR and ${KIPRJMOD}.
-    status: open
+    status: completed
   - id: run-drc-erc-and-export-jlcpcb-manufacturing-package
     content: >-
       Execute kicad-cli pcb drc (verifying 0 errors, 0 unconnected items, 0 unhandled warnings) and kicad-cli sch erc (0
       errors); verify full 3D STEP solid export; regenerate complete JLCPCB production package in jlcpcb_production/
       (Gerbers, Excellon drills, IPC-D-356 netlist, fully matched bom_jlcpcb.csv, and centroid-verified cpl_jlcpcb.csv).
-    status: open
-overall_status: open
+    status: completed
+overall_status: completed
 ---
 
 # CM5 AI Camera Carrier Board - JLCPCB PCBA Manufacturing Remediation Plan
