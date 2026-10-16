@@ -487,18 +487,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "7353ec22-5ac3-43e1-b927-01986d0bb4db")
 	)
-	(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_FFC-FPC.3dshapes/TE_1-84952-5_1x15-1MP_P1.0mm_Horizontal.step"
+		(embedded_fonts no)
+	(model "/Connector_FFC-FPC.3dshapes/TE_1-84952-5_1x15-1MP_P1.0mm_Horizontal.step"
 		(offset
 			(xyz 0 3.69 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 		)
 		(scale
 			(xyz 1 1 1)
