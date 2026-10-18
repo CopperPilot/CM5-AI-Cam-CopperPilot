@@ -1,0 +1,41 @@
+{
+  "changes": [
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 186.0,
+      "y_min": 76.0,
+      "x_max": 189.0,
+      "y_max": 79.0,
+      "matched_issues": [
+        "SCH-002"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 288.0,
+      "y_min": 106.0,
+      "x_max": 294.0,
+      "y_max": 109.0,
+      "matched_issues": [
+        "SCH-003"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 382.0,
+      "y_min": 388.0,
+      "x_max": 386.0,
+      "y_max": 411.0,
+      "matched_issues": [
+        "SCH-001"
+      ]
+    }
+  ],
+  "netlist_diff": {
+    "added_nets": [],
+    "removed_nets": [],
+    "modified_nets": [],
+    "unmapped_changes": []
+  },
+  "has_unexplained": false
+}

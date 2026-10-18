@@ -1,0 +1,65 @@
+{
+  "overall_pass": true,
+  "tests": {
+    "T1": {
+      "pass": true,
+      "errors": 0,
+      "warnings": 0,
+      "notes": "0 errors, 0 warnings"
+    },
+    "T2": {
+      "pass": true,
+      "errors": 0,
+      "warnings": 0,
+      "unconnected": 0,
+      "parity": 0,
+      "notes": "0 errors, 0 warnings, 0 unconnected, 0 parity issues"
+    },
+    "T3": {
+      "pass": true,
+      "notes": "All rules meet or exceed Section 3 targets or carry documented Decision IDs"
+    },
+    "T4": {
+      "pass": true,
+      "notes": "Rules maintained or tightened relative to baseline"
+    },
+    "T5": {
+      "pass": true,
+      "notes": "Rule severities consistent with baseline (6 custom ignores recorded)"
+    },
+    "T6": {
+      "pass": true,
+      "notes": "All 42 BOM lines complete with MPN/LCSC"
+    },
+    "T7": {
+      "pass": true,
+      "notes": "Gerber package contains 17 files with 6 copper layers and closed Edge_Cuts"
+    },
+    "T8": {
+      "pass": true,
+      "notes": "15 total issues tracked; 0 open P0-P2"
+    },
+    "T9": {
+      "pass": true,
+      "notes": "All non-waived issues have visual before/after/diff crops"
+    },
+    "T10": {
+      "pass": true,
+      "notes": "0 unexplained regions, 0 unmapped net changes"
+    },
+    "T11": {
+      "pass": true,
+      "notes": "No absolute user paths in sym-lib-table or fp-lib-table"
+    }
+  },
+  "erc_final": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "drc_final": {
+    "errors": 0,
+    "warnings": 0,
+    "unconnected": 0,
+    "parity": 0
+  }
+}

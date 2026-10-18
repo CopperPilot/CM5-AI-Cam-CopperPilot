@@ -1,0 +1,17 @@
+==================================================
+         COPPERPILOT VERIFY ACCEPTANCE TESTS       
+==================================================
+[PASS] T1: 0 errors, 0 warnings
+[PASS] T2: 0 errors, 0 warnings, 0 unconnected, 0 parity issues
+[PASS] T3: All rules meet or exceed Section 3 targets or carry documented Decision IDs
+[PASS] T4: Rules maintained or tightened relative to baseline
+[PASS] T5: Rule severities consistent with baseline (6 custom ignores recorded)
+[PASS] T6: All 42 BOM lines complete with MPN/LCSC
+[PASS] T7: Gerber package contains 17 files with 6 copper layers and closed Edge_Cuts
+[PASS] T8: 15 total issues tracked; 0 open P0-P2
+[PASS] T9: All non-waived issues have visual before/after/diff crops
+[PASS] T10: 0 unexplained regions, 0 unmapped net changes
+[PASS] T11: No absolute user paths in sym-lib-table or fp-lib-table
+--------------------------------------------------
+OVERALL RESULT: PASS
+==================================================

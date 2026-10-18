@@ -1,0 +1,172 @@
+(footprint "L_CommonModeChoke_Coilank_ACM1210"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Coilank  common-mode choke, 4 Pin (https://www.lcsc.com/datasheet/C49073870.pdf)")
+	(tags "Coilank common-mode choke NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(layer "F.SilkS")
+		(uuid "d73ae339-bcaf-453d-91c7-b02ae895916a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CommonModeChoke_Coilank_ACM1210"
+		(at 0 1.45 0)
+		(layer "F.Fab")
+		(uuid "4a391581-feee-43a5-9ad8-446fd976fa1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4e9b909-c2a5-4761-9a34-c83985c6a68d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c071689-7fd9-43dc-943d-24774cd934c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "package/no_lead"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57789079-c6b3-462e-872c-5556ca19bb63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -0.76)
+		(end 0.71 -0.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d716bd1e-1eb7-4198-a4f8-86835632740f")
+	)
+	(fp_line
+		(start 0.71 0.76)
+		(end -0.71 0.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7244aabb-ab51-4978-b090-a264e2798cc8")
+	)
+	(fp_poly
+		(pts
+			(xy -0.94 -0.66) (xy -1.22 -0.66) (xy -0.94 -0.94)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8bc9472c-0bb9-48c9-b99d-4d29dd3c83df")
+	)
+	(fp_rect
+		(start -1.03 -0.75)
+		(end 1.03 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "945b5e74-d7c7-4055-a6b2-e946dc7a3b49")
+	)
+	(fp_poly
+		(pts
+			(xy -0.35 -0.5) (xy 0.6 -0.5) (xy 0.6 0.5) (xy -0.6 0.5) (xy -0.6 -0.25)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "379cf84a-091f-4053-8cb9-981f59c5b073")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c0272b32-c4be-47d8-b9d1-7b8760228b8e")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.5125 -0.325)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "65ecdd4d-8dc4-4b53-bb7a-dded190e0bae")
+	)
+	(pad "2" smd roundrect
+		(at -0.5125 0.325)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "23ca2f8b-8594-4473-8349-bb9bbcf8982f")
+	)
+	(pad "3" smd roundrect
+		(at 0.5125 0.325)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2681686e-825c-4750-8f32-a0b82d53ca6f")
+	)
+	(pad "4" smd roundrect
+		(at 0.5125 -0.325)
+		(size 0.525 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f7ce7429-c6a7-4504-961d-3670a74a02dd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_CommonModeChoke_Coilank_ACM1210.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

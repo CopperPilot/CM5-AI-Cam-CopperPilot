@@ -1,0 +1,17 @@
+==================================================
+         COPPERPILOT VERIFY ACCEPTANCE TESTS       
+==================================================
+[PASS] T1: 0 errors, 0 warnings
+[FAIL] T2: 0 errors, 0 warnings, 0 unconnected, 20 parity issues
+[FAIL] T3: DRU edge_clearance 0.0mm is below JLCPCB 0.20mm limit; DRU edge_clearance 0.15mm is below JLCPCB 0.20mm limit; DRU clearance 0.07mm is below JLCPCB limit; DRU edge_clearance 0.0mm is below JLCPCB 0.20mm limit
+[PASS] T4: Rules maintained or tightened relative to baseline
+[PASS] T5: Rule severities consistent with baseline (6 custom ignores recorded)
+[PASS] T6: All 42 BOM lines complete with MPN/LCSC
+[PASS] T7: Gerber package contains 17 files with 6 copper layers and closed Edge_Cuts
+[FAIL] T8: Missing issues.json
+[FAIL] T9: Missing issues.json
+[FAIL] T10: Missing changes.json
+[PASS] T11: No absolute user paths in sym-lib-table or fp-lib-table
+--------------------------------------------------
+OVERALL RESULT: FAIL
+==================================================

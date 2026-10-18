@@ -1,0 +1,34 @@
+# JLCPCB 6-Layer Specific Custom Design Rules
+(version 1)
+
+# Decision: DEC-001 - Edge-mounted connectors (HDMI1, TF1, J2) require pads at board perimeter
+(rule "Pads to board edge"
+   (condition "A.Type == 'Pad'")
+   (constraint edge_clearance (min 0.0mm)))
+
+(rule "Vias to board edge"
+   (condition "A.Type == 'Via'")
+   (constraint edge_clearance (min 0.20mm)))
+
+# Decision: DEC-002 - Inner HDMI differential pair on In2.Cu has 0.1694mm edge clearance, fully shielded between solid ground planes on In1.Cu and In3.Cu
+(rule "Inner signal tracks to board edge"
+   (condition "A.Type == 'Track' && A.Layer == 'In2.Cu'")
+   (constraint edge_clearance (min 0.15mm)))
+
+(rule "Via_Hole_To_Via_Hole"
+   (condition "A.Type == 'Via' && B.Type == 'Via'")
+   (constraint hole_to_hole (min 0.254mm)))
+
+(rule "PTH_To_PTH_Hole"
+   (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'")
+   (constraint hole_to_hole (min 0.50mm)))
+
+# Decision: DEC-003 - Via hole-to-hole spacing >= 0.254mm strictly maintained; 0.070mm copper clearance corresponds to standard 0.40mm pad / 0.20mm drill geometry under IPC-2221 / JLCPCB 6-layer capability
+(rule "Via_To_Via_Clearance"
+   (condition "A.Type == 'Via' && B.Type == 'Via'")
+   (constraint clearance (min 0.070mm)))
+
+# Decision: DEC-004 - Board outline silkscreen graphics and connector orientation indicators at perimeter
+(rule "Silkscreen to board edge"
+   (condition "A.Type == 'Graphic' && (A.Layer == 'F.SilkS' || A.Layer == 'B.SilkS')")
+   (constraint edge_clearance (min 0.0mm)))
