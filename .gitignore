@@ -1,0 +1,66 @@
+# ==============================================================================
+# CM5 AI Camera Carrier Board - Git Ignore Specification
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# KiCad EDA & Hardware Artifacts
+# ------------------------------------------------------------------------------
+*.kicad_prl
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_sym-bak
+*.kicad_dru-bak
+*-backups/
+_autosave-*
+~*.lck
+fp-info-cache
+*-drc.rpt
+*-erc.rpt
+
+# Intermediate and Temporary Netlists / DRC outputs
+build/
+*.net
+*.dsn
+*.ses
+*.cad
+*.xml
+
+# ------------------------------------------------------------------------------
+# Python & Testing Caches
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+venv/
+.venv/
+ENV/
+env/
+
+# ------------------------------------------------------------------------------
+# Operating System & Editor Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# ------------------------------------------------------------------------------
+# CopperPilot AI Agent Workspace & Internal Cache Directories
+# ------------------------------------------------------------------------------
+.copperpilot/
+.copperpilot

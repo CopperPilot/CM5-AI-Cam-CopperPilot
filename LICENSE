@@ -1,0 +1,39 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+Copyright (c) 2026 Open Source Hardware Contributors
+
+Preamble
+--------
+CERN has developed this licence to govern the transfer of hardware
+designs, which may comprise schematics, layout data, mechanical models,
+firmware and software, with the aim of promoting collaboration among
+hardware designers and fostering open-source hardware development.
+
+You may redistribute and modify this Documentation and make products
+using it under the terms of the CERN Open Hardware Licence Version 2 -
+Strongly Reciprocal (CERN-OHL-S-2.0).
+
+Terms and Conditions
+--------------------
+1. Definitions
+"Documentation" means schematic diagrams, designs, circuit or physical
+layouts, models, specification sheets, source code, object code and
+other design documentation relating to the hardware described in this
+repository.
+
+"Product" means any tangible device or component prepared according to
+the Documentation.
+
+2. Grant of Rights
+You may use, copy, modify, distribute and make Products using this
+Documentation, provided that you keep intact all copyright notices and
+grant identical rights under CERN-OHL-S-2.0 to any recipient of the
+Documentation or modified Documentation.
+
+3. Disclaimer of Warranty & Limitation of Liability
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+DOCUMENTATION OR THE USE OR OTHER DEALINGS IN THE DOCUMENTATION.

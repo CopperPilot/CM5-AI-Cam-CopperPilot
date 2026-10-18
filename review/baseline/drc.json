@@ -1,0 +1,342 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-17T00:08:48",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        },
+        {
+            "description": "Footprint doesn't match copy in library",
+            "key": "lib_footprint_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint C19",
+                    "pos": {
+                        "x": 42.0,
+                        "y": 33.0
+                    },
+                    "uuid": "95cf62d7-9db9-4f06-8dc3-287925d47e90"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Value (C20) doesn't match symbol value (10pF)",
+            "items": [
+                {
+                    "description": "Footprint C20",
+                    "pos": {
+                        "x": 63.0,
+                        "y": 38.48
+                    },
+                    "uuid": "ad126184-5a2d-4d2b-bde5-792ca50b1d79"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C32949', Schematic: 'C1525')",
+            "items": [
+                {
+                    "description": "Footprint C20",
+                    "pos": {
+                        "x": 63.0,
+                        "y": 38.48
+                    },
+                    "uuid": "ad126184-5a2d-4d2b-bde5-792ca50b1d79"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (C21) doesn't match symbol value (1uF)",
+            "items": [
+                {
+                    "description": "Footprint C21",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 37.48
+                    },
+                    "uuid": "e1b9d754-7047-456d-9d14-501758d4cb7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C52923', Schematic: 'C1547')",
+            "items": [
+                {
+                    "description": "Footprint C21",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 37.48
+                    },
+                    "uuid": "e1b9d754-7047-456d-9d14-501758d4cb7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "No pad found for pin SH (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint DSI1",
+                    "pos": {
+                        "x": 48.5,
+                        "y": 29.39
+                    },
+                    "uuid": "24f8d6d0-6f0b-42eb-90c4-a2f6c6879ec9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C720523', Schematic: 'C698207')",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 65.0,
+                        "y": 31.5
+                    },
+                    "uuid": "13a6ea6c-2be7-4bf6-b654-a7a405de6c7e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Field 'Description' differs (PCB: 'Raspberry Pi CM5 Mezzanine Unit 2 (High Speed, HDMI, CSI, DSI)', Schematic: 'Raspberry Pi CM5 Mezzanine Unit 1 (GPIO, Power, SD)')",
+            "items": [
+                {
+                    "description": "Footprint Module1",
+                    "pos": {
+                        "x": 72.8,
+                        "y": 61.42
+                    },
+                    "uuid": "c2efa417-8996-409f-8478-08867617c7e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "CM5:Texas_DRT-3 doesn't match footprint given by symbol (CM5:SOT-523)",
+            "items": [
+                {
+                    "description": "Footprint Q1",
+                    "pos": {
+                        "x": 35.5,
+                        "y": 43.5
+                    },
+                    "uuid": "f2e29278-3a12-45db-9e02-326e4dc71937"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "CM5:Texas_DRT-3 doesn't match footprint given by symbol (CM5:SOT-523)",
+            "items": [
+                {
+                    "description": "Footprint Q2",
+                    "pos": {
+                        "x": 32.5,
+                        "y": 43.5
+                    },
+                    "uuid": "85c1c938-582e-47da-a7fd-713e96c9d0af"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Value (R1) doesn't match symbol value (0R)",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 38.0
+                    },
+                    "uuid": "61c21b36-d3fa-4733-b714-0b917d263de3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C17168', Schematic: 'C11702')",
+            "items": [
+                {
+                    "description": "Footprint R1",
+                    "pos": {
+                        "x": 30.0,
+                        "y": 38.0
+                    },
+                    "uuid": "61c21b36-d3fa-4733-b714-0b917d263de3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (R19) doesn't match symbol value (100k)",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 69.0,
+                        "y": 40.0
+                    },
+                    "uuid": "552efb33-95a2-4c20-9b81-f2229cb2c4f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C25741', Schematic: 'C25881')",
+            "items": [
+                {
+                    "description": "Footprint R19",
+                    "pos": {
+                        "x": 69.0,
+                        "y": 40.0
+                    },
+                    "uuid": "552efb33-95a2-4c20-9b81-f2229cb2c4f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint R36",
+                    "pos": {
+                        "x": 44.0,
+                        "y": 33.0
+                    },
+                    "uuid": "0ddcc577-c2d9-4445-83df-ee87a986f01e"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Do not populate' settings differ",
+            "items": [
+                {
+                    "description": "Footprint Type_C1",
+                    "pos": {
+                        "x": 31.0,
+                        "y": 62.5
+                    },
+                    "uuid": "d02da4f8-25d7-428a-bf9e-38f15e81f995"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Value (U4) doesn't match symbol value (DIO7003HCST5)",
+            "items": [
+                {
+                    "description": "Footprint U4",
+                    "pos": {
+                        "x": 48.5,
+                        "y": 32.0
+                    },
+                    "uuid": "f7cc1fb0-55c9-4911-bd17-62529e0d3ee9"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "CM5:TSOT-23-6 doesn't match footprint given by symbol (CM5:SOT-563)",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 66.1375,
+                        "y": 40.5
+                    },
+                    "uuid": "d34da9a7-e7d4-4af5-a966-8d1bd44409be"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Field 'LCSC' differs (PCB: 'C9900009837', Schematic: 'C2837379')",
+            "items": [
+                {
+                    "description": "Footprint U5",
+                    "pos": {
+                        "x": 66.1375,
+                        "y": 40.5
+                    },
+                    "uuid": "d34da9a7-e7d4-4af5-a966-8d1bd44409be"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_field_mismatch"
+        },
+        {
+            "description": "Value (U7) doesn't match symbol value (DIO7003HCST5)",
+            "items": [
+                {
+                    "description": "Footprint U7",
+                    "pos": {
+                        "x": 53.5,
+                        "y": 43.5
+                    },
+                    "uuid": "8706e8b8-411f-40ef-99f9-94154605fd64"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
+    "source": "CM5-AI-Cam-CopperPilot.kicad_pcb",
+    "unconnected_items": [],
+    "violations": []
+}
