@@ -464,7 +464,7 @@
 		(uuid "1a4eea72-8141-4896-a579-5a0e33a0b63e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/libraries/CM5IO/CM5IO.3dshapes/UBAF-0110.STEP"
+	(model "${KIPRJMOD}/CM5.3dshapes/UBAF-0110.STEP"
 		(offset
 			(xyz 0 -2 2)
 		)
