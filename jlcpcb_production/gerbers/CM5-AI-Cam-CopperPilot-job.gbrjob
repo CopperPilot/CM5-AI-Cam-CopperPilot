@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4-10.0.4~ubuntu22.04.1"
     },
-    "CreationDate": "2026-10-16T22:24:39+05:30"
+    "CreationDate": "2026-10-21T01:49:47+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -28,81 +28,81 @@
       "PadToPad": 0.095,
       "PadToTrack": 0.095,
       "TrackToTrack": 0.095,
-      "MinLineWidth": 0.15
+      "MinLineWidth": 0.127
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.095,
       "PadToTrack": 0.095,
       "TrackToTrack": 0.095,
-      "MinLineWidth": 0.15,
+      "MinLineWidth": 0.127,
       "TrackToRegion": 0.1,
       "RegionToRegion": 0.1
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In1_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-In1_Cu.g1",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In2_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-In2_Cu.g2",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In3_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-In3_Cu.g3",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-In4_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-In4_Cu.g4",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Cu.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Cu.gbl",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Paste.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Paste.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Silkscreen.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Silkscreen.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-F_Mask.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-B_Mask.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "CM5-AI-Cam-CopperPilot-Edge_Cuts.gbr",
+      "Path": "CM5-AI-Cam-CopperPilot-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -131,9 +131,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.1,
+      "Thickness": 0.2104,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
@@ -146,9 +146,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.535,
+      "Thickness": 0.4,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -161,9 +161,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.1,
+      "Thickness": 0.2104,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "In2.Cu/In3.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
@@ -176,9 +176,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.535,
+      "Thickness": 0.4,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "In3.Cu/In4.Cu",
       "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
@@ -191,9 +191,9 @@
     {
       "Type": "Dielectric",
       "Color": "R109G116B75",
-      "Thickness": 0.1,
+      "Thickness": 0.2104,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "In4.Cu/B.Cu",
       "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
