@@ -1,33 +1,557 @@
 {
   "changes": [
     {
+      "layer": "pcb_B.Cu",
+      "x_min": 50.0,
+      "y_min": 27.0,
+      "x_max": 63.0,
+      "y_max": 37.0,
+      "matched_issues": [
+        "PCB-006",
+        "DFM-001",
+        "IMP-006"
+      ]
+    },
+    {
+      "layer": "pcb_F.Cu",
+      "x_min": 31.0,
+      "y_min": 30.0,
+      "x_max": 63.0,
+      "y_max": 47.0,
+      "matched_issues": [
+        "PCB-002",
+        "PCB-003",
+        "PCB-005",
+        "PCB-007",
+        "PCB-008",
+        "PCB-009",
+        "IMP-001"
+      ]
+    },
+    {
+      "layer": "pcb_In1.Cu",
+      "x_min": 58.0,
+      "y_min": 27.0,
+      "x_max": 60.0,
+      "y_max": 28.0,
+      "matched_issues": [
+        "IMP-002"
+      ]
+    },
+    {
+      "layer": "pcb_In2.Cu",
+      "x_min": 33.0,
+      "y_min": 28.0,
+      "x_max": 63.0,
+      "y_max": 34.0,
+      "matched_issues": [
+        "IMP-003"
+      ]
+    },
+    {
+      "layer": "pcb_In3.Cu",
+      "x_min": 38.0,
+      "y_min": 31.0,
+      "x_max": 58.0,
+      "y_max": 40.0,
+      "matched_issues": [
+        "IMP-004"
+      ]
+    },
+    {
+      "layer": "pcb_In4.Cu",
+      "x_min": 34.0,
+      "y_min": 30.0,
+      "x_max": 57.0,
+      "y_max": 36.0,
+      "matched_issues": [
+        "IMP-005"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 356.0,
+      "y_min": 49.0,
+      "x_max": 429.0,
+      "y_max": 106.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 252.0,
+      "y_min": 53.0,
+      "x_max": 293.0,
+      "y_max": 94.0,
+      "matched_issues": [
+        "SCH-003",
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 577.0,
+      "y_min": 57.0,
+      "x_max": 606.0,
+      "y_max": 67.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 162.0,
+      "y_min": 58.0,
+      "x_max": 165.0,
+      "y_max": 73.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
       "layer": "sch_sheet_1",
       "x_min": 186.0,
       "y_min": 76.0,
       "x_max": 189.0,
       "y_max": 79.0,
       "matched_issues": [
-        "SCH-002"
+        "SCH-002",
+        "IMP-007"
       ]
     },
     {
       "layer": "sch_sheet_1",
-      "x_min": 288.0,
+      "x_min": 444.0,
+      "y_min": 80.0,
+      "x_max": 483.0,
+      "y_max": 115.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 297.0,
+      "y_min": 82.0,
+      "x_max": 312.0,
+      "y_max": 84.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 332.0,
+      "y_min": 82.0,
+      "x_max": 351.0,
+      "y_max": 108.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 510.0,
+      "y_min": 90.0,
+      "x_max": 532.0,
+      "y_max": 111.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 555.0,
+      "y_min": 98.0,
+      "x_max": 557.0,
+      "y_max": 108.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 287.0,
       "y_min": 106.0,
       "x_max": 294.0,
-      "y_max": 109.0,
+      "y_max": 124.0,
       "matched_issues": [
-        "SCH-003"
+        "SCH-003",
+        "IMP-007"
       ]
     },
     {
       "layer": "sch_sheet_1",
-      "x_min": 382.0,
-      "y_min": 388.0,
+      "x_min": 411.0,
+      "y_min": 107.0,
+      "x_max": 429.0,
+      "y_max": 115.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 569.0,
+      "y_min": 120.0,
+      "x_max": 606.0,
+      "y_max": 137.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 530.0,
+      "y_min": 132.0,
+      "x_max": 541.0,
+      "y_max": 134.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 410.0,
+      "y_min": 135.0,
+      "x_max": 429.0,
+      "y_max": 143.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 444.0,
+      "y_min": 135.0,
+      "x_max": 461.0,
+      "y_max": 143.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 227.0,
+      "y_min": 159.0,
+      "x_max": 276.0,
+      "y_max": 207.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 297.0,
+      "y_min": 169.0,
+      "x_max": 320.0,
+      "y_max": 183.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 511.0,
+      "y_min": 184.0,
+      "x_max": 533.0,
+      "y_max": 200.0,
+      "matched_issues": [
+        "SCH-004",
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 115.0,
+      "y_min": 192.0,
+      "x_max": 130.0,
+      "y_max": 208.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 30.0,
+      "y_min": 200.0,
+      "x_max": 51.0,
+      "y_max": 211.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 572.0,
+      "y_min": 202.0,
+      "x_max": 578.0,
+      "y_max": 205.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 266.0,
+      "y_min": 210.0,
+      "x_max": 282.0,
+      "y_max": 230.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 301.0,
+      "y_min": 210.0,
+      "x_max": 328.0,
+      "y_max": 230.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 506.0,
+      "y_min": 237.0,
+      "x_max": 508.0,
+      "y_max": 253.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 266.0,
+      "y_min": 254.0,
+      "x_max": 282.0,
+      "y_max": 274.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 426.0,
+      "y_min": 255.0,
+      "x_max": 531.0,
+      "y_max": 304.0,
+      "matched_issues": [
+        "SCH-005",
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 302.0,
+      "y_min": 256.0,
+      "x_max": 328.0,
+      "y_max": 274.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 556.0,
+      "y_min": 266.0,
+      "x_max": 571.0,
+      "y_max": 287.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 591.0,
+      "y_min": 266.0,
+      "x_max": 605.0,
+      "y_max": 282.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 118.0,
+      "y_min": 270.0,
+      "x_max": 132.0,
+      "y_max": 275.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 304.0,
+      "y_min": 295.0,
+      "x_max": 311.0,
+      "y_max": 297.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 29.0,
+      "y_min": 302.0,
+      "x_max": 54.0,
+      "y_max": 324.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 609.0,
+      "y_min": 312.0,
+      "x_max": 612.0,
+      "y_max": 326.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 252.0,
+      "y_min": 322.0,
+      "x_max": 268.0,
+      "y_max": 337.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 329.0,
+      "y_min": 325.0,
       "x_max": 386.0,
       "y_max": 411.0,
       "matched_issues": [
-        "SCH-001"
+        "SCH-001",
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 458.0,
+      "y_min": 326.0,
+      "x_max": 489.0,
+      "y_max": 358.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 515.0,
+      "y_min": 326.0,
+      "x_max": 535.0,
+      "y_max": 331.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 295.0,
+      "y_min": 331.0,
+      "x_max": 309.0,
+      "y_max": 347.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 421.0,
+      "y_min": 341.0,
+      "x_max": 437.0,
+      "y_max": 358.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 237.0,
+      "y_min": 358.0,
+      "x_max": 262.0,
+      "y_max": 405.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 28.0,
+      "y_min": 360.0,
+      "x_max": 54.0,
+      "y_max": 390.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 118.0,
+      "y_min": 368.0,
+      "x_max": 136.0,
+      "y_max": 390.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 320.0,
+      "y_min": 380.0,
+      "x_max": 323.0,
+      "y_max": 394.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 587.0,
+      "y_min": 380.0,
+      "x_max": 603.0,
+      "y_max": 383.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 563.0,
+      "y_min": 385.0,
+      "x_max": 565.0,
+      "y_max": 401.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 409.0,
+      "y_min": 388.0,
+      "x_max": 423.0,
+      "y_max": 391.0,
+      "matched_issues": [
+        "IMP-007"
+      ]
+    },
+    {
+      "layer": "sch_sheet_1",
+      "x_min": 601.0,
+      "y_min": 402.0,
+      "x_max": 616.0,
+      "y_max": 405.0,
+      "matched_issues": [
+        "IMP-007"
       ]
     }
   ],

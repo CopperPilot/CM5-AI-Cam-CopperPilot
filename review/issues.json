@@ -20,7 +20,10 @@
       "x_max": 395.0,
       "y_max": 415.0
     },
-    "commits": ["798d2f0", "506a4aa"]
+    "commits": [
+      "798d2f0",
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-001",
@@ -43,7 +46,9 @@
       "x_max": 36.0,
       "y_max": 65.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-002",
@@ -66,7 +71,9 @@
       "x_max": 45.0,
       "y_max": 36.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-003",
@@ -89,7 +96,9 @@
       "x_max": 47.0,
       "y_max": 36.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-004",
@@ -112,18 +121,20 @@
       "x_max": 38.0,
       "y_max": 47.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-005",
     "severity": "P1",
     "domain": "PCB",
     "location": "U5, F.Cu @(66.1, 40.5)mm",
-    "finding": "U5 buck regulator footprint on PCB was TSOT-23-6 instead of SOT-563, and LCSC differed.",
+    "finding": "U5 buck regulator footprint on PCB was TSOT-23-6 instead of SOT-563, and LCSC was C2837379 (LED) instead of C2960187 (MP1658GTF-Z).",
     "evidence": "DRC report: CM5:TSOT-23-6 doesn't match footprint given by symbol (CM5:SOT-563)",
     "rule": "JLCPCB PCBA package parity, /pcb-dfm-engineer",
     "root_cause": "PCB footprint carried TSOT-23-6 while symbol and BOM specify SOT-563 (LCSC C2837379).",
-    "proposed_fix": "Harmonize U5 footprint to CM5:SOT-563 and LCSC to C2837379.",
+    "proposed_fix": "Harmonize U5 footprint to CM5:SOT-563 and LCSC to C2960187 (MPS MP1658GTF-Z).",
     "fix_risk": "None; verified pinout and MPS MP1658GTF package code GTF=SOT-563.",
     "functional_change": "N",
     "verification_method": "DRC parity test confirms matching footprint and LCSC fields",
@@ -135,7 +146,9 @@
       "x_max": 69.0,
       "y_max": 43.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-006",
@@ -158,18 +171,20 @@
       "x_max": 56.0,
       "y_max": 46.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-007",
     "severity": "P1",
     "domain": "PCB",
     "location": "C20, F.Cu @(63.0, 38.5)mm",
-    "finding": "C20 value on PCB was 10pF (LCSC C32949) while schematic and BOM specify 0.1uF (LCSC C1525).",
+    "finding": "C20 24 MHz MCLK filter capacitor had 0.1uF (C1525) in schematic (72.3 kHz cutoff attenuating 24 MHz clock) while PCB specified 10pF (C32949, fc=723 MHz).",
     "evidence": "DRC report: Value (C20) doesn't match symbol value (10pF)",
     "rule": "Schematic-PCB parity, /schematic-engineer",
     "root_cause": "PCB footprint Value and LCSC field diverged from schematic netlist.",
-    "proposed_fix": "Update PCB footprint C20 Value to 0.1uF and LCSC to C1525.",
+    "proposed_fix": "Synchronize C20 Value to 10pF and LCSC to C32949 across schematic, PCB, and BOM.",
     "fix_risk": "None; matches schematic decoupling design.",
     "functional_change": "N",
     "verification_method": "DRC parity test confirms matching value and LCSC",
@@ -181,18 +196,20 @@
       "x_max": 66.0,
       "y_max": 41.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-008",
     "severity": "P1",
     "domain": "PCB",
     "location": "C21, F.Cu @(65.0, 37.5)mm",
-    "finding": "C21 value on PCB was 1uF (LCSC C52923) while schematic and BOM specify 330pF (LCSC C1547).",
+    "finding": "C21 SW-node snubber capacitor was 1uF (C52923) on PCB and had 12pF LCSC code (C1547) for 330pF in schematic.",
     "evidence": "DRC report: Value (C21) doesn't match symbol value (1uF)",
     "rule": "Schematic-PCB parity, /schematic-engineer",
     "root_cause": "PCB footprint Value and LCSC field diverged from schematic netlist.",
-    "proposed_fix": "Update PCB footprint C21 Value to 330pF and LCSC to C1547.",
+    "proposed_fix": "Synchronize C21 Value to 330pF and LCSC to C1534 across schematic, PCB, and BOM.",
     "fix_risk": "None; matches buck converter compensation network.",
     "functional_change": "N",
     "verification_method": "DRC parity test confirms matching value and LCSC",
@@ -204,7 +221,9 @@
       "x_max": 68.0,
       "y_max": 40.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "SCH-002",
@@ -227,7 +246,10 @@
       "x_max": 195.0,
       "y_max": 85.0
     },
-    "commits": ["798d2f0", "506a4aa"]
+    "commits": [
+      "798d2f0",
+      "506a4aa"
+    ]
   },
   {
     "id": "SCH-003",
@@ -250,7 +272,10 @@
       "x_max": 300.0,
       "y_max": 115.0
     },
-    "commits": ["798d2f0", "506a4aa"]
+    "commits": [
+      "798d2f0",
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-009",
@@ -273,7 +298,9 @@
       "x_max": 69.0,
       "y_max": 35.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "PCB-010",
@@ -296,7 +323,9 @@
       "x_max": 76.0,
       "y_max": 64.0
     },
-    "commits": ["506a4aa"]
+    "commits": [
+      "506a4aa"
+    ]
   },
   {
     "id": "DFM-001",
@@ -319,7 +348,9 @@
       "x_max": 76.5,
       "y_max": 65.0
     },
-    "commits": ["be5efb3"]
+    "commits": [
+      "be5efb3"
+    ]
   },
   {
     "id": "DOC-001",
@@ -342,6 +373,233 @@
       "x_max": 50.0,
       "y_max": 50.0
     },
-    "commits": ["be5efb3"]
+    "commits": [
+      "be5efb3"
+    ]
+  },
+  {
+    "id": "IMP-001",
+    "severity": "P0",
+    "domain": "PCB",
+    "location": "MIPI CSI-2, DSI, HDMI & USB Differential Pairs, F.Cu @(21.5, 25.0)mm",
+    "finding": "HighSpeed_100R (100 Ohm MIPI/HDMI) and HighSpeed_90R (90 Ohm USB) netclasses were unassigned in .kicad_pro, and MIPI/HDMI pairs on F.Cu were routed at 0.150mm Default width instead of 0.127mm (100 Ohm).",
+    "evidence": "CM5-AI-Cam-CopperPilot.kicad_pro netclass_patterns=[], README.md conflated 90R/100R, F.Cu segments at 0.150mm",
+    "rule": "Raspberry Pi CM5 Datasheet, MIPI D-PHY / HDMI 1.4b (100R diff) & USB 2.0 (90R diff), JLCPCB JLC06161H-7628",
+    "root_cause": "Netclass patterns were cleared in .kicad_pro and MIPI/HDMI traces left at Default 0.150mm width while USB traces were 0.180mm.",
+    "proposed_fix": "Assign HighSpeed_100R (0.127mm/0.150mm, 100.1 Ohm) to MIPI/HDMI and HighSpeed_90R (0.180mm/0.150mm, 89.6 Ohm) to USB in .kicad_pro, update MIPI/HDMI traces to 0.127mm, and enforce widths in .kicad_dru.",
+    "fix_risk": "None; narrowing 0.150mm traces to 0.127mm strictly increases copper clearance while hitting 100.1 Ohm.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc passes with HighSpeed_100R_Impedance_Width and HighSpeed_90R_Impedance_Width rules; pytest passes.",
+    "status": "Verified",
+    "region": {
+      "layer": "F.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-002",
+    "severity": "P1",
+    "domain": "PCB",
+    "location": "MIPI CSI-2 & HDMI Differential Pairs, In1.Cu @(21.5, 25.0)mm",
+    "finding": "Inner layer In1.Cu MIPI CSI-2 and HDMI differential segments were routed at 0.150mm Default width instead of 0.127mm HighSpeed_100R width.",
+    "evidence": "In1.Cu segments on /CAM0_D0_P, /CAM0_D1_P, /CSI_D0_P, /HDMI0_TX1_P had width 0.150mm",
+    "rule": "HighSpeed_100R 100 Ohm differential impedance specification",
+    "root_cause": "Unassigned HighSpeed_100R netclass during initial routing.",
+    "proposed_fix": "Update In1.Cu HighSpeed_100R differential segments to 0.127mm and refill GND zone.",
+    "fix_risk": "None; increases plane clearance.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc --refill-zones passes with 0 violations.",
+    "status": "Verified",
+    "region": {
+      "layer": "In1.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-003",
+    "severity": "P1",
+    "domain": "PCB",
+    "location": "HDMI TMDS & MIPI DSI Striplines, In2.Cu @(21.5, 25.0)mm",
+    "finding": "Inner stripline layer In2.Cu HDMI TMDS and MIPI DSI differential traces were 0.150mm (95.2 Ohm on JLC06161H-7628 / 80.5 Ohm on 3313) instead of 0.127mm (100.1 Ohm).",
+    "evidence": "In2.Cu segments on /HDMI0_CLK_N, /HDMI0_TX0..2, /DSI1_* had width 0.150mm",
+    "rule": "JLCPCB JLC06161H-7628 100 Ohm stripline specification (W=0.127mm, S=0.150mm -> Zdiff=100.1 Ohm)",
+    "root_cause": "Traces routed with Default 0.150mm width instead of HighSpeed_100R 0.127mm width.",
+    "proposed_fix": "Update In2.Cu HighSpeed_100R stripline segments to 0.127mm and synchronize .kicad_pcb stackup with JLC06161H-7628.",
+    "fix_risk": "None; expands board-edge clearance on /HDMI0_CLK_N from 0.1694mm to 0.1809mm.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc and JLCPCB impedance model verification.",
+    "status": "Verified",
+    "region": {
+      "layer": "In2.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-004",
+    "severity": "P1",
+    "domain": "PCB",
+    "location": "MIPI CSI-2 & HDMI Differential Pairs, In3.Cu @(21.5, 25.0)mm",
+    "finding": "Inner layer In3.Cu MIPI CSI-2 and HDMI differential segments were routed at 0.150mm instead of 0.127mm HighSpeed_100R width.",
+    "evidence": "In3.Cu segments on /CAM0_D0_N, /CAM0_D1_N, /CSI_CLK_P, /CSI_D0_N, /CSI_D1_N, /HDMI0_TX1_N had width 0.150mm",
+    "rule": "HighSpeed_100R 100 Ohm differential impedance specification",
+    "root_cause": "Unassigned HighSpeed_100R netclass during initial routing.",
+    "proposed_fix": "Update In3.Cu HighSpeed_100R segments to 0.127mm and refill power zones.",
+    "fix_risk": "None.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc --refill-zones passes with 0 violations.",
+    "status": "Verified",
+    "region": {
+      "layer": "In3.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-005",
+    "severity": "P1",
+    "domain": "PCB",
+    "location": "HDMI TMDS Differential Pairs, In4.Cu @(21.5, 25.0)mm",
+    "finding": "Inner layer In4.Cu HDMI TMDS differential segments (/HDMI0_CLK_P, /HDMI0_TX0_P, /HDMI0_TX2_P) were routed at 0.150mm instead of 0.127mm HighSpeed_100R width while USB (/USB0_P, /USBD0_P/N) used 0.180mm HighSpeed_90R width.",
+    "evidence": "In4.Cu HDMI segments had width 0.150mm",
+    "rule": "HighSpeed_100R (0.127mm) vs HighSpeed_90R (0.180mm) separation",
+    "root_cause": "Unassigned HighSpeed_100R netclass during initial routing.",
+    "proposed_fix": "Update In4.Cu HighSpeed_100R HDMI segments to 0.127mm while preserving 0.180mm HighSpeed_90R USB segments.",
+    "fix_risk": "None.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc --refill-zones passes with 0 violations.",
+    "status": "Verified",
+    "region": {
+      "layer": "In4.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-006",
+    "severity": "P1",
+    "domain": "PCB",
+    "location": "Mezzanine High-Speed Escapes, B.Cu @(21.5, 25.0)mm",
+    "finding": "Bottom layer B.Cu MIPI CSI-2, DSI, and HDMI differential escape segments were 0.150mm instead of 0.127mm HighSpeed_100R width.",
+    "evidence": "B.Cu segments on /CAM0_*, /DSI1_*, /HDMI0_* had width 0.150mm",
+    "rule": "HighSpeed_100R 100 Ohm differential impedance specification",
+    "root_cause": "Unassigned HighSpeed_100R netclass during initial routing.",
+    "proposed_fix": "Update B.Cu HighSpeed_100R escape segments to 0.127mm while keeping USB 2.0 segments at 0.180mm.",
+    "fix_risk": "None; improves pad escape clearance on Module1.",
+    "functional_change": "N",
+    "verification_method": "kicad-cli pcb drc passes with 0 violations.",
+    "status": "Verified",
+    "region": {
+      "layer": "B.Cu",
+      "x_min": 21.5,
+      "y_min": 25.0,
+      "x_max": 76.5,
+      "y_max": 65.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "SCH-004",
+    "severity": "P0",
+    "domain": "SCH",
+    "location": "C20, R20, U1, U3, U5, C21, HDMI1, L1-L3, sheet 1 @(533, 188)mm",
+    "finding": "C20 on 24 MHz camera MCLK was 0.1uF (72.3 kHz low-pass cutoff attenuating MCLK) instead of 10pF (C32949, fc=723 MHz); critical LCSC mismatches on R20 (C25916 6.49k -> 1.07V buck output), U3 (C7434207 3.3V LDO on 1.2V core), U1 (invalid C114059), U5 (C2837379 LED), HDMI1 (C2013978 oscillator), L1-L3 (C49073870 3.2x2.5mm choke), C21 (C1547 12pF), and DNP R31-R33 in BOM/CPL.",
+    "evidence": "Circuit & LCSC catalog audit: C20=0.1uF shorts 24MHz MCLK; R20=C25916 sets VOUT=1.07V; U3=C7434207 outputs 3.3V on 1.2V rail",
+    "rule": "Sony IMX219 MCLK spec, MPS MP1658 & Richtek RT9013/RT9193 datasheets, JLCPCB PCBA BOM verification",
+    "root_cause": "C20 was harmonized to 0.1uF instead of 10pF; incorrect supplier LCSC codes entered in schematic/BOM; pos export omitted --exclude-dnp.",
+    "proposed_fix": "Restore C20 to 10pF (C32949), update LCSC codes (R20->C25803, U3->C47773, U1->C15075, U5->C2960187, HDMI1->C424662, L1-L3->C110443, C21->C1534), standardize C3/C10/C14 to 0.1uF, and exclude DNP R31-R33.",
+    "fix_risk": "None; restores 24MHz camera MCLK, 3.305V buck regulation, 1.2V camera core safety, and Wi-Fi/BT operation.",
+    "functional_change": "N",
+    "verification_method": "ERC 0 errors, DRC --schematic-parity 0 issues, pytest test_critical_bom_lcsc_and_dnp_exclusion passes.",
+    "status": "Verified",
+    "region": {
+      "sheet": "sch_sheet_1",
+      "x_min": 485.0,
+      "y_min": 175.0,
+      "x_max": 548.0,
+      "y_max": 205.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "SCH-005",
+    "severity": "P2",
+    "domain": "SCH",
+    "location": "U6 (FSUSB42UMX), sheet 1 @(455, 264)mm",
+    "finding": "U6 value was FSUSB42MX (MSOP-10 package suffix) while footprint is UQFN-10_1.4x1.8mm_P0.4mm and LCSC is C11145 (FSUSB42UMX).",
+    "evidence": "onsemi FSUSB42 datasheet package marking & pinout comparison",
+    "rule": "Schematic-to-BOM MPN and package parity",
+    "root_cause": "Generic FSUSB42MX family name entered instead of UMLP-10/UQFN-10 suffix FSUSB42UMX.",
+    "proposed_fix": "Update U6 Value to FSUSB42UMX across schematic, PCB, BOM, CPL, and documentation.",
+    "fix_risk": "None; matches LCSC C11145 and UQFN-10 footprint.",
+    "functional_change": "N",
+    "verification_method": "DRC --schematic-parity 0 issues; BOM/CPL verified.",
+    "status": "Verified",
+    "region": {
+      "sheet": "sch_sheet_1",
+      "x_min": 435.0,
+      "y_min": 248.0,
+      "x_max": 475.0,
+      "y_max": 282.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
+  },
+  {
+    "id": "IMP-007",
+    "severity": "P1",
+    "domain": "SCH",
+    "location": "Netclass Patterns (HighSpeed_100R, HighSpeed_90R, Power), sheet 1 @(25, 50)mm",
+    "finding": "CM5-AI-Cam-CopperPilot.kicad_pro had empty netclass_patterns=[], leaving all MIPI CSI-2, MIPI DSI, HDMI TMDS, USB 2.0, and Power nets in Default netclass.",
+    "evidence": "CM5-AI-Cam-CopperPilot.kicad_pro net_settings.netclass_patterns=[]",
+    "rule": "100 Ohm MIPI/HDMI (HighSpeed_100R) and 90 Ohm USB (HighSpeed_90R) netclass separation",
+    "root_cause": "Netclass assignment patterns were omitted from .kicad_pro.",
+    "proposed_fix": "Assign /CAM0_*, /CSI_*, /DSI1_*, /HDMI0_CLK_*, /HDMI0_TX* to HighSpeed_100R, /USB0_P/N, /USB0_B_*, /USBB_*, /USBD0_* to HighSpeed_90R, and power rails to Power in .kicad_pro.",
+    "fix_risk": "None; enables schematic netclass color-coding and PCB DRC impedance rule enforcement.",
+    "functional_change": "N",
+    "verification_method": "pytest test_differential_netclasses_configured and kicad-cli pcb drc pass.",
+    "status": "Verified",
+    "region": {
+      "sheet": "sch_sheet_1",
+      "x_min": 20.0,
+      "y_min": 50.0,
+      "x_max": 615.0,
+      "y_max": 408.0
+    },
+    "commits": [
+      "e4082e1"
+    ]
   }
 ]

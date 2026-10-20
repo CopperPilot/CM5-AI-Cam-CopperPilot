@@ -66,9 +66,12 @@ def crop_issue(issue_id):
     os.makedirs(out_dir, exist_ok=True)
     
     # Crop before
+    raw_b = None
+    raw_a = None
     if os.path.exists(before_file):
         im_b = Image.open(before_file)
-        crop_b = im_b.crop((px_min_x, px_min_y, px_max_x, px_max_y))
+        raw_b = im_b.crop((px_min_x, px_min_y, px_max_x, px_max_y))
+        crop_b = raw_b.copy()
         draw_b = ImageDraw.Draw(crop_b)
         draw_b.rectangle([box_min_x, box_min_y, box_max_x, box_max_y], outline="red", width=3)
         draw_b.text((box_min_x + 5, max(0, box_min_y - 15)), f"{issue_id} (Before)", fill="red")
@@ -77,23 +80,21 @@ def crop_issue(issue_id):
     # Crop after
     if os.path.exists(after_file):
         im_a = Image.open(after_file)
-        crop_a = im_a.crop((px_min_x, px_min_y, px_max_x, px_max_y))
+        raw_a = im_a.crop((px_min_x, px_min_y, px_max_x, px_max_y))
+        crop_a = raw_a.copy()
         draw_a = ImageDraw.Draw(crop_a)
         draw_a.rectangle([box_min_x, box_min_y, box_max_x, box_max_y], outline="green", width=3)
         draw_a.text((box_min_x + 5, max(0, box_min_y - 15)), f"{issue_id} (After)", fill="green")
         crop_a.save(os.path.join(out_dir, "after.png"))
         
-    # Generate crop diff
-    if os.path.exists(before_file) and os.path.exists(after_file):
-        diff_im = Image.new("RGBA", crop_a.size, (240, 240, 240, 255))
-        # Simple pixel diff
+    # Generate crop diff from unannotated raw crops
+    if raw_b is not None and raw_a is not None:
         import numpy as np
-        arr_b = np.array(crop_b.convert("RGB"), dtype=np.int16)
-        arr_a = np.array(crop_a.convert("RGB"), dtype=np.int16)
+        arr_b = np.array(raw_b.convert("RGB"), dtype=np.int16)
+        arr_a = np.array(raw_a.convert("RGB"), dtype=np.int16)
         diff = np.abs(arr_a - arr_b)
         mask = np.any(diff > 30, axis=2)
-        out_arr = np.array(crop_a.convert("RGBA"))
-        # Highlight changes: red for removed, green for added
+        out_arr = np.array(raw_a.convert("RGBA"))
         for y in range(mask.shape[0]):
             for x in range(mask.shape[1]):
                 if mask[y, x]:
