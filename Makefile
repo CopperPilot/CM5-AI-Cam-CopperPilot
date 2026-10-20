@@ -130,6 +130,7 @@ pos:
 		--side both \
 		--format csv \
 		--units mm \
+		--exclude-dnp \
 		-o jlcpcb_production/assembly/cpl_jlcpcb.csv \
 		$(PCB_FILE)
 	@echo "CPL file exported to jlcpcb_production/assembly/cpl_jlcpcb.csv"
