@@ -1,7 +1,7 @@
-# JLCPCB 6-Layer Specific Custom Design Rules
+# JLCPCB 6-Layer Specific Custom Design Rules (JLC06161H-7628 / JLC06161H-3313)
 (version 1)
 
-# Decision: DEC-001 - Edge-mounted connectors (HDMI1, TF1, J2) require pads at board perimeter
+# Decision: DEC-001 - Edge-mounted connectors (HDMI1, TF1, J2, Type_C1) require pads at board perimeter
 (rule "Pads to board edge"
    (condition "A.Type == 'Pad'")
    (constraint edge_clearance (min 0.0mm)))
@@ -10,7 +10,7 @@
    (condition "A.Type == 'Via'")
    (constraint edge_clearance (min 0.20mm)))
 
-# Decision: DEC-002 - Inner HDMI differential pair on In2.Cu has 0.1694mm edge clearance, fully shielded between solid ground planes on In1.Cu and In3.Cu
+# Decision: DEC-002 - Inner HDMI differential pair on In2.Cu has 0.1809mm edge clearance, fully shielded between internal ground planes
 (rule "Inner signal tracks to board edge"
    (condition "A.Type == 'Track' && A.Layer == 'In2.Cu'")
    (constraint edge_clearance (min 0.15mm)))
@@ -23,7 +23,7 @@
    (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Pad_Type == 'Through-hole' && B.Pad_Type == 'Through-hole'")
    (constraint hole_to_hole (min 0.50mm)))
 
-# Decision: DEC-003 - Via hole-to-hole spacing >= 0.254mm strictly maintained; 0.070mm copper clearance corresponds to standard 0.40mm pad / 0.20mm drill geometry under IPC-2221 / JLCPCB 6-layer capability
+# Decision: DEC-003 - Via hole-to-hole spacing >= 0.254mm strictly maintained; 0.070mm copper clearance corresponds to 0.40mm pad / 0.20mm drill escape geometry under Hirose DF40 mezzanine
 (rule "Via_To_Via_Clearance"
    (condition "A.Type == 'Via' && B.Type == 'Via'")
    (constraint clearance (min 0.070mm)))
@@ -32,3 +32,12 @@
 (rule "Silkscreen to board edge"
    (condition "A.Type == 'Graphic' && (A.Layer == 'F.SilkS' || A.Layer == 'B.SilkS')")
    (constraint edge_clearance (min 0.0mm)))
+
+# Decision: DEC-005 - Controlled impedance differential classes: 100 Ohm MIPI/HDMI (0.127mm) and 90 Ohm USB (0.180mm)
+(rule "HighSpeed_100R_Impedance_Width"
+   (condition "A.Type == 'Track' && A.NetClass == 'HighSpeed_100R'")
+   (constraint track_width (min 0.125mm) (opt 0.127mm) (max 0.130mm)))
+
+(rule "HighSpeed_90R_Impedance_Width"
+   (condition "A.Type == 'Track' && A.NetClass == 'HighSpeed_90R'")
+   (constraint track_width (min 0.175mm) (opt 0.180mm) (max 0.185mm)))

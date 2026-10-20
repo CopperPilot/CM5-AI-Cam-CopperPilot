@@ -498,7 +498,7 @@
 		(uuid "106de9ea-aa6f-45a1-b412-2f07ca97222a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/CM5IO.3dshapes/FH12-22S-0.5SH.stp"
+	(model "${KIPRJMOD}/CM5.3dshapes/FH12-22S-0.5SH.stp"
 		(offset
 			(xyz 16.5 -10.6 -128)
 		)

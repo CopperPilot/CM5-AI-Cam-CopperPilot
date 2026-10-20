@@ -2,6 +2,7 @@
 
 import csv
 import glob
+import json
 import math
 import os
 import re
@@ -36,7 +37,7 @@ class TestBoardPhysical:
         assert len(pcb_data.edge_cuts) >= 8, f"Expected rounded-corner profile (>=8 elements), got {len(pcb_data.edge_cuts)}"
 
     def test_layer_stackup_6layer(self, pcb_data):
-        """Assert standard JLCPCB 6-layer copper stackup with 1.6 mm nominal thickness."""
+        """Assert standard JLCPCB 6-layer copper stackup (JLC06161H-7628) with 1.6 mm nominal thickness."""
         assert '"F.Cu"' in pcb_data.content
         assert '"In1.Cu"' in pcb_data.content
         assert '"In2.Cu"' in pcb_data.content
@@ -44,6 +45,8 @@ class TestBoardPhysical:
         assert '"In4.Cu"' in pcb_data.content
         assert '"B.Cu"' in pcb_data.content
         assert '(25 "Edge.Cuts" user)' in pcb_data.content or '"Edge.Cuts"' in pcb_data.content
+        assert '(thickness 0.2104)' in pcb_data.content
+        assert '(thickness 0.4)' in pcb_data.content
 
     def test_board_thickness_nominal(self, pcb_data):
         """Assert board general thickness is set to 1.6 mm."""
@@ -83,13 +86,13 @@ class TestConnectivityAndParity:
         """Assert critical power distribution nets exist in PCB layout."""
         power_nets = ["GND", "5V", "3V3"]
         for net in power_nets:
-            assert any(net in n for n in pcb_data.nets), f"Power net {net} not found in PCB nets"
+            assert any(net in n for n in pcb_data.nets), f"Power net {net} not found in PCB layout"
 
     def test_camera_subsystem_nets_present(self, pcb_data):
         """Assert camera power rails and MIPI CSI-2 differential nets exist."""
-        cam_nets = ["/2V8", "/1V8", "/1V2"]
+        cam_nets = ["/2V8", "/1V8", "/1V2", "/CSI_CLK_P", "/CSI_D0_P", "/CSI_D1_P"]
         for net in cam_nets:
-            assert any(net in n for n in pcb_data.nets), f"Camera power net {net} not found"
+            assert any(net in n for n in pcb_data.nets), f"Camera net {net} not found"
 
     def test_usb_differential_nets_present(self, pcb_data):
         """Assert USB 2.0 differential pairs exist."""
@@ -98,7 +101,52 @@ class TestConnectivityAndParity:
 
 
 class TestTraceGeometryAndDFM:
-    """Verifies copper geometries comply with JLCPCB 6-layer manufacturing targets."""
+    """Verifies copper geometries and controlled-impedance netclasses comply with JLCPCB 6-layer targets."""
+
+    def test_differential_netclasses_configured(self):
+        """Assert HighSpeed_100R (MIPI/HDMI) and HighSpeed_90R (USB) netclasses and patterns exist in .kicad_pro."""
+        pro_path = os.path.join(PROJECT_DIR, "CM5-AI-Cam-CopperPilot.kicad_pro")
+        with open(pro_path, encoding="utf-8") as f:
+            pro = json.load(f)
+
+        classes = {c["name"]: c for c in pro.get("net_settings", {}).get("classes", [])}
+        assert "HighSpeed_100R" in classes, "Missing HighSpeed_100R netclass"
+        assert "HighSpeed_90R" in classes, "Missing HighSpeed_90R netclass"
+
+        hs100 = classes["HighSpeed_100R"]
+        hs90 = classes["HighSpeed_90R"]
+        assert math.isclose(hs100["diff_pair_width"], 0.127, abs_tol=1e-3)
+        assert math.isclose(hs100["diff_pair_gap"], 0.15, abs_tol=1e-3)
+        assert math.isclose(hs90["diff_pair_width"], 0.18, abs_tol=1e-3)
+        assert math.isclose(hs90["diff_pair_gap"], 0.15, abs_tol=1e-3)
+
+        patterns = pro.get("net_settings", {}).get("netclass_patterns", [])
+        hs100_pats = {p["pattern"] for p in patterns if p.get("netclass") == "HighSpeed_100R"}
+        hs90_pats = {p["pattern"] for p in patterns if p.get("netclass") == "HighSpeed_90R"}
+        for expected in ["/CAM0_*", "/CSI_*", "/DSI1_*", "/HDMI0_CLK_*", "/HDMI0_TX*"]:
+            assert expected in hs100_pats, f"Missing HighSpeed_100R pattern {expected}"
+        for expected in ["/USB0_P", "/USB0_N", "/USB0_B_*", "/USBB_*", "/USBD0_*"]:
+            assert expected in hs90_pats, f"Missing HighSpeed_90R pattern {expected}"
+
+    def test_mipi_hdmi_100ohm_trace_widths(self, pcb_data):
+        """Assert all MIPI CSI-2, MIPI DSI, and HDMI TMDS differential traces use 0.127 mm (100 Ohm) geometry."""
+        prefixes = ("/CAM0_", "/CSI_", "/DSI1_", "/HDMI0_CLK_", "/HDMI0_TX")
+        hs100_segs = [s for s in pcb_data.segments if s["net_name"].startswith(prefixes)]
+        assert len(hs100_segs) > 0, "No MIPI/HDMI differential segments found"
+        for seg in hs100_segs:
+            assert math.isclose(seg["width"], 0.127, abs_tol=1e-3), (
+                f"Expected 0.127 mm (100 Ohm) on {seg['net_name']}, got {seg['width']} mm"
+            )
+
+    def test_usb_90ohm_trace_widths(self, pcb_data):
+        """Assert all USB 2.0 differential traces use 0.180 mm (90 Ohm) geometry."""
+        usb_nets = {"/USB0_P", "/USB0_N", "/USB0_B_P", "/USB0_B_N", "/USBB_P", "/USBB_N", "/USBD0_P", "/USBD0_N"}
+        hs90_segs = [s for s in pcb_data.segments if s["net_name"] in usb_nets]
+        assert len(hs90_segs) > 0, "No USB differential segments found"
+        for seg in hs90_segs:
+            assert math.isclose(seg["width"], 0.18, abs_tol=1e-3), (
+                f"Expected 0.180 mm (90 Ohm) on {seg['net_name']}, got {seg['width']} mm"
+            )
 
     def test_signal_trace_min_width(self, pcb_data):
         """Assert all routed copper tracks meet or exceed JLCPCB 6-layer min width (>= 0.09 mm)."""
@@ -193,8 +241,32 @@ class TestRepoHygieneAndLibraries:
             lcsc = row.get("LCSC Part #") or row.get("LCSC")
             assert lcsc, f"Row missing LCSC Part #: {row}"
 
+    def test_critical_bom_lcsc_and_dnp_exclusion(self):
+        """Assert verified LCSC part numbers for critical ICs/passives and exclusion of DNP straps R31-R33."""
+        bom_path = os.path.join(PROJECT_DIR, "jlcpcb_production", "assembly", "bom_jlcpcb.csv")
+        with open(bom_path, mode="r", encoding="utf-8") as f:
+            rows = list(csv.DictReader(f))
+
+        by_ref = {}
+        for row in rows:
+            for ref in [r.strip() for r in row["Designator"].split(",") if r.strip()]:
+                by_ref[ref] = row
+
+        assert by_ref["C20"]["Comment"] == "10pF" and by_ref["C20"]["LCSC"] == "C32949"
+        assert by_ref["C21"]["Comment"] == "330pF" and by_ref["C21"]["LCSC"] == "C1534"
+        assert by_ref["R20"]["Comment"] == "61.9k" and by_ref["R20"]["LCSC"] == "C25803"
+        assert by_ref["U1"]["LCSC"] == "C15075"
+        assert by_ref["U3"]["LCSC"] == "C47773"
+        assert by_ref["U5"]["LCSC"] == "C2960187"
+        assert by_ref["U6"]["Comment"] == "FSUSB42UMX" and by_ref["U6"]["LCSC"] == "C11145"
+        assert by_ref["HDMI1"]["LCSC"] == "C424662"
+        assert by_ref["L1"]["LCSC"] == "C110443"
+
+        for dnp_ref in ["R31", "R32", "R33"]:
+            assert dnp_ref not in by_ref, f"DNP strap {dnp_ref} must be excluded from assembled BOM"
+
     def test_manufacturing_cpl_completeness(self):
-        """Assert CPL contains required pick-and-place headers and coordinates."""
+        """Assert CPL contains required pick-and-place headers, coordinates, and excludes DNP straps."""
         cpl_path = os.path.join(PROJECT_DIR, "jlcpcb_production", "assembly", "cpl_jlcpcb.csv")
         assert os.path.exists(cpl_path), f"CPL file missing at {cpl_path}"
         with open(cpl_path, mode="r", encoding="utf-8") as f:
@@ -202,6 +274,7 @@ class TestRepoHygieneAndLibraries:
             rows = list(reader)
 
         assert len(rows) > 0, "CPL contains no rows"
+        refs = set()
         for row in rows:
             ref = row.get("Designator") or row.get("Ref")
             x = row.get("Mid X") or row.get("PosX")
@@ -213,6 +286,10 @@ class TestRepoHygieneAndLibraries:
             assert y, f"CPL row missing Mid Y/PosY: {row}"
             assert rot, f"CPL row missing Rotation/Rot: {row}"
             assert side, f"CPL row missing Layer/Side: {row}"
+            refs.add(ref)
+
+        for dnp_ref in ["R31", "R32", "R33"]:
+            assert dnp_ref not in refs, f"DNP strap {dnp_ref} must be excluded from CPL"
 
     def test_gerber_package_files(self):
         """Assert Gerber directory contains all 6 copper layers, mask, silk, paste, and drill files."""
@@ -220,11 +297,9 @@ class TestRepoHygieneAndLibraries:
         assert os.path.exists(g_dir), f"Gerber directory missing at {g_dir}"
         files = os.listdir(g_dir)
 
-        # Check 6 copper layers
         for layer in ["F_Cu", "In1_Cu", "In2_Cu", "In3_Cu", "In4_Cu", "B_Cu"]:
             assert any(layer in f for f in files), f"Missing copper layer {layer} in Gerbers"
 
-        # Check masks and edge cuts
         assert any("Edge_Cuts" in f or ".gm1" in f for f in files), "Missing Edge_Cuts outline in Gerbers"
         assert any("F_Mask" in f for f in files), "Missing F_Mask in Gerbers"
         assert any("B_Mask" in f for f in files), "Missing B_Mask in Gerbers"
